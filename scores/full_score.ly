@@ -8,7 +8,7 @@
 
 \paper {
 	indent = 1\cm
-	#(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
@@ -23,16 +23,18 @@
 		\tocSection "1" "Kyrie"
 		\score {
 			<<
-				\new GrandStaff <<
-					\set GrandStaff.instrumentName = "Oboe"
-					\new Staff {
-						\set Staff.instrumentName = "I"
-						\KyrieOboeI
-					}
-					\new Staff {
-						\set Staff.instrumentName = "II"
-						\KyrieOboeII
-					}
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "Oboe"
+						\new Staff {
+							\set Staff.instrumentName = "I"
+							\KyrieOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "II"
+							\KyrieOboeII
+						}
+					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
@@ -92,7 +94,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }
