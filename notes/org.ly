@@ -188,6 +188,342 @@ KyrieBassFigures = \figuremode {
 	r %87 finis
 }
 
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoGloria
+		\mvTr b8\f-\tutti b'16 a b8 b, a a'16 g a8 a,
+		g g'16 f g8 g, f f'16 e f8 f,
+		es! es'16 d es8 es, f f'16 e f8 f,
+		b b'16 a b8 f d f d b
+		f f'16 e f8 c f c a c %5
+		f, f'16 e f8 d f d b d
+		c f b, f' a, f' g, f'
+		f,_[ f'16( e] f e f e) f4 r
+		des2(\p c
+		b ges) %10
+		f8 r ges r as r as r
+		des4 as' f des
+		c es as c
+		des as f des
+		c es as c %15
+		des as f des
+		c8 c c c c c c c
+		des des des des des des des des
+		a! a a a a a a a
+		b b b b b b b b %20
+		ges ges ges ges ges ges ges ges
+		f f'16-! e-! f8-! fis-! g,-! g'16-! fis-! g8-! a-!
+		b,\f b'16 a b8 b, a a'16 g a8 a,
+		g g'16 f g8 g, f f'16 e f8 f,
+		es es'16 d es8 es, f f'16 e f8 f, %25
+		b b'16 a b8 f d f d b
+		f4 f' d b
+		f r r2
+		r4 f' d b
+		<< {
+			f8^\vlcorg f' f f f f f f %30
+			f, f' f f f f f f
+			f, f' f f f f f f
+			f, f' f f f f f f
+		} \\ {
+			f-\vlne \mvTr f\pE-\tasto f f f f f f %30
+			f f f f f f f f
+			f f f f f f f f
+			f f f f f f f f
+		} >>
+		f f f\fE f f f g g
+		es es es es c c es es %35
+		d d g g c, c f f
+		b,4 b' r g
+		d b' b b
+		b,8 b' b b b, b' b b
+		es, es g g f f e e %40
+		f f f f f, f f f
+		b-\solo d'16 c d8 d, c c' b, b'
+		a, a'16 g a8 a, g g' f, f'
+		es h c d es f g a
+		b4 d, es f %45
+		\mvTr b,8\pE-\tasto-\tuttiE b b b b b b b
+		b b b b b b b b
+		b b b b b b b b
+		b b es es f f g g
+		as as as as as as as as %50
+		ges ges ges ges f f f f
+		es4\fE es des des
+		ces ces es ges
+		ces ces, ces ces
+		b d f b %55
+		<< {
+			es,8^\vlcorg es es es es es es es
+			r as, as as as as as as
+			r b b b b b b b
+			r es es es es es es es
+			r as, as as as as as as %60
+			g g' g g g g g g
+			r d d d r es es es
+			b b' b b b b b b
+			b, b' b b b b b b
+			b, b' b b b b b b %65
+			b, b' b b b b b b
+			b, b' b b b b b b
+		} \\ {
+			\mvTr es,4\p_\solo_\vlne r r2
+			as,4 r r2
+			b4 r r2
+			es4 r r2
+			as,4 r r2 %60
+			g4 r r2
+			d'4_\critnote r es r
+			b'8 b b b b b b b
+			b-\tuttiE-\tasto b b b b b b b
+			b b b b b b b b %65
+			b b b b b b b b
+			b b b b b b b b
+		} >>
+		b, b b\fE b b b es es
+		as, as as' as f f as as
+		g g c c as as b b %70
+		es,-\soloE g'16 f g8 g, f f' es, es'
+		d, d'16 c d8 d, c c' b, b'
+		as e f g as b c d
+		es4 c as b
+		<< {
+			es,8^\vlcorg es es es es es es es %75
+			r f f f f f f f
+			r b, b b b b b b
+			r es es es es es es es
+			r es es es r d d d
+			r h h h r c c c %80
+			r f f f r f f f
+			g, g' g g g g g g
+			g, g' g g g g g g
+			g, g' g g g g g g
+			g, g' g g g g g g %85
+			g, g' g g g g g g
+		} \\ {
+			\mvTr es4\p-\vlne r r2 %75
+			f4 r r2
+			b,4 r r2
+			es4 r r2
+			es'4 r d r
+			h r c r %80
+			f, r f, r
+			g'8 g g g g g g g
+			g-\tasto-\tuttiE g g g g g g g
+			g g g g g g g g
+			g g g g g g g g %85
+			g g g g g g g g
+		} >>
+		g g g\fE g g g as as
+		f f f f d d f f
+		es es f f g g g, g
+		c-\solo es'16 d es8 es, c c' es, es' %90
+		f,, f'16 e f8 f, as as' f, f'
+		d es h c d es f d
+		es4 f g g,
+		<< {
+			r8 c^\vlcorg c c c c c c
+			r c c c c c c c %95
+			r fis fis fis fis fis fis fis
+			r g g g g g g g
+			r g g g r f f f
+			r es es es r d d d
+			r g g g r g g g %100
+			f, f' f f f f f f
+			f, f' f f f f f f
+			f, f' f f f f f f
+			f, f' f f f f f f
+			f, f' f f f f f f %105
+		} \\ {
+			\mvTr c4\pE_\vlne r r2
+			c4 r r2 %95
+			fis,4 r r2
+			g4 r r2
+			g'4 r f! r
+			es r d r
+			g r g, r %100
+			f'8 f f f f f f f
+			f-\tasto-\tuttiE f f f f f f f
+			f f f f f f f f
+			f f f f f f f f
+			f f f f f f f f %105
+		} >>
+		f f f\fE f f f g g
+		es es es es c c es es
+		d d g g c, c f f
+		b,4 b r b
+		b'1\fermata %110
+		h8 h h h c c es es
+		a, a a a b b as as
+		g g es es f f f, f
+		b4 b b\p b
+		b b b b %115
+		b b b b
+		b b b b
+		b b b b
+		b b b b
+		b b b b %120
+		b b b b
+		b'8\f b b b as as as as
+		g g g g c c es es
+		f, f f f b b as as
+		g g es es f f f, f %125
+		b4 b' r b
+		b, d f b
+		es, c f f,
+		b b' r g
+		r es^\critnote c f8 f %130
+		d d g-!-\unisono g-! es-! es-! f-! f-!
+		b,-\solo d'16 c d8 d, c c' b, b'
+		a, a'16 g a8 a, g g' f, f'
+		es h c d es f g a
+		b4 d, es g %135
+		f r f, r
+		b r r2\fermata \bar "||" %137 finis
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	r2 <6>
+	q <6 4>
+	<6 5> <7>
+	r1
+	\bo <[5 3]>2.. \bassFigureExtendersOn \bc q8 %5
+	<6 4>2.. q8 \bassFigureExtendersOff
+	<6>2 <6 3>4 <\t 3>
+	r1
+	<5->2 <6->
+	<_-> <6 5-> %10
+	<6->4 <6> <6 4-> <[7-] 3>
+	\bo <[5-]>2. \bassFigureExtendersOn \bc q4 \bassFigureExtendersOff
+	<6- 5->2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	\bo <[5-]>2. \bassFigureExtendersOn \bc q4 \bassFigureExtendersOff
+	<6- 5->2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %15
+	\bo <[5-]>2. \bassFigureExtendersOn \bc q4 \bassFigureExtendersOff
+	<6! 5->1
+	<6>
+	q
+	<_-> %20
+	<6! 5->
+	<_!>1
+	r2 <6>
+	q <6 4>
+	<6 5> <7> %25
+	r1
+	r2 <6>
+	r1
+	r2 <6>
+	r1 %30
+	r
+	r
+	r
+	r4 <7>2 <5>4
+	<6>2. <[4 3]>4 %35
+	<6>1
+	r2. <6>4
+	q1
+	<7->
+	r4 <6> <6 [4]> <6\\ [5]> %40
+	<6 4>2 <[5!] 3>
+	r2 <6>4 q
+	q2 q4 q
+	q8 <3> q q q q q q
+	r4 <6> <5> <7> %45
+	r1
+	r
+	r
+	<[7-]>4 <5> <6 _-> <6 5->
+	r2 <4! 2> %50
+	<6> <6 _->
+	<_-> <6 4- _->
+	<8 5->2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	\bo <6! [5-]>2. \bassFigureExtendersOn \bc q4 \bassFigureExtendersOff
+	<_!>1 %55
+	r
+	<6 5>
+	<7->
+	r
+	r %60
+	<6>
+	<6 5->
+	<[5 3]>
+	r
+	r %65
+	r
+	r
+	r4 <7->2.
+	<6> <4 3>4
+	<6>2 q4 <[7-]> %70
+	r2 <6 [_-]>4 <6>
+	q2 <6->4 <6>
+	q8 <3> <_-> <3> q q q q
+	r2 <6>4 <[7-]>
+	r1 %75
+	<7 4 _->2 <6 \t \t>
+	<7->1
+	<4- 2>2 <3 1>
+	<6> <6!>
+	<[6 5]>1 %80
+	<[5] _->2 <6 \t>
+	<6 4>4 <[5 _!]>2.
+	r1
+	r
+	r %85
+	r
+	r4 <7 _!>2 <5>4
+	<6 _->2 <[6! 5-]>4 <4! _->
+	<6> <6 [_-]> \bo <[6] 4> \bc <[5] _!>
+	r2. <[6]>4 %90
+	<[_-]>2 <6>4 <6 [_-]>
+	<6!>8 <6> <3> q q q <_!> <6!>
+	<6>4 <_-> \bo <[6] 4> \bc <[5] _!>
+	r1
+	<6! 4\+>1 %95
+	<6>
+	<9 4>4 <[8] _->2.
+	<6>2 <6 4>
+	r <6>
+	<7> <6>4 <6!> %100
+	r1
+	r
+	r
+	r
+	r %105
+	r4 <7 5>2 <5>4
+	<6>2. <4 3>4
+	<6>1
+	r
+	<[7-]> %110
+	<6>2. <[6]>4
+	<6>2. <2>4
+	<6>2 \bo <[6] 4>4 \bc <[5] 3>
+	r1
+	<7-> %115
+	<6 4>
+	<[5] 3>
+	<6 4>
+	<7! 2>
+	<8 3>2 <7 2> %120
+	<8 3> <7 4 2>
+	<[8 3]> <6\\>
+	<_!> <_->4 <6>
+	r2. <2>4
+	<6>2 \bo <[6] 4>4 \bc <[5] 3> %125
+	r1
+	r
+	r2 <[7]>
+	r1
+	r2 <6> %130
+	q1
+	r4 <6> q q
+	q2 q4 q
+	q8 <3> q q q q q q
+	q4 <6> <5> <6! 4+ 3> %135
+	<6 4>2 <7 5>
+	r1 %137 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -98,6 +98,150 @@ KyrieViolinoI = {
 	}
 }
 
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoGloria
+		b'16\f a b a b8 b, c'16 h c h c8 c,
+		es'16 d es d es8 es, d'16 cis d cis d8 d,
+		g16 fis g fis g8 g' a,16 gis a gis a8 a'
+		b16 f g!^\critnote a! b f g a b a g f es d c b
+		a c f f f f f f a( f) f-! f-! c( f) f-! f-! %5
+		b, d f f f f f f b( f) f-! f-! d( f) f-! f-!
+		es f f f d f f f c f f f b, f' f f
+		a,8 \once \slurDashed f16( e f e f e) f4 r
+		f2\p as
+		des des8 c des b %10
+		as r ges r f r es r
+		des f4 f f f8
+		ges ges4 ges ges ges8
+		f f4 f f f8
+		ges ges4 ges ges ges8 %15
+		f f4 f f f8
+		ges ges ges ges ges ges ges ges
+		f f f f f f f f
+		f f f f f f f f
+		f f f f f f f f %20
+		e e e e e e e e
+		f16( e f e) f8-! fis-! g16( fis g fis) g8-! a-!
+		b16\f a b a b8 b, c'16 h c h c8 c,
+		es'16 d es d es8 es, d'16 cis d cis d8 d,
+		g16 fis g fis g8 g' a,16 gis a gis a8 a' %25
+		b, c16 d es f! g! a b a g f es d c b
+		f'4 <a c, f,> <b d, f,> <d f, b,>
+		<c f, a,> r r2
+		r4 <a c, f,> <b d,> <d d,>
+		<c a,>8 a,[\p a a] a a b b %30
+		f( es) es-! es-! d( b') b-! b-!
+		f( a) a-! a-! a a b b
+		f( es) es-! es-! d( b') b-! b-!
+		a c es16(\f d es d) es8-! es,-! d-! d'-!
+		g,16 g g g c c c c es es es es g g g g %35
+		f f f f d d d d es es es es c c c c
+		d4 <d f, b,> r <es g, b,>
+		<f b, d,> b,16 b c c d d es es f f g g
+		as as as as as as as as d, d d d d d d d
+		es es es es es es es es f f f f g g g g %40
+		f f f f f f f f a, a a a a a a a
+		b a b a b8 b' a a, g g'
+		f,16 e f e f8 f' es es, d d'
+		c16 c d d es es f f g g a a b b c c
+		d4 <b b,> <g b,> <a, es> %45
+		b8\p f f f f f f f
+		f f f f f f f f
+		f f f f f f f f
+		f f g g as as b b
+		c c c c d d d d %50
+		es es es es f f f f
+		ges\f ges4 ges ges ges8
+		ges ges4 ges es ces8
+		a! a4 a a a8
+		b d,4 f b as8 %55
+		g\p b b b b b b b
+		r c c c c c c c
+		r as as as as as as as
+		r g g g g g g g
+		r as as as as as as as %60
+		r b b b b b b b
+		r as as as r g g g
+		r f f f f f f f
+		\once \slurDashed f( as) \parOn as-\parenthesize-! \parOff as-\parenthesize-! as as g g
+		r b, d d es es es es %65
+		\once \slurDashed d( f) \parOn as-\parenthesize-! \parOff as-\parenthesize-! as as g g
+		r b, d d es es es es
+		d f' as16(\f g as g) as8-! as,-! g-! g'-!
+		c,16 c c c f f f f as as as as c c c c
+		b b b b g g g g as as as as f f f f %70
+		es d es d es8 es, d d' c, c'
+		b16 a b a b8 b' as as, g g'
+		f,16 f g g as as b b c c d d es es f f
+		g4 <es es,> <f c> <d f,>
+		es8\p g, g g g g g g %75
+		r as as as as as as as
+		r f f f f f f f
+		r f f f g g g g
+		r c c c r h h h
+		r f f f r es es es %80
+		r as as as r f f f
+		r es d d d d d d
+		\once \slurDashed d( f) \parOn f-\parenthesize-! \parOff f-\parenthesize-! f-\critnote f es es
+		r g,( h) h-! c c c c
+		h( d) f-! f-! f f es es %85
+		r \once \slurDashed g,( h) h-\parenthesize-! c c c c
+		h d' f16(\f e f e) \parOn f8-\parenthesize-! f,-! es-! \parOff c'-\parenthesize-!
+		as16 as as as d d d d f f f f as as as as
+		g g g g f f f f es es es es d d d d
+		c h c h c8 c, es es' c, c' %90
+		as16 g as g as8 as' f, f' d, d'
+		h16 h c c d d es es f f g g a a h h
+		c4 <as c, f,> <g c, es,> <h, d, g,>
+		<c es, g,>8 g[\p g g] g g g g
+		r fis fis fis fis fis fis fis %95
+		r a! a a a a a a
+		r a b! b b b b b
+		r b b b r b b b
+		r b b b r b b b
+		r b b b r b b b %100
+		r a a a a a b b
+		r a a a a a b b
+		f( es) es-! es-! \once \slurDashed d( b') \parOn b-\parenthesize-! \parOff b-\parenthesize-!
+		r a a a a a b b
+		f( es) es-! es-! d( b') b-! b-! %105
+		a c \once \slurDashed es16(\f d es d) \parOn es8-\parenthesize-! es,-! d-! \parOff d'-\parenthesize-!
+		g,16 g g g c c c c es es es es g g g g
+		f f f f d d d d es es es es c c c c
+		d4 <d f, b,> r <f b, d,>
+		<as b, d,>1\fermata %110
+		g16 g g g g g g g es es es es c c c c
+		f f f f f f f f d d d d b b b b
+		es es es es g g g g f f f f a, a a a
+		<b d,>4 r r2
+		d,8\p d4 d d d8 %115
+		es es4 es es es8
+		f f4 f f f8
+		g g4 g g g8
+		<< { a! a4 a a a8 } \\ { es1 } >>
+		<< { b'8 b4 b8 c c4 c8 } \\ { d,2 f } >> %120
+		d'8 d4 d8 es es4 es8
+		f16\f f f f f f f f fis fis fis fis fis fis fis fis
+		g g g g g g g g es es es es c c c c
+		f f f f f f f f d d d d b b b b
+		es es es es g g g g f f f f a, a a a %125
+		b4 <d f, b,> r q
+		<f b, d,> b16 a g f b a g f es d c b
+		g' g g g es es es es c c c c a a a a
+		b4 <b d,> r <d d,>
+		r <g b, es,> <a c, f,> f16 f f f %130
+		b b b b g g g g es es es es f f f f
+		b, a b a b8 b' a a, g g'
+		f,16 e f e f8 f' es es, d d'
+		c16 c d d es es f f g g a a b b c c
+		d4 <b b,> <g b,> <e b> %135
+		<f b, d,> r <a, es c> r
+		<b d,> r r2\fermata \bar "||" %137 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

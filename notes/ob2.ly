@@ -75,3 +75,101 @@ KyrieOboeII = {
 		R2.\fermataMarkup \bar "|." %87 finis
 	}
 }
+
+GloriaOboeII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoGloria
+		b'2\f c
+		es d
+		g, es
+		d4 r d' b
+		a1 %5
+		b
+		a4 b c b
+		a f r2
+		R1*14 %22
+		b2\fE c
+		es d
+		g, es %25
+		d4 r r2
+		r4 a' f b
+		a r r2
+		r4 a f b
+		a r r2 %30
+		R1*3
+		r4 a2\fE b4
+		g2 c4 a %35
+		b b c a
+		b b r b
+		r d8. d16 d4 d
+		d2 f,
+		g4 es' d cis %40
+		d2 es,
+		d4 r8 b' a4 g
+		f r8 f es4 d
+		c8 d es f g a b c
+		d4 f es c %45
+		b r r2
+		R1*2
+		r4 g(\pE as b)
+		as2 f %50
+		b d
+		es\fE fes
+		es4 r r2
+		R1
+		\once \slurDashed b4.( c8 d es f as,) %55
+		g4 r r2
+		R1*4 %60
+		r4 b4.(\pE c8 d es)
+		f2 es\trill
+		d4 r r2
+		R1*4 %67
+		r4 d2\fE es4
+		c2 f4 d
+		es es f d %70
+		es r8 es d4 c
+		b r8 b as4 g
+		f8 g as b c d es f
+		g4 g, as f
+		g r r2 %75
+		R1*11 %86
+		r4 h2 c4
+		c2 h4 d
+		es d c h
+		c r8 c es4 c %90
+		as r8 as f'4 d
+		h8 c d es f g a! h
+		c4 f, es f,
+		es r r2
+		R1*11 %105
+		r4 a2\fE b4
+		g2 c4 a
+		b b c a
+		b b r d
+		f1\fermata %110
+		d2 c
+		c b~
+		b4 es d c
+		b r r2
+		R1*5 %119
+		b2\pE a %120
+		b c
+		d\fE c
+		h c4 g
+		a2 b4 f
+		g es' d c, %125
+		r d r b'
+		r d8. d16 d4 b~
+		b c a es
+		r d r b'
+		r es8. es16 es4 c %130
+		d g es f
+		b, r8 b a4 g
+		f r8 f es4 d
+		c8 d es f g a b c
+		d4 b b cis %135
+		d r es, r
+		d r r2\fermata \bar "||" %137 finis
+	}
+}

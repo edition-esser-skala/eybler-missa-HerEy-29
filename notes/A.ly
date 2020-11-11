@@ -193,6 +193,240 @@ KyrieAltoLyrics = \lyricmode {
 	son. %86 finis
 }
 
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoGloria
+		\mvTr b'4\f^\tuttiE b8 b c4 c
+		es2 d
+		g,( a)
+		b r
+		c4. a8 f4 r %5
+		d'4. b8 f4 r
+		es' d c b
+		a f r2
+		R1
+		f2\pE r %10
+		f4 es des c
+		des f2 f4
+		ges2 es
+		r4 f2 f4
+		ges4. es8 c4 r %15
+		r2 r4 des
+		es2. es4
+		des r des des
+		f2. f8 f
+		f4 r f des %20
+		b2. b4
+		c4 r r2
+		r4 b'\fE c c
+		es2 d4 d
+		g,2 a %25
+		b4 r f f
+		a f r2
+		r4 f f f
+		a f r2
+		r4 f2\pE f4 %30
+		a4. a8 b4 r
+		r f2 f4
+		a2 b4 r
+		r a2\fE b4
+		g2 g4 a %35
+		b b c a
+		b r b r
+		b f b d
+		f2 as,
+		g4 b b b %40
+		b2 f
+		d4 r r2
+		R1*3 %45
+		d4.\pE d8 d4 r
+		f4. d8 d4 r
+		b'2 b4 f
+		d es r2
+		es f %50
+		es( b'4) b
+		b1(\fE
+		ces2) ges4 ges
+		es1
+		f4^\critnote r r2 %55
+		R1*8 %63
+		r4 b,\pE b b
+		d2 es4 r %65
+		r b b b
+		d4. d8 es4 r
+		r f2\fE es4
+		c2 f4 f
+		g g as f %70
+		g4^\critnote r r2
+		R1*11 %82
+		r4 f\pE f es
+		es( d) c r
+		r f f es %85
+		es4. d8 c4 r
+		r h'2\fE c4
+		as2 f4 d
+		es as g g
+		es r r2 %90
+		R1*3
+		\mvTr es'2\pE^\solo d8([ es)] d([ es)]
+		es4.( fis,8) fis4 r %95
+		a2. d4
+		c8([ a)] b!4 r2
+		es2 d4 b
+		g'2 f4 r
+		f2 es8([ d)] c([ b)] %100
+		a4 c r2
+		r4 f,^\tutti f f
+		a2 b4 r
+		r f f f
+		a4. a8 b4 r %105
+		r a2\fE b4
+		g2 g4 a
+		b b c a
+		b r b r
+		d1\fermata %110
+		d2 g,4 g
+		c2 f,4 f
+		g b b f
+		f2 r
+		b,\pE b4 b %115
+		b2 b
+		d d4 d
+		es4. b8 b4 r
+		es2 es4 es
+		d d f f %120
+		f f a a
+		b2\fE c
+		h c4 g
+		a2 b4 f
+		g b b f %125
+		f r f r
+		b2 r4 b
+		g g f f
+		f r b r
+		b2 r4 a %130
+		b g es f
+		b,2 r
+		R1*4 %136
+		R1\fermataMarkup \bar "||" %137 finis
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	Glo -- ri -- a in ex --
+	cel -- sis
+	De --
+	o,
+	glo -- ri -- a, %5
+	glo -- ri -- a
+	in ex -- cel -- sis
+	De -- o, %8
+
+	et, %10
+	et in ter -- ra
+	pax, et in
+	ter -- ra
+	pax ho --
+	mi -- ni -- bus. %15
+	Lau --
+	da -- mus
+	te, be -- ne --
+	di -- ci -- mus
+	te, ad -- o -- %20
+	ra -- mus
+	te,
+	glo -- ri -- fi --
+	ca -- mus, lau --
+	da -- mus %25
+	te, ad -- o --
+	ra -- mus,
+	glo -- ri -- fi --
+	ca -- mus,
+	be -- ne -- %30
+	di -- ci -- mus,
+	ad -- o --
+	ra -- mus,
+	te lau --
+	da -- mus, glo -- %35
+	ri -- fi -- ca -- mus
+	te, te,
+	te, glo -- ri -- fi --
+	ca -- mus
+	te, glo -- ri -- fi -- %40
+	ca -- mus
+	te.
+
+	Gra -- ti -- as, %46
+	gra -- ti -- as
+	a -- gi -- mus
+	ti -- bi
+	pro -- pter %50
+	ma -- gnam
+	glo --
+	ri -- am
+	tu --
+	am. %55
+
+	Te ad -- o -- %64
+	ra -- mus, %65
+	te be -- ne --
+	di -- ci -- mus,
+	te lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus %70
+	te.
+
+	Te ad -- o -- %83
+	ra -- mus,
+	te be -- ne -- %85
+	di -- ci -- mus,
+	te lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus
+	te. %90
+
+	Do -- mi -- ne %94
+	De -- us, %95
+	A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa -- tris,
+	\xE Fi -- li -- us %100
+	Pa -- tris. \x
+	Te ad -- o --
+	ra -- mus,
+	te be -- ne --
+	di -- ci -- mus, %105
+	te lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus
+	te, te,
+	te, %110
+	te, te lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus
+	te,
+	te ad -- o -- %115
+	ra -- mus,
+	te be -- ne --
+	di -- ci -- mus,
+	te, te lau --
+	da -- mus, te lau -- %120
+	da -- mus, te glo --
+	ri -- fi --
+	ca -- mus, lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus %125
+	te, te,
+	te, glo --
+	ri -- fi -- ca -- mus
+	te, te,
+	te, glo -- %130
+	ri -- fi -- ca -- mus
+	te. %132 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

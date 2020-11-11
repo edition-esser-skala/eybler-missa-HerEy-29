@@ -193,6 +193,242 @@ KyrieTenoreLyrics = \lyricmode {
 	son. %86 finis
 }
 
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoGloria
+		\mvTr b4\f^\tutti b8 b c4 c
+		es2 d
+		g,( a)
+		b r
+		a4. c8 a4 r %5
+		b4. d8 b4 r
+		es d c b
+		f' f, r2
+		R1
+		des'2\pE r %10
+		des4 b as ges
+		f as2 as4
+		as2 as
+		r4 as2 as4
+		as4. as8 as4 r %15
+		r2 r4 f
+		ges2. ges4
+		f r f f
+		c'2~ c8[ es] des c
+		b4 r b b %20
+		des2. b4
+		a4^\critnote r r2
+		r4 b\fE c c
+		es2 d4 d
+		g,2 a %25
+		b4^\critnote r b b
+		c a r2
+		r4 a b b
+		c a r2
+		r4 a2\pE b4 %30
+		es4. es8 d4 r
+		r a2 b4
+		es2 d4 r
+		r f2\fE b,4
+		es2 es4 c %35
+		d b g' f
+		f r es r
+		b8([ c)] d([ es)] f([ g)] f([ es)]
+		d2 f
+		es4 es d cis %40
+		d2 c
+		b4^\critnote r r2
+		R1*3 %45
+		b4.\pE b8 b4 r
+		b4. b8 b4 r
+		d2 b4 b
+		b b r2
+		as as %50
+		b d
+		es(\fE fes
+		es) ces4 es
+		ges2.( es4)
+		d! r r2 %55
+		R1*7 %62
+		r4 \once \tieDashed b~\pE b8[ c] d([ es)]
+		f4.( d8) b4 r
+		r \once \tieDashed b~ b8[ c] d([ es)] %65
+		f4. d8 b4 r
+		r b~ b8[ c] d([ es)]
+		f4.( d8) b4 b\fE
+		c2 c4 d
+		es es c b^\critnote %70
+		b4^\critnote r r2
+		R1*3
+		\mvTr \once \tieDashed b2~\pE^\solo  b8[ g'] f es %75
+		es2 d4 r
+		g8([ f)] es([ d)] c([ b)] c([ as)]
+		b4. as8 g4 r
+		c2 h
+		f' es4 r %80
+		as2( g8[ f)] es([ d)]
+		c4 h r2
+		r4 g^\tutti g g
+		h2 c4 r
+		r g g g %85
+		h4. h8 c4 r
+		r f2\fE es4
+		d2 d4 h
+		c4. c8 c4 h
+		c^\critnote r r2 %90
+		R1*11 %101
+		r4 a\pE a b
+		es2 d4 r
+		r a a b
+		es4. es8 d4 r %105
+		r f2\fE b,4
+		es2 es4 c
+		d b g' f
+		f r d r
+		f1\fermata %110
+		d2 es4 es
+		c2 d4 d
+		b es d c
+		d2 r
+		as\pE as4 as %115
+		g2 g
+		b b4 b
+		b4. g8 g4 r
+		c2 c4 c
+		b d a c %120
+		b d c es
+		d2\fE c
+		d c4 c
+		c2 b4 d
+		b es d c %125
+		d r b r
+		d2 r4 f
+		es g a,8([ c)] es4
+		d r b r
+		es2 r4 c %130
+		d g es f
+		b,2 r
+		R1*4 %136
+		R1\fermataMarkup \bar "||" %137 finis
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	Glo -- ri -- a in ex --
+	cel -- sis
+	De --
+	o,
+	glo -- ri -- a, %5
+	glo -- ri -- a
+	in ex -- cel -- sis
+	De -- o, %8
+
+	et, %10
+	et in ter -- ra
+	pax, et in
+	ter -- ra
+	pax ho --
+	mi -- ni -- bus. %15
+	Lau --
+	da -- mus
+	te, be -- ne --
+	di -- ci -- mus
+	te, ad -- o -- %20
+	ra -- mus
+	te,
+	glo -- ri -- fi --
+	ca -- mus, lau --
+	da -- mus %25
+	te, ad -- o --
+	ra -- mus,
+	glo -- ri -- fi --
+	ca -- mus,
+	be -- ne -- %30
+	di -- ci -- mus,
+	ad -- o --
+	ra -- mus,
+	te lau --
+	da -- mus, glo -- %35
+	ri -- fi -- ca -- mus
+	te, te,
+	te, glo -- ri -- fi --
+	ca -- mus
+	te, glo -- ri -- fi -- %40
+	ca -- mus
+	te.
+
+	Gra -- ti -- as, %46
+	gra -- ti -- as
+	a -- gi -- mus
+	ti -- bi
+	pro -- pter %50
+	ma -- gnam
+	glo --
+	ri -- am
+	tu --
+	am. %55
+
+	Ad -- o -- %63
+	ra -- mus,
+	be -- ne -- %65
+	di -- ci -- mus,
+	te __ lau --
+	da -- mus, \xE lau --
+	da -- mus, glo --
+	ri -- \x fi -- ca -- mus %70
+	te.
+
+	Do -- mi -- ne %75
+	\xE Fi -- li, \x
+	Fi -- li u -- ni --
+	ge -- ni -- te,
+	Je -- su,
+	Je -- su, %80
+	Je -- su
+	Chri -- ste.
+	Te ad -- o --
+	ra -- mus,
+	te be -- ne -- %85
+	di -- ci -- mus,
+	te lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus
+	te. %90
+
+	Te ad -- o --
+	ra -- mus,
+	te be -- ne --
+	di -- ci -- mus, %105
+	te lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus
+	te, te,
+	te, %110
+	te, te lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus
+	te,
+	te ad -- o -- %115
+	ra -- mus,
+	te be -- ne --
+	di -- ci -- mus,
+	te, te lau --
+	da -- mus, te lau -- %120
+	da -- mus, te glo --
+	ri -- fi --
+	ca -- mus, lau --
+	da -- mus, glo --
+	ri -- fi -- ca -- mus %125
+	te, te,
+	te, glo --
+	ri -- fi -- ca -- mus
+	te, te,
+	te, glo -- %130
+	ri -- fi -- ca -- mus
+	te. %132 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

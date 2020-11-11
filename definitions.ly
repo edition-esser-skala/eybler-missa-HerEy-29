@@ -147,10 +147,10 @@ tutti =     \markup \remark  "Tutti"
 tuttiE =    \markup \remarkE "Tutti"
 tasto =     \markup \remark  "tasto solo"
 tastoE =    \markup \remarkE "tasto solo"
-org =       \markup \remark  "Org."
-orgE =      \markup \remarkE "Org."
-vlc =       \markup \remark  "Vlc."
-vlcE =      \markup \remarkE "Vlc."
+org =       \markup \remark  "org"
+orgE =      \markup \remarkE "org"
+vlc =       \markup \remark  "vlc"
+vlcE =      \markup \remarkE "vlc"
 bassi =     \markup \remark  "Bassi"
 bassiE =    \markup \remarkE "Bassi"
 tenuto =    \markup \remark  "ten."
@@ -161,10 +161,10 @@ pizz =      \markup \remark  "pizz."
 pizzE =     \markup \remarkE "pizz."
 arco =      \markup \remark  "arco"
 arcoE =     \markup \remarkE "arco"
-senzaOrg =  \markup \remark  "senza Org."
-senzaOrgE = \markup \remarkE "senza Org."
-colOrg =    \markup \remark  "col’Org."
-colOrgE =   \markup \remarkE "col’Org."
+senzaOrg =  \markup \remark  "senza org"
+senzaOrgE = \markup \remarkE "senza org"
+colOrg =    \markup \remark  "col’org"
+colOrgE =   \markup \remarkE "col’org"
 dolce =     \markup \remark  "dolce"
 dolceE =    \markup \remarkE "dolce"
 
@@ -467,6 +467,8 @@ bc =
 		\Score
 		\compressFullBarRests
 		\override BarNumber.break-visibility = #'#(#f #t #t)
+		midiMinimumVolume = #1
+    midiMaximumVolume = #1
 	}
 	\context {
 		\StaffGroup
@@ -661,7 +663,12 @@ tocLabel = #(define-music-function
 
 
 tempoKyrie = \tempoMarkup "Andante"
+tempoGloria = \tempoMarkup "Allegro vivace"
 
+vlne =       \markup \remark  "vlne"
+vlneE =      \markup \remarkE "vlne"
+vlcorg =       \markup \remark  "vlc, org"
+vlcorgE =      \markup \remarkE "vlc, org"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

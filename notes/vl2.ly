@@ -97,3 +97,147 @@ KyrieViolinoII = {
 		b2-! r4\fermata \bar "|." %87 finis
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoGloria
+		b'16\f a b a b8 b, c'16 h c h c8 c,
+		es'16 d es d es8 es, d'16 cis d cis d8 d,
+		g16 fis g fis g8 g, a'16 gis a gis a8 a,
+		b'16 f g a b f g a b a g f es d c b
+		<f' a,>4 <a f c> <c f, a,> r %5
+		<f, b,> <b d,> <d f, b,> r
+		<es f, a,> <d f, b,> <c f,> <b d,>
+		a8 f16( e f e f e) f4 r
+		des2\p es
+		b des %10
+		des8-\critnote r es r des r c r
+		des des4 des des des8
+		es es4 es es es8
+		des des4 des des des8
+		es es4 es es es8 %15
+		des des4 des des des8
+		es es es es es es es es
+		des des des des des des des des
+		c c c c c c c c
+		des des des des des des des des %20
+		des des des des des des b b
+		a f'16 e \parOn f8-\parenthesize-! fis-! \once \slurDashed g16( fis g fis) g8-! \parOff a-\parenthesize-!
+		b16\f a b a b8 b, c'16 h c h c8 c,
+		es'16 d es d es8 es, d'16 cis d cis d8 d,
+		g16 fis g fis g8 g, a'16 gis a gis a8 a, %25
+		b c16 d es f g a b a g f es d c b
+		f'4 <f' a, f> <f b, d,> <b d, d,>
+		<a c, f,> r r2
+		r4 <f a,> <f b,> <b b, d,>
+		<a c, f,>8 es,[\p es es] es es d d %30
+		r f f f f f f f
+		\once \slurDashed c( es) \parOn es-\parenthesize-! \parOff es-\parenthesize-! es es d d
+		r f f f f f f f
+		f a \once \slurDashed c16(\f h c h) \parOn c8-\parenthesize-! c,-! b-! \parOff b'-\parenthesize-!
+		c16 c c c g g g g g g g g a a a a %35
+		b b b b b b b b c c c c a a a a
+		b4 <b f b,> r <b es, g,>
+		<b f b,> b16 b a a b b c c d d es es
+		f f f f f f f f as, as as as as as as as
+		g g g g es' es es es d d d d cis cis cis cis %40
+		d d d d d d d d c c c c c c c c
+		b a b a b8 b' a, a' g g,
+		f16 e f e f8 f' es, es' d d,
+		c16 c d d es es f f g g a a b b c c
+		d4 <f b, d,> <g b, es,> <a, es c> %45
+		<b d,>8\p d, d d d d d d
+		d d d d d d d d
+		d d d d d d d d
+		d d es es d d des des
+		c c c c b b b b %50
+		b' b b b as as as as
+		ges\f b4 b b b8
+		ces ces4 ces ces ges8
+		ges ges4 ges es es8
+		d!4 f f d %55
+		es8\pE es es es es es es es
+		r es es es es es es es
+		r d d d d d d d
+		r es es es es es es es
+		r c c c c c c c %60
+		r es es es es es es es
+		r f f f r es es es
+		r d d d d d d d
+		d( f) f-! f-! f f es es
+		r b b b b b b b %65
+		\once \slurDashed b( d) \parOn f-\parenthesize-! \parOff f-\parenthesize-! f f es es
+		r b b b b b b b
+		b d' f16(\f e f e) \parOn f8-\parenthesize-! f,-! es-! \parOff es'-\parenthesize-!
+		f16 f f f c c c c c c c c d d d d
+		es es es es es es es es f f f f d d d d %70
+		es d es d es8 es, d d' c, c'
+		b16 a b a b8 b' as as, g g'
+		f,16 f g g as as b b c c d d es es f f
+		g4 <c, g> <c as> <as b,>
+		g8\p es es es es es es es %75
+		r es es es d d d d
+		r d d d d d d d
+		r d d d es es es es
+		r g g g r f f f
+		r d d d r c c c %80
+		r c c c r d d d
+		r c h h h h h h
+		\once \slurDashed h( d) \parOn d-\parenthesize-! \parOff d-\parenthesize-! d d c c
+		r g g g g g g g
+		\once \slurDashed g( h) \parOn d-\parenthesize-! \parOff d-\parenthesize-! d d c c %85
+		r g g g g g g g
+		g h' d16(\f cis d cis) \parOn d8-\parenthesize-! d,-! c-! \parOff es'-\parenthesize-!
+		d16 d d d as as as as as as as as h h h h
+		c c c c d d d d c c c c h h h h
+		c h c h c8 c, es es' c, c' %90
+		as16 g as g as8 as, f' f' d, d'
+		h,16 h c c d d es es f f g g a a h h
+		c4 <f c f,> <es g, g,> <h f g,>
+		<c es, g,>8 es,[\p es es] es es es es
+		r es es es es es es es %95
+		r d d d d d d d
+		r fis g d d d d d
+		r es es es r d d d
+		r g g g r f f f
+		r d d d r d e e %100
+		r f f f f f f f
+		r es es es es es d d
+		r f f f f f f f
+		r es es es es es d d
+		r f f f f f f f %105
+		f a c16(\f h c h) c8-! c,-! b-! b'-!
+		b16 b b b g g g g g g g g a a a a
+		b b b b b b b b c c c c a a a a
+		b4 <b f b,> r <d f, b,>
+		<f b, d,>1\fermata %110
+		d16 d d d d d d d c c c c c c c c
+		c c c c c c c c b b b b b b b b
+		b b b b es es es es d d d d c c c c
+		b4 r r2
+		b,8\p b4 b b b8 %115
+		b b4 b b b8
+		d d4 d d d8
+		es es4 es es es8
+		f f4 f f f8
+		f f4 f8 a a4 a8 %120
+		b b4 b8 c c4 c8
+		d16\f d d d d d d d c c c c c c c c
+		h h h h h h h h c c c c c c c c
+		a a a a a a a a b b b b b b b b
+		b b b b es es es es d d d d c c c c %125
+		d,4 <b' d, b> r <d f, b,>
+		q b16 a g f b a g f b a g f
+		g g g g g g g g es es es es c c c c
+		d4 <b' d,> r <b d, g,>
+		r <b es, g,> <c es,> <c f,> %130
+		d16 d d d g g g g es es es es f f f f
+		b, a b a b8 b' a, a' g, g'
+		f,16 e f e f8 f' es, es' d, d'
+		c,16 c d d es es f f g g a a b b c c
+		d4 <f b, d,> <g b, es,> <e b> %135
+		<f b, d,> r <es, c> r
+		<d b> r r2\fermata \bar "||" %137 finis
+	}
+}
