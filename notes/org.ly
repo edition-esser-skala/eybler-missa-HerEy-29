@@ -524,6 +524,117 @@ GloriaBassFigures = \figuremode {
 	r1 %137 finis
 }
 
+QuiTollisOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #138
+		\partial 8 \mvTr cis'8-!\mf-\solo d( a b fis g d)
+		es\pp es es es es es
+		des des des des des des %140
+		c c c c c c
+		c c b a g es'
+		d\f d d cis( c h)
+		b\p b b b b b
+		c-\tuttiE c c c c c %145
+		c c c c c c
+		d d d d d d
+		d d d d d d
+		es es f f f, f
+		b-\solo b b b d d %150
+		es es es es es es
+		f f f f es es
+		d d es es f f,
+		b b' b b as as
+		g g g g f f %155
+		\once \slurDashed es( d c b a! as)
+		g\f g' g fis( f e)
+		\mvTr es\p-\tuttiE es es es es es
+		e e e e f f
+		g g g g as as %160
+		es es as as as as
+		d,! d d d d d
+		des des c c d d
+		es es es es es, es
+		as-\solo as as as c c %165
+		des des des des des des
+		es es es es des des
+		c c des des es es,
+		as as' as as ges ges
+		f f f f es es %170
+		des des des c( b ges)
+		f\f f' f e( es d!)
+		\mvTr des\p-\tuttiE des des \slurDashed es( des c)
+		b b' b b( as g)
+		f f f f( es! d!) %175
+		c c' c c( b! a!)
+		g g g g( f! e) \slurSolid
+		d d c c b b
+		c c d d d, d
+		<< {
+			<g g'>^\org q q q q q %180
+			q q q q q q
+			q q q q q q
+		} \\ {
+			\mvTrr g8\pp_\vlne_\tasto g g g g g %180
+			g g g g g g
+			g g g g g g
+		} >>
+		g4 g g
+		g r r\fermata \bar "||" %184 finis
+	}
+}
+
+QuiTollisBassFigures = \figuremode {
+	r8 r2. %138
+	r
+	<4 2> %140
+	<6->2 r8 <5>
+	<6! 4\+ 2>4 <6>8 <6\\> r <6>
+	<6 _+>4 <5 \t>2
+	<6>2.
+	<5>2 <6->4 %145
+	<6!>2.
+	<5>2 <6>4
+	<6! 5->2.
+	<6>4 \bo <[6] 4>4. \bc <[5] 3>8
+	r2 <6>4 %150
+	<5>8 <5!> <6>2
+	<5 4>8 <7 3> r4 <4 2>
+	<6> <6 5> <6 4>8 <[5] 3>
+	r2 <\t>4
+	<7 _!>2 <4! _->4 %155
+	<6>8 <6!> r <4!> <6> <6\\ [4 3]>
+	<6! _!>4 <5 \t>2
+	<6>2.
+	<7->2 <_->4
+	<7 5->2 <5>4 %160
+	<8>8 <7-> <3>2
+	<7- [5-]>4. <6>8 <7- 5->4
+	<6 4 [_-]>4 <6> <6! 5->
+	<6 4->2 <7- [3]>4
+	r2 <6->4 %165
+	<5->8 <5!> <6>2
+	<5 4->8 <7- 3>4. <4 2>4
+	<6-> <6 5-> <6 4->8 <[5] 3>
+	r2 <\t>4
+	<7 _!>2 <4! _->4 %170
+	<6>4. <6!>8 <_-> <6 4 3>
+	<6- 4>4 <5 _!>2
+	<6>4. <4! _->8 <6> <6!>
+	<\t>4 <_->8 <4! _-> <6> <6!>
+	<\t>4 <_->8 <4! _-> <6> <6!> %175
+	<\t>4 <_->8 <4+ _-> <6> <6\\>
+	<\t>4 <3>8 <[6!] 4+ 3> <6> <6\\>
+	<_!>4 <4+ _-> <6>
+	<6 5> \bo <[6] 4>4. \bc <[5] _+>8
+	r2. %180
+	r
+	r
+	r
+	r %184 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

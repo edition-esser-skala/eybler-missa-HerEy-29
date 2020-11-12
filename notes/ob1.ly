@@ -173,3 +173,34 @@ GloriaOboeI = {
 		b r r2\fermata \bar "||" %137 finis
 	}
 }
+
+QuiTollisOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #138
+		\partial 8 r8 R2.*12 %149
+		r8 d'4\pE g16( f es d c b) %150
+		a8 g r a'16( g f es d c)
+		b8 a r d'16( c b a g f)
+		f8 b~ b16 g es c b8 c\trill
+		b4 r r
+		R2.*10 %164
+		r8 c4 f16( es des c b as) %165
+		g8( f) r g'16( f es des c b)
+		as8 g r c'16( b as g f es)
+		es8 as~ as16 f des b as8 b\trillE
+		as4 r r
+		R2.*3 %172
+		b4. a!8( b c)
+		c8. des16 des4 r
+		c4. h8( c d) %175
+		d8. es16 es4 r
+		d4. cis8( d e)
+		f4 fis g
+		g16 es c a g4. a8
+		b4 r r %180
+		R2.*3
+		R2.\fermataMarkup \bar "||" %184 finis
+	}
+}

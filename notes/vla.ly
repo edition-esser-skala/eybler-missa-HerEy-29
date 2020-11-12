@@ -241,3 +241,58 @@ GloriaViola = {
 		<b f' b>4 r r2\fermata \bar "||" %137 finis
 	}
 }
+
+QuiTollisViola = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #138
+		\partial 8 cis8-!\mf d( a b fis g d)
+		es\ppE es' es es es es
+		b b b b b b %140
+		c c c c c c
+		a! a b c d g
+		fis\fE fis fis cis( c h)
+		b\pE b b b b b
+		g c c c c c %145
+		c c c c c c
+		a d d d d d
+		f d d d d f
+		es es d d d c
+		b f f f f f %150
+		es es es es g c
+		f, a a a f' a,
+		b b b b b es
+		d d d d d d
+		d d d d d d %155
+		es f g g f c'
+		h\fE h h fis( f e)
+		es\pE g, g g g g
+		g g g g as as
+		des des des b c c %160
+		b g as as c as
+		as as as as b ces
+		b b es, es as as
+		as as c c b b
+		as es es es es es %165
+		des des des des f b
+		es, g g g es' g,
+		as as as as as des
+		c c c c c c
+		c c c c c c %170
+		des des des \slurDashed es( f b)
+		b\fE b a e( es d!) \slurSolid
+		des\pE des des c( des a!)
+		a8. b16 b8 \slurDashed des( c e)
+		e8. f16 f8 d( es h) %175
+		h8. c16 c8 es( d fis)
+		fis8. g16 g8 e( f g) \slurSolid
+		a a a a b b
+		g4 r8 g, d' c
+		b d4 c8 h a %180
+		g f'!4 es8( d c)
+		h4 c fis,
+		g <g g'> q
+		q r r\fermata \bar "||" %184 finis
+	}
+}

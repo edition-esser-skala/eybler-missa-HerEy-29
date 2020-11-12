@@ -429,6 +429,106 @@ GloriaTenoreLyrics = \lyricmode {
 	te. %132 finis
 }
 
+QuiTollisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 3/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #138
+		\partial 8 r8 R2.
+		r4 r r8 \mvTr es\pE^\solo
+		es8.([ b16)] g8 r r es' %140
+		es8.([ c16)] as4 r
+		fis g8([ a)] b([ c)]
+		d4 d, r
+		d'4. c16([ b)] a([ g)] fis([ g)]
+		g8.([ es'16)] es4 r %145
+		es4. d16([ c)] b([ a)] gis([ a)]
+		a8.([ f'16)] f4 r
+		f4.( as8 g16[ f)] es([ d)]
+		d([ c)] d([ es)] b4.( \grace d16 c8)
+		b4 r r %150
+		R2.*2
+		r4 r r8 f
+		f'8.([ d16)] b4 r8 b
+		f'8.([ d16)] h4 r8 h %155
+		c([ d)] es e f fis
+		g4 g, r
+		\mvTr c\pE^\tutti c8 c c c
+		b!2 as4
+		des2 c4 %160
+		b as r
+		as4. as8 b ces
+		b4( es,) as
+		as2( g4)
+		as^\critnote r r %165
+		R2.*2
+		r4 r r8 \mvTr es\pE^\solo
+		es'8.([ c16)] as4 r8 es
+		es'8.([ c16)] a!4 r8 a %170
+		b4.( c8) des es
+		f4 f, r
+		b4.^\tutti a!8 b c
+		c8.([ des16)] des4 r
+		c4. h8 c d %175
+		d8.([ es16)] es4 r
+		d4. cis8 d e
+		f4 fis g~
+		g16[( es)] c([ a)] g4.( \grace b16 a8)
+		g4 r r %180
+		r8 d'4 es8 f! fis
+		g4( g,) fis
+		g2.
+		g4 r r\fermata \bar "||" %184 finis
+	}
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+	Qui %139
+	tol -- lis, qui %140
+	tol -- lis
+	pec -- ca -- ta
+	mun -- di:
+	Mi -- se -- re -- re
+	no -- bis, %145
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se --
+	re -- re no --
+	bis. %150
+
+	Qui %153
+	tol -- lis, qui
+	tol -- lis pec -- %155
+	ca -- ta, pec -- ca -- ta
+	mun -- di:
+	Su -- sci -- pe de -- pre --
+	ca -- ti --
+	o -- nem %160
+	no -- stram,
+	de -- pre -- ca -- ti --
+	o -- nem
+	no --
+	stram. %165
+
+	Qui %168
+	se -- des, qui
+	se -- des ad %170
+	dex -- te -- ram
+	Pa -- tris:
+	Mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re %175
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se -- re --
+	re no --
+	bis, %180
+	no -- bis mi -- se --
+	re -- re
+	no --
+	bis. %184 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

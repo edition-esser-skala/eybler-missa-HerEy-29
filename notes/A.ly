@@ -427,6 +427,72 @@ GloriaAltoLyrics = \lyricmode {
 	te. %132 finis
 }
 
+QuiTollisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #138
+		\partial 8 r8 R2.*7 %144
+		\mvTrr es4.\pp^\tutti d8 c b %145
+		a8.([ b16)] a4 r
+		f'4. es8 d c
+		h8.([ c16)] h4 r
+		r f'8 f f8.([ es16)]
+		d4 r r %150
+		R2.*7 %157
+		\mvTr g4\pE^\tuttiE g8 g g g
+		g2 as4
+		b2 as4 %160
+		g as r
+		f4. f8 f f
+		fes4( es) h
+		c2( des4)
+		c r r %165
+		R2.*8 %173
+		f4.^\tuttiE e8 f g
+		g8.([ as16)] as4 r %175
+		g4. fis8 g a
+		a8.([ b16)] b4 r
+		r es,8.([ d16)] d4
+		r d8 d d4
+		d r r %180
+		r8 f!4 es8 d c
+		h4( c) a'!
+		g2.
+		g4 r r\fermata \bar "||" %184 finis
+	}
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+	Mi -- se -- re -- re %145
+	no -- bis,
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re --
+	re. %150
+
+	Su -- sci -- pe de -- pre -- %158
+	ca -- ti --
+	o -- nem %160
+	no -- stram,
+	de -- pre -- ca -- ti --
+	o -- nem
+	no --
+	stram. %165
+
+	Mi -- se -- re -- re %174
+	no -- bis, %175
+	mi -- se -- re -- re
+	no -- bis,
+	no -- bis,
+	mi -- se -- re --
+	re, %180
+	no -- bis mi -- se --
+	re -- re
+	no --
+	bis. %184 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

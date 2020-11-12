@@ -241,3 +241,58 @@ GloriaViolinoII = {
 		<d b> r r2\fermata \bar "||" %137 finis
 	}
 }
+
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #138
+		\partial 8 cis'8-!\mfE d( a b fis g d)
+		es\pp es es es es es
+		es es es es es es %140
+		es es es es es es
+		d d d fis g g
+		b\fE b a cis,( c h)
+		b\pE d d d d d
+		es es es es es es %145
+		es es es es es es
+		f f f f f f
+		as f f f f as
+		g g f f f8. es16
+		d8 b b b b b %150
+		b g' g g g g
+		g( c,) c-! c-! a( c)
+		d d c c d f
+		f f f f f f
+		f f f f as as %155
+		g h c c c d
+		es\fE es d fis,( f e)
+		es\pE <c es> q q q q
+		b des des des c c
+		f f f f es es %160
+		es des c c es c
+		f f f f f f
+		fes fes es es h h
+		c c es es g g
+		as as, as as as as %165
+		as f' f f f f
+		\slurDashed des( b) \parOn b-\parenthesize-! \parOff b-\parenthesize-! g( b)
+		\parOn c-\parenthesize-! c-! b-! \parOff b-\parenthesize-! c( es) \slurSolid
+		es es es es es es
+		es es es es ges ges %170
+		f f f a( b c)
+		des\f des c e,( es d!)
+		des\p f f ges( f es)
+		es8. des16 des8 e( f g)
+		g8. as16 as8 as( g f) %175
+		f8. es16 es8 fis( g a)
+		a8. b16 b8 b( a cis)
+		d d es es d d
+		c[ a] g b4 a8
+		g f!4 es8 d c %180
+		<h d> q4 <c es>8 f! fis
+		g4 es c
+		h8..( c32) h8..( c32) h8..( c32)
+		h4 r r\fermata \bar "||" %184 finis
+	}
+}

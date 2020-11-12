@@ -242,6 +242,61 @@ GloriaViolinoI = {
 	}
 }
 
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #138
+		\partial 8 cis'8-!\mf d( a b fis g d)
+		es\pp es es es es es
+		g g g g g g %140
+		as as as as as g
+		fis fis g a b c
+		d\fE d d, cis( c h)
+		b\pE g' g g g g
+		g g g g as as %145
+		a a a a a a
+		a a a a b b
+		h h h h h h
+		c c b b b a
+		b d, d d f f %150
+		b, h c c c c
+		\once \slurDashed c( es) \parOn es-\parenthesize-! \parOff es-\parenthesize-! \once \slurDashed c( f)
+		f f g g f a
+		b b b b b b
+		h h h h h h %155
+		c( d es e f fis)
+		g\f g g, fis( f e)
+		es16(\p c g c) es( c g c) es( c g c)
+		des( b g b) des( b g b) as( c f c)
+		b( des f des) b( des f des) c( es c as) %160
+		g( b es b) as( c es c) as( c es as)
+		ces( as) r f-! ces'( as) r f-! b( f) r as-!
+		g( b,) r g'-! as( c,) r as'-! f( as,) r f'-!
+		es( c) r c'-! as( es) r es'-! des( b g des)
+		c8 c c c es es %165
+		as, a b b b b
+		b( des) des-! des-! b( es)
+		es-! es-! f-! f-! es( g)
+		as as as as as as
+		a a a a a a %170
+		b b b c( des es)
+		f\fE f f, e( es d!)
+		des\pE b' b a!( b c)
+		c8. des16 des8 g,,( as b)
+		c8. c'16 c8 h( c d) %175
+		d8. es16 es8 a,,!( b! c)
+		d8. d'16 d8 cis( d e)
+		f f fis fis g g
+		es[ c] b d4 fis,8(
+		g4) r r %180
+		r8 as-! as( g f! es)
+		d4 es es
+		d8..( es32) d8..( es32) d8..( es32)
+		d4 r r\fermata \bar "||" %184 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
