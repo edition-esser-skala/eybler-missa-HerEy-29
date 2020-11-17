@@ -185,70 +185,157 @@
 	% 		\midi { \tempo 4 = 120 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		title = "Q U I   T O L L I S"
+	% 	}
+	% 	\tocSubsection "2.2" "Qui tollis"
+	% 	\score {
+	% 		<<
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = \markup \center-column { "ob" "[solo]" }
+	% 				\QuiTollisOboeI
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\QuiTollisViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\QuiTollisViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\QuiTollisViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\QuiTollisOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \QuiTollisBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			title = "Q U I   T O L L I S"
+			subtitle = "Q U O N I A M"
 		}
-		\tocSubsection "2.2" "Qui tollis"
+		\tocSubsection "2.3" "Quoniam"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "ob"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\QuoniamOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\QuoniamOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new Staff <<
+						\set StaffGroup.instrumentName = \markup \center-column { "clno (B)" "1, 2" }
+						% \transpose c b,
+						\partcombine \QuoniamClarinoI \QuoniamClarinoII
+					>>
+				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup \center-column { "ob" "[solo]" }
-					\QuiTollisOboeI
+					\set Staff.instrumentName = \markup \center-column { "timp" "B–F" }
+					% \transpose c b,
+					\QuoniamTimpani
 				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\QuiTollisViolinoI
+							\QuoniamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\QuiTollisViolinoII
+							\QuoniamViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\QuiTollisViola
+						\QuoniamViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+					\new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+					\new Lyrics \lyricsto Basso \QuoniamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\QuiTollisOrgano
+						\QuoniamOrgano
 					}
 				>>
-				\new FiguredBass { \QuiTollisBassFigures }
+				\new FiguredBass { \QuoniamBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

@@ -529,6 +529,178 @@ QuiTollisTenoreLyrics = \lyricmode {
 	bis. %184 finis
 }
 
+QuoniamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #185
+		\partial 8 r8 R1*4 %188
+		\mvTr f4\f^\tutti f8 f f([ d)] b d
+		es es d([ c)] d4 r %190
+		R1*2
+		f4 f8 f f8. d16 b8 d
+		es es d c d4 r
+		R1*6 %200
+		r2 r8 c a f
+		e8.([ g16)] b4 r8 c a f
+		e8. g16 b4 a r8 c
+		b4 es!8 es d8. b16 b4
+		c8 d c([ b)] a4 r %205
+		R1*4
+		r8 f b d c4 f, %210
+		R1
+		r8 f b d c8. a16 f4
+		R1*6 %218
+		es'4 d16([ c)] b([ a)] b8.([ f16)] f4
+		es' d16([ c)] b([ a)] b8. d16 f8 d %220
+		es4 d8 d c4 c8 f
+		f cis d([ a)] b4 r
+		R1
+		r2 r8 c c c
+		gis8.([ a16)] a4 r8 f a c %225
+		a8. b16 b4 r8 d c b
+		es4 d8 d a b c d16([ e)]
+		\tempoCumSancto f8 f, r4 r2
+		r b4 a8 f
+		f'8. f16 d8 d16([ c)] b([ c)] b a g8 c %230
+		a f r4 r8 g'16[ f] es[ f es d]
+		c[ d c b] a[ f g a] b4 r8 d~
+		d b4 g a16[ b] c4
+		f, r r8 b4( c16[ d]
+		es4) es, r8 a4( b16[ c] %235
+		d4) d, d' b8 g
+		g'8. g16 es8 es16([ d)] c([ d)] c b a8 d
+		b g d'4 b r8 d~
+		d[ cis16 d] e4 a,8 d4 b8
+		g es'16[ d] c[ d c b!] a[ b a g] fis[ d e fis] %240
+		g4 r r2
+		r r8 c4 d16[ e]
+		f8[ as16 g] f[ es d c] b8 b4 c16[ d]
+		es8[ g16 f] es[ d c b] as8 as4 b16[ c]
+		d8[ f16 es] d[ c b as] g8 b r4 %245
+		r8 c16[ b] as[ b as g] f8[ g16 as] b[ as g f]
+		es8[ es'16 d] c[ d c b] a[ b a g] f[ g a f]
+		b8[ d16 c] b[ c b a] g8 g' r4
+		r8 c,16([ b] a[ b a g] f8) f' r4
+		r8 b,16([ a] g[ a g f] es8) es' r4 %250
+		r2 r4 d
+		b8 g g'8. g16 es8 es16([ d)] c([ es)] d c
+		d8 b4 g a16([ b)] c4~
+		c16[ d c b] a8[ d16 c] b[ c b a] g4
+		R1 %255
+		r2 r4 b~
+		b g8 es es'8. es16 d8 d16([ c)]
+		b([ c)] b a g([ a)] b([ g)] c8([ es16 d)] c([ b a g])
+		f8 f' r4 r8 d16([ c] b[ a g f]
+		es8) es' r4 r8 c16[ b] a[ b a g] %260
+		fis8[ g]~ g[ c16 g] f4 r
+		a f8 d d'8. d16 b4
+		r r8 c c16([ d)] c b a4
+		a r8 f'~ f16[ g] f([ es)] d4
+		es r r2 %265
+		c4 a8 f f'8. f16 d8 d16([ c)]
+		b([ c)] b a g8 c a f r4
+		r8 d'4 b g a16[ b]
+		c[ b a g] f4 r8 f'16[ es] d[ es d c]
+		b[ c b a] g8 es' r es16[ d] c[ d c b] %270
+		a[ b a g] f8 d' r d16[ c] b[ a g f]
+		es8[ es'16 d] c[ b a g] f8[ f'16 es] d[ c b a]
+		g8[ g'16 f] es[ f es d] c[ d c b] a8[ b16 c]
+		b8 b b([ a)] b4 r
+		r8 a a a b8. d16 d4 %275
+		r8 a a a b8. d16 d4
+		r8 g16([ f)] es([ d)] c b a8 b b([ a)]
+		b4 r r8 a c es
+		d8. b16 d4 r8 a c es
+		d8. b16 d4 r8 g16([ f)] es([ f)] es d %280
+		c([ d)] c([ b)] a([ b)] a([ g)] f8 b b([ a)]
+		b4 c d r\fermata \bar "|." %282 finis
+	}
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+	Tu so -- lus san -- ctus, tu %189
+	so -- lus san -- ctus, %190
+
+	tu so -- lus Do -- mi -- nus, tu %193
+	so -- lus Do -- mi -- nus,
+
+	tu so -- lus %201
+	san -- ctus, tu so -- lus
+	Do -- mi -- nus, tu, tu
+	so -- lus al -- tis -- si -- mus,
+	Je -- su Chri -- ste. %205
+
+	Tu so -- lus san -- ctus, %210
+
+	tu so -- lus Do -- mi -- nus,
+
+	tu so -- lus san -- ctus, %219
+	tu so -- lus Do -- mi -- nus, tu %220
+	so -- lus al -- tis -- si -- mus,
+	Je -- su Chri -- ste,
+
+	tu so -- lus
+	san -- ctus, tu so -- lus %225
+	Do -- mi -- nus, so -- lus al --
+	tis -- si -- mus, Je -- su, Je -- su
+	Chri -- ste.
+	Cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a De -- i %230
+	Pa -- tris, a -- _
+	_ _ men, a --
+	_ _ _ _
+	men, a --
+	men, a -- %235
+	men, cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, a -- men, a --
+	_ _ _ _
+	men, a -- _ _ _ %240
+	men,
+	a -- _
+	_ _ men, a -- _
+	_ _ men, a -- _
+	_ _ _ men, %245
+	a -- _ _ _
+	_ _ _ _
+	_ _ _ men,
+	a -- men,
+	a -- men, %250
+	cum
+	San -- cto Spi -- ri -- tu in glo -- ri -- a
+	De -- i Pa -- tris, a --
+	_ _ men,
+	%255
+	cum __
+	San -- cto Spi -- ri -- tu in
+	glo -- ri -- a De -- i Pa -- tris,
+	a -- men, a --
+	men, a -- _ %260
+	_ men,
+	cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a De --
+	i Pa -- tris, a --
+	men, %265
+	cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a De -- i Pa -- tris,
+	a -- _ _ _
+	_ men, a -- _
+	_ _ men, a -- _ %270
+	_ _ men, a -- _
+	_ _ _ _
+	_ _ _ _
+	_ men, a -- men,
+	cum San -- cto Spi -- ri -- tu, %275
+	cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a De -- i Pa --
+	tris, cum San -- cto
+	Spi -- ri -- tu, cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a %280
+	De -- i Pa -- tris, a -- men, a --
+	men, a -- men. %282 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -64,3 +64,81 @@ GloriaTimpani = {
 		c r r2\fermata \bar "||" %137 finis
 	}
 }
+
+QuoniamTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #185
+		\partial 8 r8 r2 r4 r8 g\fE
+		c4 r g r
+		R1*2
+		g4\fE g8 g c4 r
+		r g c r %190
+		R1*2
+		r8 g\fE g g c4 r
+		r g8. g16 c4 r
+		R1*6 %200
+		r2 g4\fE r
+		r2 g4 r
+		r2 g4 r
+		c8. c16 g8. g16 c4 r
+		r2 g4-\critnote r %205
+		R1*4
+		r8 g\fE c c g4 r %210
+		R1
+		r8 g\fE c c g4 r
+		R1*5 %217
+		r2 c4\fE c8 c
+		g4 r c c8 c
+		g4 r r8 c16 c c8 c %220
+		c4 r r r8 g
+		c4 r8 g c4 r
+		R1*5 %227
+		\tempoCumSancto R1*3 %230
+		g4 r c r
+		r g c r
+		R1
+		g4 r c r
+		R1*6 %240
+		r2 r4 g
+		c r r2
+		r4 g8. g16 c4 r
+		R1
+		c8 c16 c c8 c c4 r %245
+		R1
+		r2 r4 g
+		c r r2
+		r g8 g16 g g8 g
+		c4 r r2 %250
+		r4 g8. g16 c4 r
+		r2 r4 g8. g16
+		c4 r r2
+		R1
+		r4 g8. g16 c4 r %255
+		r2 r4 c~\trill
+		c r r2
+		R1
+		g4 g8 g c4 r
+		R1 %260
+		r2 r4 c8. c16
+		g4-\critnote r r2
+		R1*3 %265
+		g4 r r2
+		g4 r r2
+		g4 r r2
+		g4 r r2
+		g4 r r2 %270
+		g4 r r2
+		g4 r g r
+		g8 g16 g g8 g g2\trill
+		c8 c16 c g8 g c4 r
+		r8 g g g c4 r %275
+		r8 g g g c4 r
+		r r8 g16 g g8 c g4\trill
+		c r r2
+		R1*2 %280
+		g8 g16 g g8 g c c g4
+		c g c r\fermata \bar "|." %282 finis
+	}
+}

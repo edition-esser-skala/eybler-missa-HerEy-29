@@ -297,6 +297,112 @@ QuiTollisViolinoI = {
 	}
 }
 
+QuoniamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #185
+		\partial 8 g'8-!\f c16( h d c) es( d f es) g8 a,( b c) %185
+		d8.( es32 f) es16( d c b) f'8-! f,-! r4
+		f'8.\p es16 d8 c b8.(\trill a32 b) f8 b
+		g4 f'16( es d c) b8. c16 a16. f32 f8\trill\f
+		es'16. c32 c8\trill a16. f32 f8\trill f'16. d32 d8\trill d,16. b'32 b8\trill
+		g16 c es c b d c a b16. f32-! g16.-! a32-! b16.-! c32-! d16.-! es32-! %190
+		f8.\p es16 d8 c b8.(\trill a32 b) f8 b
+		g4 \once \slurDashed f'16( es d c) b8. c16 a16. f32 f8\trill\f
+		es'16. c32 c8\trill a16. f32 f8\trill f'16. d32 d8\trill d,16. b'32 b8\trill
+		g16 c es c b d c a b16. d,32-! es16.-! f32-! g16.-! a32-! b16.-! c32-!
+		d8\p b b d r c c c %195
+		r c c c b a16( f) b( f) c'( f,)
+		d'4 c16 b a g fis g a fis g a b h
+		c4 b16( a g f) e( f g e) f( a d c)
+		b8 b4 b8 b16( e g e) b'( g e b)
+		r8 a r b r c r d %200
+		r f, f g f16. c'32 c8\trill\f f16 c a' c,
+		g'16. c,32 c8\trill g'16 c, b' g a16. c,32 c8\trill f16 c a' f
+		g16. c,32 c8\trill g'16 c, b' c, a'16. f32 f8\trill a,16 c f a
+		b16. f32 f8\trill c'16. f,32 f8\trill d'16. f,32 f8\trill f16. d32 d8\trill
+		c16 f d b a f' g, e' f,16. f'32 f8\trill a16. f32 f8\trill %205
+		d16. b32 b8\trill b'16. g32 g8\trill e16. c32 c8\trill g'16. b,32 b8\trill
+		a16 g b a c b d c e d f e g c, b' c,
+		a' f c a g8 e' <f a,>4 r
+		r8 f,\p g a b c es! d
+		c16. f32 f8\trill\f b,16 d f b a f c a f4 %210
+		r8 f\p g a b c es d
+		c16. f32 f8\trill\f b16 f d b a' f c a f es' c-\critnote a
+		b8\p b b b r a a a
+		r c c c r b b r
+		r g es' r r a, f' r %215
+		r b, c d r es r es
+		r d r es r f r g
+		r b, b \appoggiatura d16 c8 b16. f32 f8\trill\f b16 f d' f,
+		a16. f32 f8\trill c'16 f, es' f, d'16. f,32 f8\trill b16 f d' f,
+		a16. f32 f8\trill c'16 f, es' f, d'16. b32 b8\trill d,16 f b d %220
+		es16. es,32 es8\trill g16 h d g g h, c d f es d c
+		b a b cis d es c d b16. d32 d8\trill c16. f32 f8\trill
+		b16. b,32 b8\trill a16. d32 d8\trill g16. g,32 g8\trill f16. b32 b8\trill
+		es16( f) d( es) c( d) b( c) a( f) a( c) es f, d' f,
+		h f h c a c a f c f a c f f, es' f, %225
+		cis' a cis d b d, f b d b f' d es c f d
+		g a, c g' f b, d f es f, d' f, c' a b g
+		\tempoCumSancto a16. f32 f8\trill f'16 b,8 d16 d,16. b'32 b8\trill d16 b'8 d,16
+		c16. c,32 c8\trill es'16 c8 a16 b16. d32 d8\trill c16 f8 a16
+		d,16. b'32 b8\trill d16 d,8 c'16 b16. g32 g8\trill e16 c'8 b16 %230
+		a16. f32 f8\trill f,16 f'8 es16 d16. b32 b8\trill \kneeBeam es,16 b''8 a16
+		g16. c,32 c8\trill a16 f8 f'16 d16. b32 b8\trill a16 f8 f'16
+		d16. b'32 b8\trill d16 d,8 c'16 b16. g32 g8\trill e16 c'8 b16
+		a16. f32 f8\trill f,16 f'8 es16 d16. b32 b8\trill \kneeBeam d,16 b''8 a16
+		g16. es,32 es8\trill g16 es'8 d16 c16. a32 a8\trill \kneeBeam c,16 a''8 g16 %235
+		f16. d,32 d8\trill f16 d'8 c16 b16. d32 d8\trill g16 g,8 b16
+		c16. es32 es8\trill es,16 c'8 es,16 c16. a'32 a8\trill fis16 d'8 c16
+		b16. d32 d8\trill a16 a'8 f!16 d16. g32 g8\trill b16 b,8 a16
+		g16. g'32 g8\trill a16 a,8 g16 f16. d'32 d8\trill b16 d,8 b'16
+		g16. g'32 g8\trill es!16 es,8 d16 c16. c'32 c8\trill d16 d,8 c'16 %240
+		b16. b,32 b8\trill g'16 es'!8 d16 c16. c,32 c8\trill a'16 f'!8 es16
+		d16. d,32 d8 b'16 g'8 f16 es16. es,32 es8\trill c16 c'8 b16
+		as16. c32 c8\trill f,16 f'8 es16 d16. b32 b8\trill b,16 b'8 as16
+		g16. b32 b8\trill es,16 es'8 d16 c16. as,32 as8\trill f'16 as'8 g16
+		f16. b,32 b8\trill d16 b'8 as16 g16. es,32 es8\trill g16 b8 es16 %245
+		g16. es32 es8\trill c16 c'8 b16 as16. f32 f8\trill d16 b8 b'16
+		g16. es,32 es8\trill g16 es'8 d16 c16. f,32 f8\trill a!16 c8 f16
+		d16. b,32 b8\trill d16 d'8 c16 b16. d32 d8\trill g,16 g'8 h,16
+		c16. c,32 c8\trill es16 c'8 b16 a16. c32 c8\trill f,16 f'8 a,16
+		b16. b,32 b8\trill d16 b'8 a16 g16. es32 es8\trill g16 es'8 d16 %250
+		c16. c,32 c8\trill c'16 a8 f16 b,16. d'32 d8\trill f16 d8 b16
+		es16. es,32 es8\trill g16 b8 es16 g16. es32 es8\trill c16 a8 f'16
+		d16. b,32 b8\trill d16 d'8 c16 b16. g32 g8\trill c16 g'8 b,16
+		a16. c32 c8\trill d,16 a''8 c,16 b16. g32 g8\trill g'16 g,8 f'16
+		es16. c32 c8\trill a16 f8 a16 b16. d32 d8\trill b16 g8 b16 %255
+		c16. es32 es8\trill c16 as8 c16 d16. f32 f8\trill d16 b8 d16
+		es16. b32 b8\trill c16 c,8 b'16 a16. es'32 es8\trill d16 a8 c16
+		b16. g32 g8\trill b16 d8 g16 es16. c,32 c8\trill es16 g8 c16
+		a16. f32 f8 a16 c8 f16 d16. b,32 b8\trill d16 f8 b16
+		g16. es32 es8\trill g16 b8 es16 c16. a,32 a8\trill c16 es8 a16 %260
+		fis16. d'32 d8\trill c16 es8 g,16 a16. f'32 f8\trill d16 d,8 d'16
+		c16. f32 f8\trill a,16 f'8 a,16 f16. d'32 d8\trill b16 d8 b16
+		g16. g'32 g8\trill es16 es,8 d16 c16. c'32 c8\trill a16 c8 a16
+		f16. f'32 f8\trill f,16 f'8 es16 d16. b32 b8\trill d16 f8 as16
+		g16. g,32 g8\trill es16 g'8 f16 es16. c,32 c8\trill es16 c'8 b16 %265
+		a16. c32 c8\trill f,16 f'8 a,16 b16. d32 d8\trill f16 b8 a16
+		g16. g,32 g8\trill es16 es'8 d16 c16. f,32 f8\trill a16 c8 a16
+		b16. f'32 f8 d16 d,8 c'16 b16. g32 g8\trill g'16 g,8 f16
+		es16. es'32 es8\trill f,16 f'8 a,16 d16. b32 b8\trill d16 b'8 a16
+		g16. g,32 g8\trill g16 es'8 d16 c16. a,32 a8\trill c'16 a'8 g16 %270
+		f16. f,32 f8\trill a16 d8 c16 b16. g32 g8\trill es16 es'8 d16
+		c16. c,32 c8\trill f16 f'8 es16 d16. f,32 f8\trill g16 g'8 f16
+		es16. es,32 es8\trill c16 c'8 b16 a16. c32 c8\trill f,16 f'8 es16
+		d f b d, c8 a' b,16 f d\p f b d f d
+		es16. c32 c8\trill\f a16. es32 es8\trill d16 b d\p f b d f b %275
+		es,16. c32 c8\trill\f a16. es32 es8\trill d16 b d\p f b d f b
+		g16. g,32 g8\trill\f a16 b c d es c d b' c,8 a'
+		b,16. f32 f8\trill\p d16 f b d f8. es16 c a f es
+		d16. f32 f8\trill d16 f b d f8. es16 c a f es
+		d16. b'32 b8\trill c16 d es f g g, g'\f f es f es d %280
+		c d c b a b a g f d' f b c,8 a'
+		<b, d,>4 <a' c, f,> <b b, d,> r\fermata \bar "|." %282 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

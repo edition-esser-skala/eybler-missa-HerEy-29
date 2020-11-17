@@ -478,6 +478,178 @@ QuiTollisBassoLyrics = \lyricmode {
 	bis. %184 finis
 }
 
+QuoniamBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #185
+		\partial 8 r8 R1*3 %187
+		r2 r4 r8 \mvTr f\fE^\tuttiE
+		c'4 a8 f d([ f)] b g
+		es c f4 b, r %190
+		R1
+		r2 r4 r8 f'
+		c'4 a8 f d([ f)] b g
+		es c f8. f16 b,4 r
+		R1*7 %201
+		r8 g' e c f8.([ a16)] c4
+		r8 g e c f8. f16 es'!4
+		d c8 c b4 b,8 b
+		a b c4 f r %205
+		R1*4
+		r8 f d b f'4 f %210
+		R1
+		r8 f d b f'8. f16 f4
+		R1*6 %218
+		r8 c' a f b4 d
+		r8 c a f b4 as8 as %220
+		g4 f8 f es4 c8 es
+		d g f4 b, r
+		R1*2
+		r8 f' a c a8.([ f16)] f4 %225
+		r8 f b d b8. f16 f4
+		R1
+		\tempoCumSancto f4 d8 b b'8. b16 g8 g16([ f)]
+		es([ f)] es d c8 f d8 b r4
+		r8 d'16[ c] b[ c b a] g[ a g f] e[ c d e] %230
+		f4 r8 g4 es c8~
+		c[ d16 es] f4 b, r
+		R1
+		r8 f'16[( es!] d[ es d c] b8) b' r4
+		r8 es,16[( d] c[ d c b] a8) a' r4 %235
+		r8 d,16[( c] b[ c b a] g8) g' r es~
+		es c4 a b16[ c] d4
+		g, r r8 b'16[ a] g[ a g f]
+		e[ f e d] cis[ a h? cis] d4 g8.[ f!16]
+		es8 c r4 r2 %240
+		g'4 es8 c a'8. a16 f8 d
+		b' b16 b g8 es c' c16([ b)] as([ b as g]
+		f[ g f es] d8) b' r b16[ as] g[ as g f]
+		es[ f es d] c8 as' r as16[ g] f[ g f es]
+		d[ es d c] b8[ c16 d] es8[ g16 f] es[ f g es] %245
+		c2 d
+		es f
+		g4^\critnote r r r8 g16([ f]
+		es[ f es d] c8) c' r4 r8 f,16([ es]
+		d[ es d c] b8) b' r2 %250
+		r4 f4 d8 b b'8. b16
+		g8 g16([ f)] es([ f)] es d c8 c f f,
+		b8[ d'16 c] b[ c b a] g[ a g f] es[ c d es]
+		f8[ a16 g] fis[ d e fis] g8 g16([ f?] es[ f es d])
+		c4 f d8 b g'8. g16 %255
+		es8 c as' as16 as f8 d b'4
+		g es( c d)
+		g,4^\critnote r r2
+		r8 a'16[( g] f[ g a f] b8) b, r4
+		r8 g'16[( f] es[ f g es] a8) a, r c~ %260
+		c b es4 d8[ d'16 c] b[ c d b]
+		f4 r r g
+		es8 c c'8. c16 a4 r8 f
+		f16([ g)] f es d4 d r8 b'~
+		b16[ c] b([ as)] g8[ a16 h] c[ d c b] a[ b a g] %265
+		f2 f,
+		r r4 f'
+		d8 b b'8. b16 g8 g16([ f)] es([ f)] es d
+		c8([ d16 es]) f[( es d c)] b8( b'4) c16([ d)]
+		es4 es, r8 a4( b16[ c] %270
+		d4) d, r8 g4 c8~
+		c a4 d b es8~
+		es c4 a f g16[ a]
+		b8 b, f'4 b, r
+		r8 f' f f b8. b,16 b4 %275
+		r8 f' f f b8. b,16 b4
+		r8 es'16([ d)] c([ b)] a g f8 b f4
+		b, r r8 f' a c
+		b8. b,16 b4 r8 f' a c
+		b8. b,16 b4 r8 es'16([ d)] c([ d)] c b %280
+		a([ b)] a([ g)] f([ g)] f([ es)] d8 b f'4
+		b4 f b, r\fermata \bar "|." %282 finis
+	}
+}
+
+QuoniamBassoLyrics = \lyricmode {
+	Tu %188
+	so -- lus, su so -- lus, tu
+	so -- lus san -- ctus, %190
+
+	tu
+	so -- lus, tu so -- lus, tu
+	so -- lus Do -- mi -- nus,
+
+	tu so -- lus san -- ctus, %202
+	tu so -- lus Do -- mi -- nus,
+	so -- lus al -- tis -- si -- mus,
+	Je -- su Chri -- ste. %205
+
+	Tu so -- lus san -- ctus, %210
+
+	tu so -- lus Do -- mi -- nus,
+
+	tu so -- lus san -- ctus, %219
+	tu so -- lus Do -- mi -- nus, %220
+	so -- lus al -- tis -- si -- mus,
+	Je -- su Chri -- ste,
+
+	tu so -- lus \xE san -- ctus, \x %225
+	tu so -- lus Do -- mi -- nus.
+
+	Cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a De -- i Pa -- tris,
+	a -- _ _ _ %230
+	men, a -- _ _
+	_ men,
+
+	a -- men,
+	a -- men, %235
+	a -- men, a --
+	_ _ _ _
+	men, a -- _
+	_ _ _ _
+	_ men, %240
+	cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a De -- i Pa -- tris, a --
+	men, a -- _
+	_ _ men, a -- _
+	_ _ _ _ %245
+	_ _
+	_ _
+	men, a --
+	men, a --
+	men, %250
+	cum San -- cto Spi -- ri --
+	tu in glo -- ri -- a De -- i Pa -- tris,
+	a -- _ _ _
+	_ _ men, a --
+	men, cum San -- cto Spi -- ri -- %255
+	tu in glo -- ri -- a De -- i Pa --
+	tris, a --
+	men,
+	a -- men,
+	a -- men, a -- %260
+	men, a -- _ _
+	men, cum
+	San -- cto Spi -- ri -- tu in
+	glo -- ri -- a De -- i Pa --
+	tris, a -- _ _ %265
+	_ men,
+	cum
+	San -- cto Spi -- ri -- tu in glo -- ri -- a
+	De -- i __ Pa -- tris,
+	a -- men, a -- %270
+	men, a -- _
+	_ _ _ _
+	_ _ _ _
+	_ men, a -- men,
+	cum San -- cto Spi -- ri -- tu, %275
+	cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a De -- i Pa --
+	tris, cum San -- cto
+	Spi -- ri -- tu, cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a %280
+	De -- i Pa -- tris, a -- men, a --
+	men, a -- men. %282 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

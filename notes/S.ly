@@ -476,6 +476,204 @@ QuiTollisSopranoLyrics = \lyricmode {
 	bis. %184 finis
 }
 
+QuoniamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #185
+		\partial 8 r8 R1*2
+		\mvTr f'8.\pE^\solo es16 d8 c b4 f8 b
+		g4( f'16[ es]) d([ c)] b8.([ c16)] a8 r
+		r4 r8 \mvTr f\fE^\tutti f'4 d8 b
+		c es b([ a]) b4 r %190
+		\mvTr f'8.\pE^\solo es16 d8 c b4 f8 b
+		g4( f'16[ es)] d([ c)] b8. c16 a8 r
+		r4 r8 \mvTr f\fE^\tutti f'4 d8 b
+		c es b a b4 r
+		\mvTr d\pE^\solo r8 f f8.([ c16)] c8 c %195
+		c8.([ g'16)] f([ e)] d([ c)] b8 a r4
+		d c16([ b)] a([ g)] fis8.[( a16)] g4
+		c b16([ a)] g([ f)] e8. g16 f4
+		b b8 b g'8. e16 b4
+		a c16[ b a b] c8[ \once \tieDashed f]~ f16[ d] b([ g)] %200
+		f4.( g8)\trill f \mvTr c'\fE^\tutti c c
+		c8.([ d16)] c4 r8 c c c
+		c8. d16 c4 r8 c a f
+		f'4 f8 f f4. d8
+		c b a([ g)] f4 r %205
+		R1*2
+		r2 \mvTr c'8.\pE^\solo b16 a8 g
+		f4 g8 a b c es!([ d)]
+		c4 r c8. b16 a8 g %210
+		f4 g8 a b c es8. d16
+		c8 \mvTr f\fE^\tutti f f f8. f,16 f4
+		\mvTr b\pE^\solo d8 f f([ es)] c a
+		f4. es'8 es d r d16([ b)]
+		a8 g r es'16([ c)] b a a8 r f'16([ d)] %215
+		b4 c8 d f8. es16 es4
+		d f16[ es d es] \once \tieDashed f4~ f16[ g] es([ c)]
+		b4.( c8) b \mvTr f'\fE^\tutti d b
+		a8.([ c16)] es4 r8 f d b
+		a8. c16 es4 r8 d es f %220
+		g4 g8 g g4( f16[ es)] d([ c)]
+		b4.( c8) b4 r
+		R1
+		r2 r8 es es d
+		h8.([ c16)] c4 r8 f f es %225
+		cis8. d16 d4 r8 f es d
+		g4 f8 f es d c b
+		\tempoCumSancto f' f, r4 r2
+		R1*3 %231
+		r2 b4 a8 f
+		f'8. f16 d8 d16([ c)] b([ c)] b a g8 c
+		a f r f'16[ es] d[ es d c] b[ c b a]
+		g8 b r es16[ d] c[ d c b] a[ b a g] %235
+		f8 a r d16[ c] b[ c b a] g[ a g f]
+		c'8[ es16 d] c[ b a g] a[ b a g] fis[ d e? fis]
+		g8 b a4 g r
+		r2 d'4 b8 g
+		g'8. g16 es8 es16([ d)] c([ d)] c b a8 d %240
+		b g r es'16([ d] c8) a r f'16([ es]
+		d8) b r g'16[ f] es[ f es d] c[ d c b]
+		as8 f' r f16[ es] d[ es d c] b[ c b as]
+		g8 es' r es16[ d] c[ d c b] as[ b as g]
+		f8[ g16 as] b[ as g f] g8 es r4 %245
+		r2 f'4 d8 b
+		g'8. g16 es8 es16([ d)] c([ d)] c b a!8 f'
+		d b r d16[( c] b[ c b a] g8) g'
+		r4 r8 c,16([ b] a[ b a g] f8) f'
+		r4 r8 b,16[ a] g[ a g f] es8[ es'16 d] %250
+		c[ d c b] a8[ b16 c] d[ es d c] b8[ c16 d]
+		es8 es, r4 c'4 a8 f
+		f'8. f16 d8 d16([ c)] b([ c)] b a g8 c
+		a f d'4 g, r
+		c a8 f d'8. d16 b8 g %255
+		es' es16 es c8 as f'4 d8 g16[ f]
+		es[ f es d] c[ d c b] a[ b a g] fis[ g a fis]
+		g8 d r4 c' es8 g
+		a,8. a16 f'4 b, d8 f16 f
+		g,4 es' a,( c8) es %260
+		d g, c4.( b16[ c)] d8([ b)]
+		c4 a8 f f'8. f16 d4
+		r8 es es16([ f)] es d c4 c
+		r8 f~ f16[ g] f([ es)] d4 d
+		r8 g~ g16[ as g f] es[ f es d] c[ d c b] %265
+		a8 f r4 r2
+		r c'4 a8 f
+		f'8. f16 d8 d16([ c)] b([ c)] b a g8 c
+		a f r f'16[ es] d[ es d c] b[ c b a]
+		g8 es' r es16[ d] c[ d c b] a[ b a g] %270
+		f8 d' r d16[ c] b[ c b a] g8[ es'16 d]
+		c[ d c b] a8[ f'16 es] d[ es d c] b8[ g'16 f]
+		es[ f es d] c[ d c b] a[ b a g] f[ g f es]
+		d8 d' c4 b8 d d d
+		f8. es16 c4 r8 d d d %275
+		f8. es16 c4 r8 f d b
+		g'8. es16 es4 r2
+		r8 b d f f8. es16 c4
+		r8 b d f f8. es16 c4
+		r8 b c16([ d)] es f g8. f16 es8 es16([ d)] %280
+		c([ d c b] a[ b a g] f8) d' c4
+		b f' d r\fermata \bar "|." %282 finis
+	}
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+	Quo -- ni -- am tu so -- lus, tu %187
+	so -- lus san -- ctus,
+	tu so -- lus, tu
+	so -- lus san -- ctus, %190
+	quo -- ni -- am tu so -- lus, tu
+	so -- lus Do -- mi -- nus,
+	tu so -- lus, tu
+	so -- lus \xE Do -- mi -- nus, \x
+	tu, tu so -- lus al -- %195
+	tis -- si -- mus, so -- lus, tu
+	so -- lus san -- ctus,
+	tu so -- lus Do -- mi -- nus,
+	so -- lus al -- tis -- si -- mus,
+	Je -- _ _ su %200
+	Chri -- ste, tu so -- lus
+	san -- ctus, tu so -- lus
+	Do -- mi -- nus, so -- lus al --
+	tis -- si -- mus, Je -- su,
+	Je -- su Chri -- ste. %205
+
+	Quo -- ni -- am tu %208
+	so -- lus, tu so -- lus san --
+	ctus, quo -- ni -- am tu %210
+	so -- lus, tu so -- lus Do -- mi --
+	nus, tu so -- lus Do -- mi -- nus,
+	so -- lus al -- tis -- si -- mus,
+	Je -- su Chri -- ste, tu
+	so -- lus al -- tis -- si -- mus, tu %215
+	so -- lus al -- tis -- si -- mus,
+	Je -- _ _ su
+	Chri -- ste, tu so -- lus
+	san -- ctus, \xE tu so -- lus
+	Do -- mi -- nus, \x so -- lus al -- %220
+	tis -- si -- mus, Je -- su
+	Chri -- ste,
+
+	tu so -- lus
+	san -- ctus, \xE tu so -- lus %225
+	Do -- mi -- nus, \x so -- lus al --
+	tis -- si -- mus, Je -- su, Je -- su
+	Chri -- ste.
+
+	Cum San -- cto %232
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, a -- _ _
+	_ men, a -- _ _ %235
+	_ men, a -- _ _
+	_ _ _ _
+	_ men, a -- men,
+	cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a De -- i %240
+	Pa -- tris, a -- men, a --
+	men, a -- _ _
+	_ men, a -- _ _
+	_ men, a -- _ _
+	_ _ _ men, %245
+	cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, a -- men,
+	a -- men,
+	a -- _ _ %250
+	_ _ _ _
+	_ men, cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, a -- men,
+	cum San -- cto Spi -- ri -- tu in %255
+	glo -- ri -- a De -- i Pa -- tris, a --
+	_ _ _ _
+	_ men, cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a
+	De -- i Pa -- tris, %260
+	a -- men, a -- men,
+	cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a De -- i
+	Pa -- tris, a -- men,
+	a -- _ _ %265
+	_ men,
+	cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, a -- _ _
+	_ men, a -- _ _ %270
+	_ men, a -- _ _
+	_ _ _ _
+	_ _ _ _
+	_ men, a -- men, cum San -- cto
+	Spi -- ri -- tu, cum San -- cto %275
+	Spi -- ri -- tu, cum San -- cto
+	Spi -- ri -- tu,
+	cum San -- cto Spi -- ri -- tu,
+	cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a De -- i Pa -- tris, %280
+	a -- men, a --
+	men, a -- men. %282 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

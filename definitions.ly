@@ -665,6 +665,8 @@ tocLabel = #(define-music-function
 tempoKyrie = \tempoMarkup "Andante"
 tempoGloria = \tempoMarkup "Allegro vivace"
 	tempoQuiTollis = \tempoMarkup "Adagio"
+	tempoQuoniam = \tempoMarkup "Allegro moderato"
+	tempoCumSancto = \tempoMarkup "Più allegro"
 
 vlne =       \markup \remark  "vlne"
 vlneE =      \markup \remarkE "vlne"

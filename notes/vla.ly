@@ -296,3 +296,108 @@ QuiTollisViola = {
 		q r r\fermata \bar "||" %184 finis
 	}
 }
+
+QuoniamViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #185
+		\partial 8 r8 r as'\fE g f es c f, f'~
+		f d b g' c, a( b c)
+		d4\pE r f8. es16 d8 b
+		b4 c8 g' f^\critnote f, f' r
+		f,\f a c f f b f g
+		es c f f, b4 r %190
+		r2 f'8.\p es16 d8 b
+		b4 c8 g' f^\critnote f, f' r
+		f,\f a c f f b f g
+		es c f f, b4 r
+		r8 d\p d b r c c c %195
+		r c c c c f, g a
+		b b b b a4( b8) r
+		r a a a g4( a8) r
+		d8 e16 f g8 g4 c, c8
+		r c r c r c r b %200
+		r a c e, f a\f c f
+		c e g e f a, c f
+		c e g e f a, c a
+		f f' es es, d f b d
+		f, d' c b a c f, f' %205
+		r d g, g' r g c, g'
+		f f4 f8 c c4 e8
+		f4 d'8 g,, a4 r
+		r8 c4\p c f g8
+		c, <f a>\f <f b> <f d'> <f c'>4 <a, f'> %210
+		r8 c4\pE f f g8
+		c, <f a>\fE <f b> <f d'> <f c'> a,4 f'8
+		f\p b, b b r es es es
+		r c c c r d d r
+		r b c r r c d r %215
+		r d es f r g r a
+		r b r g r f r es
+		r d( f) a, b b'\f f d
+		c a c f~ f b f d
+		c a c f~ f d b f' %220
+		g b, g' h, c es g es
+		b b'4 a8 b b, r c
+		d es f a, b c d f,
+		a b c d16 e f8 f, a b
+		f'4 f, r8 f a c %225
+		f4 f, r8 f a b
+		es f, d' f, a b c d16 e
+		\tempoCumSancto f8 f, r4 r2
+		R1*2 %230
+		f'4 d8 b b'8. b16 g8 g16 f
+		es f es d c8 f d b r4
+		r8 d'16 c b c b a g a g f e c d e
+		f8 a r4 r8 b16 a g a g f
+		es8 g r4 r8 a16 g f g f es %235
+		d8 f r4 d b8 g
+		g'8. g16 es8 es16 d c d c b a8 d
+		g4 f!8 d d'8. d16 b8 b16 a
+		g a g f e8 a f4 d
+		r r8 g4 fis16 g a4 %240
+		d,8 b'16 a g a g f es8 c'16 b a b a g
+		f8 d'16 c b c b as g8 c,4 d16 e
+		f8 as16 g f es d c b8 b4 c16 d
+		es8 g16 f es d c b as8 as4 b16 c
+		d8 b b'2 g8 es %245
+		es'8. es16 c8 c16 b as b as g f8 b
+		g es16 d c d c b a! b a g f g a f
+		b8 d16 c b c b a g8 g'16 f es f es d
+		c8 c16 b a b a g f8 f'16 es d es d c
+		b8 b16 a g a g f es8 b''16 a g a g f %250
+		es f es d c8 d16 es f g f es d8 es16 f
+		g8 b4 g es16 d c es d c
+		d8 b4 g a16 b c4~
+		c16 d c b a8 d16 c b c b a <g g'>4
+		es'8 c a'8. a16 f8 d b'8. b16 %255
+		g8 es c' c16 c as8 f d'4
+		<b g> r r2
+		d4 b8 g es'8. es,16 es4
+		c' a8 f16 f d'4 d,
+		b' g8 es c'4 c, %260
+		a8 b g g' a! b f4
+		r f d8 b b'8. b16
+		g4 r r8 f~ f16 g f es
+		d4 d r8 b'~ b16 c b as
+		g as g f es f es d c8 c' r4 %265
+		r f, d8 b b'8. b16
+		g8 g16 f es f es d c8 c f4
+		b,8 d4 b g g'16 f
+		es d c b a4 b r
+		r8 g'4 a16 b c4 c, %270
+		r8 f4 g16 a b8 b, es4
+		c' f, d' \once \tieDashed g,~
+		g8 a16 b c4 f, f~
+		f8 f f4\trill d8 b4\pE b8
+		a a4\fE a8 b b4\pE b8 %275
+		a a4\fE a8 b b4\pE b8
+		b g'16\fE f es d c b a8 b16 d f8 f
+		d d4\pE d8 r c4 c8
+		r d4 d8 r c4 c8
+		r d4 d8 es es'16\fE d c d c b %280
+		a b a g f g f es d f b d f,8 <f c'>
+		<d b'>4 <a f' c'> <b f' d'> r\fermata \bar "|." %282 finis
+	}
+}
