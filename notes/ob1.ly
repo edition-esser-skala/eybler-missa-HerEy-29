@@ -296,3 +296,98 @@ QuoniamOboeI = {
 		b f'\trill d r\fermata \bar "|." %282 finis
 	}
 }
+
+CredoOboeI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoCredo
+		b'2\fE b4 b
+		d2 b
+		c c4 c
+		es2 c
+		d es\trill %5
+		f d4 b
+		f2 r
+		R1
+		d'2 d4 d
+		f2 c %10
+		g'4 e c b
+		a4. b8 c2
+		f1
+		f2 d
+		c g %15
+		f r
+		r r4 g'~
+		g f2 e4
+		f a, b d
+		c4. a8 f4 r %20
+		d' f2 e8 d
+		c4. b8 a2
+		d c8 b a g
+		c4 e, f d'
+		c2 b %25
+		a r
+		a a4 d
+		d2 cis
+		a d4 f
+		f2 e %30
+		d2. d4
+		d g f e
+		d2 cis
+		d r
+		r r4 g %35
+		f2 e
+		d es
+		d1
+		es
+		d %40
+		es
+		d2 es
+		f d4 b
+		es2 d\trill
+		c r %45
+		c d4 es
+		f2 d
+		es g
+		f es
+		es d %50
+		c b
+		a g
+		fis4 d e fis
+		g a b h
+		c d es c %55
+		d2. d4
+		g,2 r
+		r r4 a'~
+		a g2 fis4
+		g2 d %60
+		es c4 a
+		fis2. c'4
+		b2 c
+		d1
+		es %65
+		a,
+		b4 d \once \tieDashed f2~
+		f4 es2 d4~
+		d c2 b4
+		a b es d %70
+		c1
+		d
+		c
+		d
+		c2 r4 f~ %75
+		f h, c d~
+		d es es es~
+		es a, b! c~
+		c d d b
+		es2 d4 b %80
+		g'2 f4 es
+		d2 c\trill
+		b4 d f2
+		d4 d c2
+		d4 d f2 %85
+		d4 d c2
+		b r
+		R1*2 \bar "|" %89 finis
+	}
+}

@@ -853,6 +853,194 @@ QuoniamBassFigures = \figuremode {
 	r1 %282 finis
 }
 
+CredoOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/2 \tempoCredo
+		\mvTr b4\f-\tutti b'8 a b f d f
+		b,4 b' r8 b, d b
+		f4 f'8 e f c a c
+		f,4 f' r8 f, a f
+		b4 b'8 as g b g es %5
+		d4 d' r8 b, d b
+		c4 c'8 h c f, a f
+		b d16-! c-! b8[-! d]-! f,-! b-! d,-! f-!
+		b,4 b' r8 b, d b
+		a4 a'8 g a c a f %10
+		e4 c' r8 c, e c
+		f4 a8 g f g es f
+		d4 d' r8 c, es c
+		b4 d8 f b b, b' b
+		c,4 c' r8 c, c' c, %15
+		f4 f,8-\solo g a b c d
+		e g f a g e c e
+		f4 d b c
+		f,-\tutti f'8 es! d f d b
+		f4 f' r8 f a f %20
+		b4 b,8 a b d f b
+		c4 c, r8 f a f
+		b,4 b'8 a b b, d g
+		b,4 b' r8 a g f
+		g4 b8 g c c, e c %25
+		f, f'16 g a8[ f] c f a, c
+		f,4 f' r8 d f d
+		a4 a'8 gis a a, a' g?
+		f4 a r8 f d f
+		a,4 a'8 gis? a a, a' g %30
+		f4 d' r8 fis, a fis
+		g4 e8 f g e f g
+		a4 a, r8 a' a, a'
+		d,4 d'8-\solo a f' e d c!
+		b a g f e? cis a cis %35
+		d4 b' g a
+		d, r c! r
+		b-\tutti b'8 a b f d b
+		a4 a' r8 a, c a
+		b4 b'8 a b f d b %40
+		a4 a' r8 a, c a
+		b4 b'8 as g b g es
+		d4 d' r8 b d b
+		a c a f b f d b
+		f'4 f, r8 f a c %45
+		f g f es d g c, g'
+		h,4 g' r8 d g f
+		es g es c h d h g
+		c4 c' r8 c, es c
+		a b c a b c d b %50
+		fis4 fis' r8 g, b g
+		c d es c cis d e cis
+		d4 d' cis c
+		b a g f!
+		es d c c' %55
+		d8 b! g b d4 d,
+		g g,8-\solo a b c d e
+		fis a g b a fis d fis
+		g4 es! c d
+		g,-\tutti g'8 fis g d b g %60
+		c4 c' r8 c, es c
+		d4 d'8 cis d a fis d
+		g4 g, a a'
+		b, b'8 a b f d b
+		es4 es' r8 c, es c %65
+		f4 a8 g f c a f
+		b4 b' a, a'
+		g8  b a g f a g f
+		es g f es d f es d
+		c4 b a b %70
+		f f'8 e f f, a f
+		b4 b' r8 b, d b
+		f4 a8 c f a c a
+		b4 f d b
+		f f'8 es d es f d %75
+		g4 f es d
+		c c'8 h c c, es c
+		f4 es d c
+		b b'8 a b c b as
+		g4 b f b %80
+		es,8 b' a! b d,4 es
+		f8 f d b f4 f'
+		b, b' a8 c a f
+		b4 b, f' f,
+		b b' a8 c a f %85
+		b4 b, f' f,
+		b b'8-\solo f d' c b a
+		g f es d c b a c
+		b4 es f f, \bar "|" %89 finis
+	}
+}
+
+CredoBassFigures = \figuremode {
+	r1
+	r
+	r
+	<[7]>
+	r2 <6> %5
+	q1
+	<7 4>2 <6>
+	r1
+	r
+	<6> %10
+	\bo <[6 5]>2 r8 \bc <[7 _!]>4.
+	r2. <[2]>4
+	<6>2 r8 <6 _->4.
+	r1
+	<6 4>2 r8 <[7] _!>4. %15
+	r4 \bo <[3 \l]>8 <3> q q <_!> <3>
+	<6>2 <6!>
+	<9>4 <5> <6 5> \bc <[7 _!]>
+	r2 <6>
+	r1 %20
+	r
+	\bo <8 6 [_!]>4 <\t \t \t>8 \bc <7 5 [\t]> <3 1>2
+	r2 <6>
+	<4!>2 r8 <6> \bo <[7]> \bc <[\t]>
+	<7>2 <7 [_!]> %25
+	r1
+	r2 r8 <8>4.
+	<6 4>2 <[5!] _+>
+	<6>1
+	<6 4>2 <[5!] _+> %30
+	\bo <[6]>2 r8 <\t> \bc <[5!]>4
+	r <8>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<6 4>2 r8 <[5!] _+>4.
+	r4. \bo <[5! _+]>8 <6> <6!> <6> <6 _!>
+	<6> q <6!> <6> <6\\>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %35
+	<9!>4 <5> <6! 5> \bc <[5! _+]>
+	r2 <[6 _-]>
+	r1
+	<[6 5]>
+	r %40
+	q
+	r2 <[6]>
+	<6>1
+	<[6 5]>
+	r %45
+	r2 <6!>
+	\bo <[6]>4 <_!>2 \bassFigureExtendersOn q8 \bc <[_!]> \bassFigureExtendersOff
+	\bo <[6]>2 \bc q
+	<9 4> <8 3>
+	<6\\ 5>2 <6> %50
+	<7> r8 <_->4.
+	<6>2 <7 [_!]>
+	<_+>2 <_!>4 <4+>
+	<6> <6\\> <_-> <4!>
+	<6> <6!> <8> <6> %55
+	\bo <[6 4]>2 <5 \t>4 <\t _+>
+	r4 <3>8 q q <_!> <_+> <3>
+	<6>2 <6\\>
+	<9>4 <5> <6 5> \bc <[_+ \l]>
+	r1 %60
+	<5>2 r8 <[6]>4.
+	<_+>1
+	r2 <6!>
+	r1
+	r %65
+	<[7]>
+	r2 <6>
+	<7>4 <\tllur>8 <6> <7>4 <\tllur>8 <6>
+	<7>4 <\tllur>8 <6> <7>4 <\tllur>8 <6>
+	\bo <[6 \l]>2 \bc <[6 5]> %70
+	r1
+	r
+	r
+	r
+	r2 <[6]> %75
+	<[7] _!>4 <\t> <6> <6!>
+	<\t> <_!>2.
+	<[7]>4 <[2]> <6-> <6>
+	<\t> <3>2 r8 <[2]>
+	<[6]>2 <6 4> %80
+	r <[6]>4 <6>
+	<6 4>2 <[5] 3>
+	r <6>
+	r2 \bo <[4]>4 \bc <[3]>
+	r2 <6> %85
+	r <4>4 <3>
+	r2 \bo <[6 \l]>8 <6> q q
+	q q q q q4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r2 <6 4>4 \bc <[5 3]> %89 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

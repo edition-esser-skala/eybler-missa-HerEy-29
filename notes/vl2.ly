@@ -402,3 +402,99 @@ QuoniamViolinoII = {
 		<d b'>4 <f c' f> <b, f' d'> r\fermata \bar "|." %282 finis
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoCredo
+		<d b' b'>4\f <d b'> r8. b'16-! b8.(\trill a32 b)
+		d8 b f' d b' f b d,
+		c4 f, r8. c'16-! c8.(\trill b32 c)
+		f8 c a' f c' a c es,
+		<d f,>4 <b d,> r8. es16-! es8.(\trill d32 es) %5
+		f8 d b' f d b f d
+		g,4-\parenthesize-! b8. g16 a4-\parenthesize-! c8. a16
+		b4 d8 b f' d b' f
+		d' b f b d, f b d
+		c4 f r8. c16-! c8.(\trill h32 c) %10
+		b'8 g e f g e c b
+		a4 c r8. f,16-! f8.(\trill e32 f)
+		b8^\critnote f b d f a, c f
+		d4 f r8. d16-! d8.(\trill c32 d)
+		a8 c f a, g4 e' %15
+		f,8 g a b c d e f
+		g e a f b g e b^\critnote
+		a c f a, g4 e'
+		<a, f'>4 f-! r8. f16-! f8.(\trill e32 f)
+		a8 f a c f a, c f %20
+		d4 f r8. f,16-! f8.(\trill e?32 f)
+		e8 c e g f a c a
+		d4 d, r8. d'16-! d8.(\trill c32 d)
+		e8 c g' e f c a d
+		d,4 f8. d16 e4 g8. e16 %25
+		f8 f16 g a8[ f] c' a f' c
+		a' f c a f a d f
+		a4 d, r8. cis16-! cis8.(\trill h?32 cis)
+		d8 d, f a d a f' d
+		a'4 a, r8. cis16-! cis8.(\trill h?32 cis) %30
+		d8 a f a d, a'' fis c
+		b4 g' r8. b,16-! b8.(\trill a32 b)
+		a8 d f d a'4 cis,
+		d8 a f' e? d c b! a
+		g f e d cis e' cis g %35
+		f d d' f, e? d' e,? cis'
+		d,4 <a f' d'> r <a f' es'!>
+		<f' d'> f' r8. b,16-! b8.(\trill_\critnote a32 b)
+		c8 a f' c a' f c' es,
+		d4 f r8. b,16-! b8.(\trill a32 b) %40
+		c8 a c a f' c a' f
+		d4 d, r8. es16-! es8.(\trill d32 es)
+		f8 d f b b d f b
+		a4 c, r8. b16-! b8.(\trill a32 b)
+		a8 f' c a f c' a f %45
+		f4 f' r8. g,16-! g8.(\trill f32 g)
+		d8 g h d f d h g
+		c4 es r8. g16-! g8.(\trill f32 g)
+		f8 d h f es g c es
+		fis,4 es' r8 d-! d8.(\trill c32 d) %50
+		c8 a a' c, b d g b
+		a4 a, r8. g16-! g8.(\trill fis?32 g)
+		fis8 d cis d e d fis d
+		g d a' d, b'! d, h' d,
+		c' g d' g, es' g, es' c %55
+		b d g b, a g' a, fis'
+		g, a b c d e fis g
+		a fis b g c a fis c
+		b d g b, a4 fis'
+		g g, r8. d'16-! d8.(\trill c32 d) %60
+		es!8 es, g c es c a c
+		fis,4 a' r8. c,16-! c8.(\trill b32 c)
+		b8c  d b c d es c
+		d4 b, r8. f''16-! f8.(\trill es32 f)
+		g8 g, b es g es es c %65
+		a4 c' r8. es,16-! es8.(\trill d32 es)
+		d8 b d es f g a f
+		b4 b, r8. a16-! a8.(\trill-\critnote g32 a)
+		g4 g' r8. f,16-\parenthesize-! f8.(\trill es32 f)
+		a8 f b f es' f, d' f, %70
+		c'4 f, r8. c'16-! c8.(\trill b32 c)
+		d8 b f b d, f b d
+		c4 f r8. c16-\parenthesize-! c8.(\trill b32 c)
+		d8 b d f f d f b
+		a4 c, r8. f,16-\parenthesize-! f8.(\trill es32 f) %75
+		f'8 d h g c g d' g,
+		d' es es es es es, es8.(\trill d32 es)
+		es'8 c a f b! f c' f,
+		c' d d d d b b8.(\trill a32 b)
+		es8.-\critnote es,16 es8.(\trill d32 es) d8 f b d %80
+		g8. g,16 g8.(\trill f32 g) f8 b g es'
+		d b b' d, c a' a8.(\trill_\critnote g32 a)
+		b,8 f b d f f f f
+		d f d b c es c a
+		b f b d f f f f %85
+		d f d b c4 <f, c' a'>
+		b'8 f d' c b a g f
+		es d c b a g f es
+		\kneeBeam d b'' g es d b' c, a' \bar "|" %89 finis
+	}
+}

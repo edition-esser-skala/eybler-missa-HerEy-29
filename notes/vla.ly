@@ -401,3 +401,99 @@ QuoniamViola = {
 		<d b'>4 <a f' c'> <b f' d'> r\fermata \bar "|." %282 finis
 	}
 }
+
+CredoViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 2/2 \tempoCredo
+		b4\fE b'8 a b f d f
+		b,4 b' r8 b, d b
+		f4 f'8 e f c a c
+		f,4 f' r8 f, a f
+		b4 b'8 as g b g es %5
+		d4 f r8 d f b
+		b,4 c8. b16 c4 a8 c
+		f, d'16 c b8[ d] f, b d, f
+		b4 b' r8 b, d b
+		a4 a'8 g a c a f %10
+		e4 c' r8 c, e c
+		f4 a8 g f g es f
+		d4 d' r8 c, es c
+		b4 d8 f b b, b' b
+		c,4 c' r8 c, c' c, %15
+		f4 f,8 g a b c d
+		c4 c2 c4~
+		c d2 b4
+		a f'8 es! d f d b
+		f4 f' r8 f a f %20
+		b4 b,8 a b d f b
+		c4 c, r8 f a f
+		b,4 b'8 a b b, d g
+		b,4 b' r8 c, f a
+		f4 g8. f16 g4 e8 g %25
+		f f16 g a8[ f] c f a, c
+		f,4 f' r8 d f d
+		a4 a'8 gis a a, a' g?
+		f4 a r8 f d f
+		a,4 a'8 gis? a a, a' g %30
+		f4 d' r8 fis, a fis
+		g4 e8 f g e f g
+		a4 a, r8 a' a, a'
+		d,4 d8 a f' e d c!
+		b d g f e? cis a cis %35
+		d4 f, b g
+		f <d d'> r <c! c'!>
+		<d b'> b''8 a b f d b
+		a4 a' r8 a, c a
+		b4 b'8 a b f d b %40
+		a4 a' r8 a, c a
+		b4 b'8 as g b g es
+		d4 d' r8 b d b
+		a c a f b f d b
+		f'4 f, r8 f a c %45
+		f g f es d g c, g'
+		h,4 g' r8 d g f
+		es g es c h d h g
+		c4 c' r8 c, es c
+		a b c a b c d b %50
+		fis4 fis' r8 g, b g
+		c d es c cis d e cis
+		d4 fis, g a
+		b c b d
+		g, h c es %55
+		d8 b g b d4 d,
+		g g8 a b c d e?
+		d4 d2 d4~
+		d es!2 c4
+		b g'8 fis g d b g %60
+		c4 c' r8 c, es c
+		d4 d'8 cis d a fis d
+		g4 g, a a'
+		b, b'8 a b f d b
+		es4 es' r8 c, es c %65
+		f4 a8 g f c a f
+		b4 b' a, a'
+		g8  b a g f a g f
+		es g f es d f es d
+		c4 b a b %70
+		f f'8 e f f, a f
+		b4 b' r8 b, d b
+		f4 a8 c f a c f,
+		b4 f d b
+		f f'8 es d es f d %75
+		g4 f es d
+		c c'8 h c c, es c
+		f4 es d c
+		b b'8 a b c b as
+		g4 b f b %80
+		es,8 b' a! b d,4 es
+		f8 f d b f'4 f,
+		b b' a8 c a f
+		b4 b, f' f,
+		b b' a8 c a f %85
+		b4 b, f' f,
+		b b'8 f d' c b a
+		g f es d c b a c
+		d4 es f f, \bar "|" %89 finis
+	}
+}

@@ -674,6 +674,183 @@ QuoniamSopranoLyrics = \lyricmode {
 	men, a -- men. %282 finis
 }
 
+CredoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \autoBeamOff \tempoCredo
+		\mvTr b'4\fE^\tuttiE b8 b b4 b
+		d2 b
+		c4 c8 c c4 c
+		es2 c4 c
+		d2 es %5
+		f d4 b
+		f2( es)
+		d r
+		d'4 d d f8 f
+		f4. c8 c2 %10
+		g'4 e c b
+		a4. b8 c2
+		f f4 f
+		f2 d
+		c( e,) %15
+		f r
+		R1*2
+		c'4 a b d
+		c4. a8 f2 %20
+		d'4( f2) e8([ d)]
+		c4.( b8) a2
+		d c8([ b)] a([ g)]
+		c4 e, f d'
+		c2( b4) b %25
+		a2 r
+		a2. d4
+		d2 cis
+		a d4 f
+		f2 e %30
+		d2. d4
+		d( g) f e
+		d2( cis4) cis
+		d2 r
+		R1*3 %37
+		f2 d4 b
+		f4.( g8) f2
+		f' d4 b %40
+		f4. g8 f2
+		d' es
+		f d4 b
+		es es d2
+		c r %45
+		c4. c8 d4 es
+		f d h g
+		c es d g
+		f2 es
+		es d %50
+		c b!4 b
+		a2 g
+		fis4 d( e) fis
+		g a b h
+		c d es c %55
+		d2. d4
+		g,2 r
+		R1*2
+		d'2 r4 d %60
+		es2 c4 a
+		fis2( a4) a
+		g2 r
+		f'! d4 b
+		g'2 es4 c %65
+		a2.( c4)
+		b2 r4 f'
+		f( es) es d
+		d( c) c b
+		a( b) es d %70
+		c f, r f'
+		f1
+		f,2 c'4 a
+		d2 b4 d
+		c2 r4 f %75
+		f( h,) c d
+		d( es) es es
+		es( a,) b! c
+		c( d) d b
+		es2 d4 b %80
+		g'2 f4 es
+		d2( c)
+		b4 d f2
+		d4 d c2
+		d4 d f2 %85
+		d4 d c2
+		b r
+		R1*2 \bar "|" %89 finis
+	}
+}
+
+CredoSopranoLyrics = \lyricmode {
+	Cre -- do in u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa --
+	cto -- rem %5
+	coe -- li et
+	ter --
+	rae,
+	vi -- si -- bi -- li -- um
+	o -- mni -- um %10
+	et in -- vi -- si --
+	bi -- li -- um,
+	cre -- do fa --
+	cto -- rem,
+	cre -- %15
+	do.
+
+	Et in u -- num %19
+	Do -- mi -- num %20
+	Je -- sum
+	Chri -- stum,
+	Fi -- li -- um
+	De -- i u -- ni --
+	ge -- ni -- %25
+	tum,
+	et ex
+	Pa -- tre,
+	\xE ex Pa -- tre
+	na -- tum \x %30
+	an -- te
+	o -- mni -- a
+	sae -- cu --
+	la.
+
+	De -- um de %38
+	De -- o,
+	lu -- men de %40
+	lu -- mi -- ne,
+	De -- um
+	ve -- rum de
+	De -- o ve --
+	ro, %45
+	ge -- ni -- tum non
+	fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem
+	Pa -- tri,
+	per quem %50
+	o -- mni -- a
+	fa -- cta
+	sunt, per quem
+	o -- _ _ _
+	_ _ mni -- a %55
+	fa -- cta
+	sunt.
+
+	Qui, qui %60
+	pro -- pter nos
+	ho -- mi --
+	nes,
+	qui pro -- pter
+	no -- stram sa -- %65
+	lu --
+	tem de --
+	scen -- \xE dit, de --
+	scen -- dit, de --
+	scen -- dit de %70
+	coe -- lis, \x de
+	coe --
+	lis, pro -- pter
+	nos, pro -- pter
+	nos, \xE et %75
+	no -- stram sa --
+	lu -- tem, et
+	no -- stram sa --
+	lu -- tem de --
+	scen -- dit, de %80
+	scen -- dit \x de
+	coe --
+	lis, \xE de -- scen --
+	dit \x de coe --
+	lis, \xE de -- scen -- %85
+	dit \x de coe --
+	lis. %87 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
