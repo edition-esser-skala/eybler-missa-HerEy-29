@@ -878,6 +878,94 @@ CredoTenoreLyrics = \lyricmode {
 	lis. %87 finis
 }
 
+EtIncarnatusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key ges \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		\mvTr b4\pE^\solo b b %90
+		des4. ces8 b4
+		as as as
+		as( b) ces
+		des2 r4
+		r8 b fes'([ des)] es ces %95
+		b8.([ ges16)] b4 r
+		r8 des4 des8 des des
+		des8. des16 des8 b16([ des)] ges([ des)] b([ ges)]
+		f8. as16 des8 des4 es8
+		des2 c8 c %100
+		des8.([ f16)] as,8 as as as
+		as8. des16 f8 des16([ f)] c([ es)] ges es
+		des8.([ f16)] as,8 f' es c16 as
+		as8.([ des16)] f4 as,8 as
+		f b b ges([ b)] ges %105
+		es as as4 b
+		b8 b as4. c8
+		c4( des8) as([ ces)] as
+		f([ b)] b ges b ges
+		es as as4 g\fermata %110
+		\key c \major gis8([ e gis)] h h8. a16
+		gis4 r r
+		\key b \major R2.
+		g'4.^\tutti g8 g g
+		g8. b,16 b4 r8 b %115
+		des4 g, r
+		r8 c g' e c g
+		as4 c f8 f
+		f8.([ des16)] b4 r8 b
+		b4. es8 ges es16 es %120
+		b4 ces r8 ces
+		c4 des des8 des
+		b2 b4
+		a!2 b4
+		a!2 b4 %125
+		a!( b) e,
+		f^\critnote r r
+		R2.\fermataMarkup \bar "||" %128 finis
+	}
+}
+
+EtIncarnatusTenoreLyrics = \lyricmode {
+	Et in -- car -- %90
+	na -- tus est,
+	et in -- car --
+	na -- tus
+	est
+	de Spi -- ri -- tu %95
+	San -- cto
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et ho -- mo
+	fa -- ctus est, fa -- ctus
+	est, ex Ma -- %100
+	ri -- a, Ma -- ri -- a
+	Vir -- gi -- ne, de Spi -- ri -- tu
+	San -- cto, de Spi -- ri -- tu
+	San -- cto, in -- car --
+	na -- tus est, in -- car -- %105
+	na -- tus est, et
+	ho -- mo fa -- ctus
+	est, __ ex __ Ma --
+	ri -- a, \xE Ma -- ri -- a
+	Vir -- gi -- ne, \x et %110
+	ho -- mo fa -- ctus
+	est.
+
+	Cru -- ci -- fi -- xus
+	e -- ti -- am pro %115
+	no -- bis
+	sub Pon -- ti -- o Pi --
+	la -- to, cru -- ci --
+	fi -- xus pro
+	no -- bis, e -- ti -- am %120
+	\xE pas -- sus \x pro
+	no -- bis \xE cru -- ci --
+	fi -- xus, \x
+	pas -- sus
+	et se -- %125
+	pul -- tus
+	est. %127 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

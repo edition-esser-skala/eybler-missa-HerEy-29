@@ -851,6 +851,89 @@ CredoSopranoLyrics = \lyricmode {
 	lis. %87 finis
 }
 
+EtIncarnatusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key ges \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		R2. %90
+		\mvTr b'4\pE^\soloE as ges
+		f8. as16 ces4 r
+		ces b as
+		ges8. b16 des4 r8 des
+		des4.( b8) ces es %95
+		des8.([ ges16]) des4 es16([ des)] ces([ b)]
+		as8.([ f16)] ges8 des' es16([ des)] ces([ b)]
+		as8. f16 ges8 des16([ ges]) ges([ b)] b([ des)]
+		des4. ces8 b as
+		ges4( f) as8 as %100
+		as8.([ des16)] as4 r
+		r r8 as b16([ as)] b as
+		as8.([ des16)] as4 r
+		r r ces!8 ces
+		b8. as16 ges8 es([ ges)] b %105
+		as8. ges16 f4 des'
+		des16([ b)] b([ ges)] es4. as8
+		ges4( f8) f([ as)] ces!
+		b8.([ as16)] ges8 es ges b
+		as8. ges16 f4 des'\fermata %110
+		\key c \major h4. a16([ gis)] gis([ fis)] e([ dis)]
+		e4 r r
+		\key b \major R2.*3 %115
+		g'4.^\tutti g8 g g
+		g8. b,16 b4 r8 c
+		c8.([ as16)] f4 r
+		r8 f' des b f b
+		ges4 es r %120
+		g as r8 as
+		a4 b b8 b
+		des2 e,4
+		f2 e4
+		f2 e4 %125
+		f2 des4
+		c r r
+		R2.\fermataMarkup \bar "||"
+	}
+}
+
+EtIncarnatusSopranoLyrics = \lyricmode {
+	Et in -- car -- %91
+	na -- tus est,
+	et in -- car --
+	na -- tus est de
+	Spi -- ri -- tu %95
+	San -- cto ex Ma --
+	ri -- a, Ma -- ri -- a
+	Vir -- gi -- ne, et ho -- mo,
+	ho -- mo fa -- ctus
+	est, __ \xE ex Ma -- %100
+	ri -- a, \x
+	de Spi -- ri -- tu
+	San -- cto,
+	in -- car --
+	na -- tus est, in -- car -- %105
+	na -- tus est, et
+	ho -- mo fa -- ctus
+	est, __ \xE ex __ Ma --
+	ri -- a, Ma -- ri -- a
+	Vir -- gi -- ne, \x et %110
+	ho -- mo fa -- ctus
+	est.
+
+	Cru -- ci -- fi -- xus %116
+	e -- ti -- am pro
+	no -- bis
+	sub Pon -- ti -- o Pi --
+	la -- to, %120
+	pas -- sus, pro
+	no -- bis cru -- ci --
+	fi -- xus,
+	pas -- sus
+	et se -- %125
+	pul -- tus
+	est. %127 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

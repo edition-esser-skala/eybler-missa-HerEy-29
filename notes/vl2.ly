@@ -498,3 +498,32 @@ CredoViolinoII = {
 		\kneeBeam d b'' g es d b' c, a' \bar "|" %89 finis
 	}
 }
+
+EtIncarnatusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key ges \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		b'4\fE r r
+		R2.*19 %109
+		R2.\fermataMarkup %110
+		\key c \major R2.
+		e,16\pp e e e e e e e e e e e
+		\key b \major b' b b b b b b b b b b b
+		b b b b b b b b b b b b
+		b b b b b b b b b b b b %115
+		b b b b b b b b b b b b
+		b b b b b b b b b b b b
+		as as as as as as as as as as as as
+		f f f f f f f f f f f f
+		ges ges ges ges ges ges ges ges ges ges ges ges %120
+		g g g g as as as as as as as as
+		a a a a b b b b des des des des
+		des des des des b b b b b, b b b
+		des8 des c c b b
+		des des c c b b %125
+		c4 des b
+		a! a8.[ b16 a8. b16]
+		a4 r r\fermata \bar "||" %128 finis
+	}
+}

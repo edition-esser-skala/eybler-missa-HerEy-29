@@ -836,6 +836,91 @@ CredoAltoLyrics = \lyricmode {
 	lis. %87 finis
 }
 
+EtIncarnatusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key ges \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		R2. %90
+		\mvTr ges'4\pE^\solo f ges
+		as8. f16 des4 r
+		des des des
+		des8. ges16 b4 r
+		r r r8 ges %95
+		ges4.( des'8) ces16([ b)] as([ ges)]
+		f8.([ as16)] ges8 ges16([ b)] ces([ b)] as([ ges)]
+		f8. as16 ges4 r
+		r8 f ges as b16([ ges)] es([ ces')]
+		b4( as) ges8 ges %100
+		f8.([ des16)] des8 f16([ as)] as([ ges)] es([ c)]
+		des8. f16 as8 f16([ des)] es([ c?)] es ges
+		f8.([ des16)] des8 b'16([ as)] as([ ges)] es c
+		des8.([ f16)] as4 f8 f
+		f8. f16 es4 es8 es %105
+		es8. es16 des4 f8.([ b16)]
+		b([ ges)] ges([ es)] c?4. es8
+		es4( des8) des([ f)] f
+		f4 es8^\critnote es es es
+		es8. es16 f4 e\fermata %110
+		\key c \major e8([ gis h)] e h16([ a)] gis([ fis?)]
+		e4 r r
+		\key b \major R2.*2
+		b'4.^\tutti b8 b b %115
+		b8. g16 es4 r8 es
+		g4 c, r
+		r8 c f as c f,
+		b4 des r
+		r8 b ges4 es %120
+		fes es r8 es
+		ges4 f f8 f
+		e2 b4
+		des( c) b
+		des( c) b %125
+		c( des) b
+		a r r
+		R2.\fermataMarkup \bar "||" %128 finis
+	}
+}
+
+EtIncarnatusAltoLyrics = \lyricmode {
+	Et in -- car -- %91
+	na -- tus est,
+	et in -- car --
+	na -- tus est
+	de %95
+	Spi -- ri -- tu
+	San -- cto, Ma -- ri -- a
+	\xE Vir -- gi -- ne, \x
+	et ho -- mo fa -- ctus
+	est, __ ex Ma -- %100
+	ri -- a, Ma -- ri -- a
+	Vir -- gi -- ne, de Spi -- ri -- tu
+	San -- cto, de Spi -- ri -- tu
+	San -- cto, in -- car --
+	na -- tus est, in -- car -- %105
+	na -- tus est, \xE et __
+	ho -- mo fa -- ctus
+	est, __ \x ex __ Ma --
+	ri -- a, \xE Ma -- ri -- a
+	Vir -- gi -- ne, \x et %110
+	ho -- mo fa -- ctus
+	est.
+
+	Cru -- ci -- fi -- xus %115
+	e -- ti -- am pro
+	no -- bis
+	sub Pon -- ti -- o Pi --
+	la -- to,
+	pro -- no -- bis %120
+	pas -- sus, pro
+	no -- bis cru -- ci --
+	fi -- xus,
+	pas -- sus
+	et __ se -- %125
+	pul -- tus
+	est. %127 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

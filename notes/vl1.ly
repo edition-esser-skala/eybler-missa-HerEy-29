@@ -499,6 +499,35 @@ CredoViolinoI = {
 	}
 }
 
+EtIncarnatusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key ges \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		b'4\fE r r
+		R2.*19 %109
+		R2.\fermataMarkup %110
+		\key c \major R2.
+		e,16\pp e e e e e e e e e e e
+		\key b \major e' e e e e e e e e e e e
+		e e e e e e e e e e e e
+		g g g g g g g g g g g g %115
+		g g g g g g g g g g g g
+		g g g g g g g g g g g g
+		c, c c c c c c c c c c c
+		b b b b b b b b b b b b
+		b b b b b b b b b b b b %120
+		b b b b ces ces ces ces ces ces ces ces
+		c c c c des des des des f f f f
+		b b b b des des des des e,, e e e
+		f8 f f f e e
+		f f f f e e %125
+		f2 des4
+		c c8.[ des16 c8. des16]
+		c4 r r\fermata \bar "||" %128 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

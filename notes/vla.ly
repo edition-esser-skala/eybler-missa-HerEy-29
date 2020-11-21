@@ -497,3 +497,32 @@ CredoViola = {
 		d4 es f f, \bar "|" %89 finis
 	}
 }
+
+EtIncarnatusViola = {
+	\relative c' {
+		\clef alto
+		\key ges \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		b4\fE r r
+		R2.*19 %109
+		R2.\fermataMarkup %110
+		\key c \major R2.
+		e,16\pp e e e e e e e e e e e
+		\key b \major g' g g g g g g g g g g g
+		g g g g g g g g g g g g
+		d d d d d d d d d d d d %115
+		des des des des des des des des des des des des
+		c c c c c c c c c c c c
+		f f f f f f f f f f f f
+		b, b b b b b b b b b b b
+		es es es es es es es es es es es es %120
+		fes fes fes fes es es es es es es es es
+		ges ges ges ges f f f f f f f f
+		e e e e e e e e b b b b
+		a!8 a a a b b
+		a! a a a b b %125
+		a!4( b e,)
+		f f f
+		f4 r r\fermata \bar "||" %128 finis
+	}
+}

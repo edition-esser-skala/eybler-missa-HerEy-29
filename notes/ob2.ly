@@ -358,3 +358,28 @@ CredoOboeII = {
 		R1*2 \bar "|" %89 finis
 	}
 }
+
+EtIncarnatusOboeII = {
+	\relative c' {
+		\clef treble
+		\key ges \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		R2.*20 %109
+		R2.\fermataMarkup %110
+		\key c \major R2.*2
+		\key b \major b'2.\sfzE
+		b\sfzE
+		b\sfzE %115
+		des\sfzE
+		c\sfzE
+		c\sfzE
+		des\sfzE
+		b\sfzE %120
+		g!4 as r8 ces
+		a4 b des
+		e2 b4
+		a! r r
+		R2.*3 %127
+		R2.\fermataMarkup \bar "||" %128 finis
+	}
+}

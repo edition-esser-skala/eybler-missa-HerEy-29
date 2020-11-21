@@ -827,6 +827,93 @@ CredoBassoLyrics = \lyricmode {
 	lis. %87 finis
 }
 
+EtIncarnatusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key ges \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		R2. %90
+		\mvTr ges'4\pE^\solo as b
+		ces4. as8 f4
+		as b ces
+		des4. ges,8 ges4
+		ges ges ges8 ges %95
+		ges4 ges f16([ ges)] as([ b)]
+		ces4 b8 ges f16([ ges)] as([ b)]
+		ces8. ces16 b8 des16([ b)] b([ ges)] ges([ des)]
+		des8 ces' b f ges ces,
+		des2 r4 %100
+		r r8 des c ges'
+		f8. des16 des4 r
+		r r8 des c16([ es)] es ges
+		f4 des des8 des
+		d8. d16 es8 b'([ ges)] es %105
+		c8. c16 des4 b
+		ges8 ges' as4 as,
+		as( des8) ces'!([ as)] f
+		d4 es8 b' ges es
+		c8. c16 des4 b\fermata %110
+		\key c \major h4. h8 h h
+		e4 r r
+		\key b \major e'4.^\tutti e8 e e
+		e8. g,16 g4 r8 g
+		b4 d, r8 d %115
+		es!4. g8 b des
+		c4 c, r8 e
+		f4 as r
+		r8 des, f b des b
+		es4 es, r %120
+		des ces r8 as
+		es'4 des b'8 b
+		ges2 ges4
+		f2 ges4
+		f2 ges4 %125
+		f2 f,4
+		f r r
+		R2.\fermataMarkup \bar "||" %128 finis
+	}
+}
+
+EtIncarnatusBassoLyrics = \lyricmode {
+	Et in -- car -- %91
+	na -- tus est,
+	et in -- car --
+	na -- tus est
+	de Spi -- ri -- tu %95
+	San -- cto ex Ma --
+	ri -- a, Ma -- ri -- a
+	Vir -- gi -- ne, et ho -- mo,
+	ho -- mo, ho -- mo fa -- ctus
+	est, %100
+	\xE Ma -- ri -- a
+	Vir -- gi -- ne, \x
+	de Spi -- ri -- tu
+	San -- cto, in -- car --
+	na -- tus est, in -- car -- %105
+	na -- tus est, et
+	ho -- mo fa -- ctus
+	est, __ ex __ Ma --
+	ri -- a, Ma -- ri -- a
+	Vir -- gi -- ne, et %110
+	ho -- mo fa -- ctus
+	est.
+	Cru -- ci -- fi -- xus
+	e -- ti -- am pro
+	no -- bis sub %115
+	Pon -- ti -- o Pi --
+	la -- to, Pi --
+	la -- to,
+	pro no -- bis cru -- ci --
+	fi -- xus, %120
+	pas -- sus pro
+	no -- bis \xE cru -- ci --
+	fi -- xus, \x
+	pas -- sus
+	et se -- %125
+	pul -- tus
+	est. %127 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

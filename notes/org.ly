@@ -1041,6 +1041,121 @@ CredoBassFigures = \figuremode {
 	r2 <6 4>4 \bc <[5 3]> %89 finis
 }
 
+EtIncarnatusCello = {
+	\relative c' {
+		\clef treble
+		\key ges \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		b4 b b8.( des16)
+		ges8.( des16) des4 r
+		r8 des-! des16( es f ges) as( b ces as)
+		f4 r f
+		ges8 des des es16 f ges as b ces
+		des b des b ges4 r16 ges( ces es) %95
+		des b des b ges4 r
+		r16 f( as ces,) b( des) des( ges) r4
+		r16 f( as ces,) b( des) des( ges) ges( b) b( des)
+		des4 r r
+		r r16 as-! f( des) \once \slurDashed as( c es ges) %100
+		f4 r r
+		r8 as16( f) f( des) des( as) as8 c
+		des4 r r
+		r8 des16( f) f( as) as( ces!) ces4-!
+		r16 \once \slurDashed b,( d f) r b,( ges' f es des? c? b) %105
+		r as( c es) r as,( f' es des es f des)
+		b8 r r16 \slurDashed as( des f) r c?( es as) \slurSolid
+		r as,( c? es) des( f as ges f es des ces)
+		r b( d f) r b,( ges' f es des? c b)
+		r as( c es) r as,( des f) <e g,>4\fermata-> %110
+		\key c \major r16 h( e gis) \once \slurDashed h( gis e gis) h,8 r
+		\clef bass \mvTrr e,8\pp-\tuttiE-> e e e e e
+		\key b \major c-> c c c c c
+		cis-> cis cis cis cis cis
+		d-> d d d d d %115
+		es!-> es es es es es
+		e-> e e e e e
+		f-> f f f f f
+		des-> des des des des des
+		es-> es es es es es %120
+		des des ces ces as as
+		es' es des des b b
+		ges ges ges ges ges ges
+		f f f f ges ges
+		f f f f ges ges %125
+		f f f f f f
+		f4 f f
+		f r r\fermata \bar "||" %128 finis
+	}
+}
+
+EtIncarnatusOrgano = {
+	\relative c {
+		\clef bass
+		\key ges \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		\mvTr b4\fE-\soloE r r
+		\mvTr ges'\p-\pizz-\senzaOrg r ges
+		des r8 des f as
+		des4 r des,
+		ges r8 ges des b
+		ges4 ges' r %95
+		ges, ges' r
+		des ges r
+		des ges r
+		r8 ces b f ges ces,
+		r des des' r r4 %100
+		r8 as f des as as
+		des4 r r
+		r8 as' f des as as
+		des4 r des
+		d es r %105
+		c des b
+		ges8 ges' as4 as,
+		des r des
+		d es r
+		c des b\fermata-> %110
+		\key c \major h4 r r
+		\mvTrr e8\ppE-\arco-> e e e e e
+		\key b \major c-\tuttiE-> c c c c c
+		cis-> cis cis cis cis cis
+		d-> d d d d d %115
+		es!-> es es es es es
+		e-> e e e e e
+		f-> f f f f f
+		des-> des des des des des
+		es-> es es es es es %120
+		des des ces ces as as
+		es' es des des b b
+		ges ges ges ges ges ges
+		f f f f ges ges
+		f f f f ges ges %125
+		f4 f f
+		f f f
+		f r r\fermata \bar "||" %128 finis
+	}
+}
+
+EtIncarnatusBassFigures = \figuremode {
+	r2.*22 %111
+	<1>8 q q q q q
+	<7 _!>2.
+	<\t \t>
+	<6 4> %115
+	<7->
+	<6 5>
+	<_->
+	<6>
+	<_-> %120
+	<6 4! _->4 <6-> <[_-]>
+	<6! 4! _-> <6 _!> <[_-]>
+	<6! [5-]>2.
+	<6- _!>4 <5 \t> <6! [5-]>
+	<6- _!> <5 \t> <6! [5-]> %125
+	<_!> <6- 4> <7! 6- 4>
+	<_!>2.
+	r %128 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -200,3 +200,28 @@ CredoTimpani = {
 		R1*2 \bar "|" %89 finis
 	}
 }
+
+EtIncarnatusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #90
+		R2.*20 %109
+		R2.\fermataMarkup %110
+		R2.*2
+		c4\ppE r r
+		c r r
+		c r r
+		c r r
+		c r r
+		g r r
+		c r r
+		c r r
+		R2.*2
+		c2.\startTrillSpan\fE
+		g4\stopTrillSpan r r
+		R2.*2
+		g2.\startTrillSpan\ppE
+		g4\stopTrillSpan r r\fermata \bar "||"
+	}
+}
