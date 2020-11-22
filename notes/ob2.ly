@@ -383,3 +383,105 @@ EtIncarnatusOboeII = {
 		R2.\fermataMarkup \bar "||" %128 finis
 	}
 }
+
+EtResurrexitOboeII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoEtResurrexit
+			\set Score.currentBarNumber = #129
+		f2\fE f4 f
+		f2 f %130
+		a a4 a
+		a2 a
+		b b
+		b r
+		R1*2 %136
+		b2. b4
+		a b g a
+		b2 g
+		f a %140
+		f1
+		g
+		a
+		b
+		c %145
+		b2 f
+		f e
+		f r
+		r r4 g~
+		g f2 e4 %150
+		f2 r
+		R1*47 %198
+		b4\fE r r2
+		R1*2 %201
+		r2 r4 \once \tieDashed c~
+		c b2 a4
+		b r d r
+		f r as, r %205
+		g1
+		as
+		g
+		es
+		as %210
+		f4 a b c
+		f,2 b
+		R1
+		b2 b
+		b4 c d es %215
+		f1
+		es2 c
+		as? g
+		f1
+		g4-\critnote r r2 %220
+		R1*3
+		es2 g
+		b2. es4 %225
+		d2. b4
+		b2 r
+		R1*8 %235
+		g1\fE
+		g
+		g2. c4
+		h4 r r2
+		c1~ %240
+		c2 h
+		c4 r r2
+		R1*2
+		r2 r4 g %245
+		c2 c
+		c1
+		b
+		as2 r4 f
+		b2 b %250
+		b1
+		as
+		g2 r4 g
+		g2 g
+		g1 %255
+		f
+		f4-\critnote r r2
+		R1*8 %265
+		a2.\fE b4
+		c1
+		b4 a b c
+		d2 b
+		R1*3 %272
+		r2 r4 a\fE
+		b1
+		a %275
+		b
+		a2 r4 f
+		d g2 \once \tieDashed h4~
+		h c c r
+		c, f2 a4~ %280
+		a b2 b4
+		b2. b4
+		b2. c4
+		b2 a\trill
+		b4 r r f~ %285
+		f b2 a4
+		b r r f~
+		f b2 a4
+		b2 r\fermata \bar "|." %289 finis
+	}
+}

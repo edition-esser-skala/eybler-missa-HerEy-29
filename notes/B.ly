@@ -914,6 +914,311 @@ EtIncarnatusBassoLyrics = \lyricmode {
 	est. %127 finis
 }
 
+EtResurrexitBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/2 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #129
+		\mvTr b'2\fE^\tuttiE b4 b
+		b2 b, %130
+		f' f4 f
+		c'2 a4 f
+		b2 g4 g
+		d2 b4 d
+		c2( f) %135
+		b, r
+		b r4 d
+		f2 f4 f
+		e2 e4 e
+		f2 f %140
+		a,1
+		b2 r4 b
+		c2. c4
+		d2 r4 d
+		a2 a4 a %145
+		b2 d
+		c1
+		f2 r
+		R1*7 %155
+		r2 r4 \mvTr des\pE^\solo
+		ges2. ges4
+		ges2 ges
+		b2. as4
+		ges2 r %160
+		r des
+		des'2. ces4
+		b2 r
+		des ges,
+		es'1 %165
+		ces,2 r
+		es ges
+		ces es
+		des ges,
+		r b %170
+		ges,1~
+		ges2 ges
+		f r
+		R1
+		f'1^\tutti %175
+		f2 f
+		f f
+		r f4 f
+		f2 f
+		f f4 f %180
+		f2. f4
+		f2 r
+		R1*2
+		r2 b~^\solo %185
+		b d
+		g, es'
+		r es
+		c a
+		es1 %190
+		d2 b
+		b' r
+		r b~
+		b c4 d
+		es2 es, %195
+		r es'4( c)
+		a!2 b
+		f1\trill
+		b,2 r
+		R1*5 %204
+		r2 \mvTr b'4\fE^\tutti b %205
+		es,2 es4 es
+		es2 es
+		es4. es8 es2
+		g2. g4
+		as2. as4 %210
+		a2.( c4)
+		b2 r
+		R1
+		b2 b
+		as4( g) f( es) %215
+		d2. d4
+		es2 as~
+		as g
+		as( b)
+		es, r %220
+		R1*3
+		es'2 b
+		g f4 es %225
+		b'2. b,4
+		b2 r
+		a!\pE a
+		a a
+		b1 %230
+		b2 b
+		h h
+		h h
+		c1
+		c2 r %235
+		es1\fE
+		d2 c
+		h2. c4
+		d2 r
+		c c' %240
+		g1
+		c,2 r
+		R1*2
+		r2 r4 g' %245
+		c2 c
+		c as4 f
+		c2. c4
+		f2 r4 f
+		b2 b %250
+		b4 b g es
+		b2. b4
+		es2 r4 g
+		h,2 h4 h
+		c2 c4 c %255
+		es1
+		d2 r
+		ges\pE ges
+		ges ges
+		f f %260
+		f f
+		e1~
+		e
+		f
+		f2\f f %265
+		f1
+		f
+		b,4 b' b b
+		b2 b,
+		b'1\p %270
+		g
+		e
+		f2 r4 f\f
+		f2.( b4)
+		a2 r4 a %275
+		b2 d4 b
+		f2 f4 d
+		g( f) es d
+		c2 c4 c
+		f( es) d c %280
+		b2 b4 as'
+		g2 f
+		es d4 es
+		f1
+		b,4 b'( a2 %285
+		b4) b f2
+		b,4 b'( a2
+		b4) b f2
+		b, r\fermata \bar "|." %289 finis
+	}
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+	Et re -- sur -- %129
+	re -- xit %130
+	ter -- ti -- a
+	di -- e se --
+	cun -- dum, se --
+	cun -- dum Scri --
+	ptu -- %135
+	ras,
+	et a --
+	scen -- dit, a --
+	scen -- dit in
+	coe -- lum, %140
+	se --
+	det ad
+	dex -- te --
+	ram, ad
+	dex -- te -- ram, %145
+	dex -- tram
+	Pa --
+	tris.
+
+	Et %156
+	i -- te --
+	rum ven --
+	tu -- rus
+	est %160
+	cum
+	glo -- ri --
+	a
+	iu -- di --
+	ca -- %165
+	re,
+	iu -- di --
+	ca -- re
+	vi -- vos
+	et %170
+	mor --
+	tu --
+	os.
+
+	Cre -- %175
+	do ven --
+	tu -- rus,
+	iu -- di --
+	ca -- re
+	vi -- vos et %180
+	mor -- tu --
+	os.
+
+	Cu -- %185
+	ius
+	re -- gni
+	non
+	e -- rit
+	fi -- %190
+	nis, non,
+	non,
+	non __
+	e -- rit
+	fi -- nis, %195
+	non
+	e -- rit
+	fi --
+	nis.
+
+	Et in %205
+	Spi -- ri -- tum
+	San -- ctum,
+	Do -- mi -- num
+	et vi --
+	vi -- fi -- %210
+	can --
+	tem,
+
+	qui ex
+	Pa -- tre %215
+	Fi -- li --
+	o -- que __
+	pro --
+	ce --
+	dit. %220
+
+	Qui cum %224
+	Pa -- tre et %225
+	Fi -- li --
+	o
+	si -- mul
+	ad -- o --
+	ra -- %230
+	tur et
+	con -- glo --
+	ri -- fi --
+	ca --
+	tur: %235
+	qui,
+	qui lo --
+	cu -- tus
+	est
+	per Pro -- %240
+	phe --
+	tas.
+
+	Et %245
+	u -- nam
+	san -- ctam ca --
+	tho -- li --
+	cam et
+	a -- po -- %250
+	sto -- li -- cam Ec --
+	cle -- si --
+	am. Con --
+	fi -- te -- or
+	u -- num ba -- %255
+	ptis --
+	ma
+	in re --
+	mis -- si --
+	o -- nem %260
+	pec -- ca --
+	to --
+
+	rum.
+	Et ex -- %265
+	pe --
+	cto
+	re -- sur -- re -- cti --
+	o -- nem
+	mor -- %270
+	tu --
+	o --
+	rum, et
+	vi --
+	tam ven -- %275
+	tu -- ri, ven --
+	tu -- ri, et
+	vi -- tam ven --
+	tu -- ri, et
+	vi -- tam ven -- %280
+	tu -- ri, ven --
+	tu -- ri
+	sae -- cu -- li,
+	a --
+	men, a -- %285
+	men, a --
+	men, a --
+	men, a --
+	men. %289 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

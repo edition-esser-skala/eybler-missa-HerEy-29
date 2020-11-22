@@ -416,3 +416,106 @@ EtIncarnatusOboeI = {
 		R2.\fermataMarkup \bar "||" %128 finis
 	}
 }
+
+EtResurrexitOboeI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoEtResurrexit
+			\set Score.currentBarNumber = #129
+		b'2\fE b4 b
+		d2 b %130
+		c c4 c
+		es2 c
+		d es4 es
+		f2 d4 b
+		f2 es %135
+		d r
+		d'2. d4
+		c d e f
+		g e c b
+		a2 c %140
+		f1~
+		f~
+		f~
+		f~
+		f %145
+		d2 b
+		a g
+		f r
+		r r4 b
+		a2 g %150
+		f r
+		R1*47 %198
+		b4\fE r r2
+		R1*2 %201
+		r2 r4 es
+		d2 c
+		b4 r f' r
+		as r d, r %205
+		es1
+		c
+		b~
+		b2 es~
+		es4 c d es %210
+		f1~
+		f2 d
+		b b
+		b4 c d es
+		d es f g %215
+		as1
+		g2 f4 es
+		d2 es~
+		es d
+		es4 r r2 %220
+		R1*3
+		g,2 b
+		es f4 g %225
+		f2. d4
+		b2 r
+		R1*8 %235
+		g'1\fE
+		h,2 c
+		d2. es4
+		f r r2
+		es1 %240
+		d
+		c4 r r2
+		R1*2
+		r2 r4 g %245
+		c2 c
+		c1
+		e
+		f2 r4-\critnote f,
+		b2 b %250
+		b1
+		d
+		es2 r4 g,
+		g'2 g
+		g es4 c %255
+		a!1
+		b4 r r2
+		R1*8 %265
+		c2.\fE d4
+		es2 a,
+		b4 c d es
+		f2 d
+		R1*3 %272
+		r2 r4 c\fE
+		d1
+		c %275
+		d
+		c2 r4 f~
+		f h, c d~
+		d es2 es4~
+		es a, b c~ %280
+		c d d b
+		es2 d4 b
+		g'2 f4 es
+		d2 c\trill
+		b4 d f2 %285
+		d4 d c2
+		b4 d f2
+		d4 d c2\trill
+		b r\fermata \bar "|." %289 finis
+	}
+}

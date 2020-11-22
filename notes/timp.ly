@@ -225,3 +225,65 @@ EtIncarnatusTimpani = {
 		g4\stopTrillSpan r r\fermata \bar "||"
 	}
 }
+
+EtResurrexitTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \tempoEtResurrexit
+			\set Score.currentBarNumber = #129
+		c2\fE c4 c
+		c2 r %130
+		g g4 g
+		g2 r
+		c c4 c
+		c2 r
+		R1 %135
+		r4 c c c
+		c2 c4 c
+		g r r2
+		R1*2 %140
+		g4 r r2
+		g4-\critnote r r2
+		g4 r r2
+		g4 r r2
+		g g4 g %145
+		g r r2
+		R1
+		g4 r r2
+		R1*50 %198
+		c4\fE r r2
+		R1*4 %203
+		c4 r c r
+		c c8 c c4 c %205
+		c-\critnote r r2
+		R1*4 %210
+		g1\startTrillSpan
+		c2\stopTrillSpan r
+		R1
+		c2 c
+		c1\startTrillSpan %215
+		c
+		c4\stopTrillSpan r r2
+		R1*48 %265
+		g2\fE r
+		g4 g8 g g4 g
+		c2 r
+		c4 c8 c c4 c
+		c2 r %270
+		R1*2
+		r2 r4 g\fE
+		c2 c4 c
+		g2 g4 g %275
+		c2 c4 c
+		g2 r
+		R1*4 %281
+		c2 c4 c
+		c2 r
+		g g4 g
+		c-\critnote r r g %285
+		c2 g4 g
+		c-\critnote r r g
+		c c8 c g4 g
+		c2 r\fermata \bar "|." %289 finis
+	}
+}

@@ -526,3 +526,172 @@ EtIncarnatusViola = {
 		f4 r r\fermata \bar "||" %128 finis
 	}
 }
+
+EtResurrexitViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 2/2 \tempoEtResurrexit
+			\set Score.currentBarNumber = #129
+		b4\f b'8 a b4 f
+		b f d b %130
+		f f'8 e f4 c
+		f c a f
+		b b'8 as g4 es
+		d f b d
+		c, c'8 b c4 f, %135
+		b b f d
+		b b'8 a b4 b,
+		f f'8 e f4 f,
+		e e'8 d e4 e,
+		f f'8 e? f4 c %140
+		a a'8 g a4 a,
+		b b'8 a b4 b,
+		c c'8 b c4 c,
+		d d'8 c d4 d,
+		a a'8 g a4 a, %145
+		b b' d, d'
+		c, c'8 b c4 c,
+		f f,8 g a b c d
+		c4 c2 c4~
+		c d2 c8 b %150
+		a4 r8 c,-! d-! e-! f-! g-!
+		as4-! r8 f-! g-! as-! b-! c-!
+		des4-! r8 b-! c-! des-! es-! f-!
+		ges2\sfE des4 b
+		ges4 r8. \mvTr b16\p-\stac b4 r8. b16 %155
+		b4 r8. b16 b4 r8. b16
+		b4 r8. b16 b4 r8. b16
+		b4 r8. b16 b4 r8. b16
+		des4 r8. des16 des4 r8. des16
+		des4 r8. des16 des4 r8. des16 %160
+		des4 r8. des16 des4 r8. des16
+		des4 r8. des16 des4 r8. des16
+		des4 r8. des16 des4 r8. des16
+		des4 r8. des16 des4 r8. des16
+		es4 r8. es16 es4 r8. es16 %165
+		es4 r8. es16 es4 r8. es16
+		ces4 r8. ces16 ces4 r8. ces16
+		ces4 r8. ces16 ces4 r8. ces16
+		des4 r8. des16 des4 r8. des16
+		des4 r8. des16 des4 r8. des16 %170
+		b2 b
+		b b
+		a!8-\critnote a a a a4 r
+		a8 a a a a4 r
+		b8 b b b b4 r %175
+		b8 b b b b4 r
+		a!8 a a a a4 r
+		a8 a a a a4 r
+		b8 b b b b4 r
+		b8 b b b b4 r %180
+		a!8 a a a a4 r
+		a8 a a a a4 r
+		c8 c c c c4 r
+		c8 c c c c4 r
+		b4-\stacE r8. b16 b4 r8. b16 %185
+		b4 r8. b16 b4 r8. b16
+		b4 r8. b16 b4 r8. b16
+		c4 r8. c16 c4 r8. c16
+		c4 r8. c16 c4 r8. c16
+		a4 r8. a16 a4 r8. a16 %190
+		b4 r8. b16 b4 r8. b16
+		d4 r8. d16 es4 r8. es16
+		b4 r8. b16 b4 r8. b16
+		b4 r8. b16 f'4 r8. f16
+		es4 r8. es16 es4 r8. es16 %195
+		es4 r8. es16 es4 r8. es16
+		c4 r8. c16 b4 r8. d16
+		f4 r8. f16 f4 r8. f16
+		d4\f d2 c4
+		b b2 h4 %200
+		c d es e
+		f a2 c4
+		f, f g f8 es
+		d4 <b f'> r q
+		r q r q %205
+		es es' b g
+		es es' c as
+		es g b g
+		es b g g'
+		as as, as as' %210
+		a f g a
+		b d b f
+		d c b c
+		d es f g
+		as g f es %215
+		d f d b
+		es g, as as'
+		b b, c c'
+		as f b b,
+		es g2 f4 %220
+		es g c, b
+		as c d es
+		f es d as
+		g es' b es
+		g b g es %225
+		b' b, d f
+		b f d b
+		a!\p f c' f,
+		a f c' f,
+		b f d' f, %230
+		b d f d
+		h g d' g,
+		h g d' g,
+		c g es' g,
+		c es g c %235
+		es\f c g es
+		d g c, g'
+		h, g' h, c
+		d g, a h
+		c es g c %240
+		g f g g,
+		c g'2 es4
+		c c d es
+		f fis g g,~
+		g es as g %245
+		c c' g e
+		f as f c
+		g' b g c,
+		f c' as f
+		d f d b %250
+		es g es b
+		f' as f b,
+		es b' g es
+		h d h g
+		c es g c %255
+		f, a! c es
+		d^\critnote r r2
+		r b,~\p
+		b b
+		c a! %260
+		b a
+		b1
+		g
+		f
+		f4\f f' c a %265
+		f f' f f
+		f, f' f f
+		b, b' b b
+		b, b' b b
+		b(\p f d b) %270
+		g'( d b g)
+		e'( b g e)
+		f\f a c f
+		f, b d f
+		f, a c f %275
+		d f d b
+		f' f, f' d
+		g f es d
+		c c'8 h c4 c,
+		f es d c %280
+		b b'8 a b4 as
+		g g, f f'
+		es es, d g
+		f f'8 e f4 f,
+		b b' a f %285
+		b b, f' f,
+		b b' a f
+		b b, f' f,
+		b2 r\fermata \bar "|." %289 finis
+	}
+}

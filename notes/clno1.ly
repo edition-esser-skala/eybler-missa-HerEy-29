@@ -239,3 +239,66 @@ EtIncarnatusClarinoI = {
 		R2.\fermataMarkup \bar "||" %128 finis
 	}
 }
+
+EtResurrexitClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoEtResurrexit
+			\set Score.currentBarNumber = #129
+		c'2\fE c4 c
+		\partcombineChordsOnce e2 c %130
+		d d4 d
+		f2 d
+		c c4 c
+		c2 r
+		R1 %135
+		r4 e, g c
+		e2 e4 e
+		d r r2
+		\pa d d4 d \pd
+		d4 r r2 %140
+		g,4 r r2
+		g4 r r2
+		g4 r r2
+		g4 r r2
+		g4 g8 g g4 g %145
+		g r r2
+		R1
+		g4 r r2
+		R1*50 %198
+		c4\fE r r2
+		R1*4 %203
+		c4 r c r
+		c c8 c c4 c %205
+		c r r2
+		R1*4 %210
+		d1
+		e2 r
+		c c
+		c1
+		c %215
+		c
+		c4 r r2
+		R1*47 %264
+		g2\fE g %265
+		g r
+		d'1
+		c4 d e f
+		g2 e
+		R1*3 %272
+		r2 r4 d\fE
+		\partcombineChords e2 c4 e
+		d2 r4 d %275
+		e2 c4 e \pd
+		d2^\critnote r
+		R1*4 %281
+		c2 c4 c
+		c2 r
+		e d
+		c4 r r d %285
+		e e d2
+		e4 r r d
+		e e8 e d4 d
+		c2 r\fermata \bar "|." %289 finis
+	}
+}
