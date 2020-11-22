@@ -1201,6 +1201,94 @@ EtResurrexitTenoreLyrics = \lyricmode {
 	men. %289 finis
 }
 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key b \major \time 3/4 \autoBeamOff \tempoSanctus
+		R2.
+		\mvTr b4\fE^\tuttiE a r
+		R2.
+		a4 b r
+		r b b %5
+		r b8. b16 b4
+		r a a
+		b8. b16 d4 r
+		b2.
+		c4 r r %10
+		c2.
+		c4 r r \noBreak
+		R2.\fermataMarkup \bar "||"
+		\time 2/4 \tempoPleni R2*2 %15
+		d8 c r c
+		d c r c
+		d([ c)] d c
+		d c r4
+		d2( %20
+		es8[ d)] es g
+		f4.( es8)
+		d4 r
+		R2*6 %29
+		r4 r8 d %30
+		b4 c8([ d)]
+		es4 g
+		c, f
+		r r8 f,
+		b4. c8 %35
+		d4. es8
+		f2
+		d4 r8 b
+		b4 b
+		g g %40
+		b( c)
+		b d8 b
+		f'2
+		b,4 r8 d
+		c4.( es8) %45
+		d4 r\fermata \bar "|." %46 finis
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	San -- ctus, %2
+
+	san -- ctus,
+	san -- ctus %5
+	Do -- mi -- nus
+	De -- us
+	Sa -- ba -- oth,
+	san --
+	ctus, %10
+	san --
+	ctus.
+
+	Ple -- ni sunt %16
+	coe -- li, sunt
+	coe -- li et
+	ter -- ra
+	glo -- %20
+	ri -- a
+	tu --
+	a.
+
+	O -- %30
+	san -- na
+	in ex --
+	cel -- sis,
+	o --
+	san -- na %35
+	in ex --
+	cel --
+	sis, o --
+	san -- na
+	in ex -- %40
+	cel --
+	sis, in ex --
+	cel --
+	sis, ex --
+	cel -- %45
+	sis. %46 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

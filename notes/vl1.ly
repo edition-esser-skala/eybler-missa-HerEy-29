@@ -697,6 +697,59 @@ EtResurrexitViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 3/4 \tempoSanctus
+		b8\p d4 f b8
+		<d f, b,>4\f <c f, a,> r
+		c,8\p f4 a c8
+		<es f, a,>4\f <d f, b,> r
+		<f b, d,>~ f16( es d es f g a b) %5
+		b4~ b16( fis g fis g d es g)
+		a,4~ a16( c f a c c, f es)
+		d4~ d16( es f g a b c d)
+		d4.( c16 b a g f e)
+		g( f b a g f e d c h b a) %10
+		<g g,>4~ g16( a b h c cis d e,)
+		f8 r f-! r f-! r \noBreak
+		f2.\fermata \bar "||"
+		\time 2/4 \tempoPleni \once \slurDashed c'8( f) f-! f-! \noBreak
+		f4^\critnote r8 <f, c'>-! %15
+		<f d'>-! <f c'>-! r q-!
+		<f d'>-! <f c'>-! r q-!
+		<f d'>-! <f c'>-! <f d'>-! <f c'>-!
+		\parOn <f d'>-\parenthesize-! \parOff <f c'>-\parenthesize-! f'4~
+		f16 b, d b es b f' b, %20
+		g' b, d h c g es' c
+		d f b d, c8 <c a'>
+		b16 d f es d f b g
+		e( f g es) cis( d es c)
+		b d c es d f es g %25
+		f b b, es c4\trill
+		b8\p b-! b( c)
+		r d-! d( es)
+		r f-! f( b)
+		r d,-! d( f) %30
+		f16(\f es) es-! es-! es( d) d-! d-!
+		d( c) c-! c-! c( b) b-! b-!
+		a8 f16 g a b c d
+		es c a b c a f es
+		d8\p b-! b( c) %35
+		r d-! d( es)
+		r f-! f( b)
+		r d,-! d( b')
+		\slurDashed b16(\f es) \parOn es-\parenthesize-! es-! es( d) d-! \parOff d-\parenthesize-! \slurSolid
+		d c c d d es es g %40
+		f d d b f a a c
+		b f f b b d d f
+		f, g a b c d es c
+		d f, f b b d d f
+		a, b c d es f g a %45
+		<b b, d,>4 r\fermata \bar "|." %46 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

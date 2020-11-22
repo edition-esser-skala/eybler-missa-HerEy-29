@@ -696,3 +696,56 @@ EtResurrexitViolinoII = {
 		<d b'>2 r\fermata \bar "|." %289 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 3/4 \tempoSanctus
+		b8\p b4 d f8
+		<d b'>4\f <c a'> r
+		a8\p c4 f a8
+		<es c'>4\f <d b'> r
+		R2. %5
+		\once \tieDashed b'4~ b16( fis g fis-\critnote g d es g)
+		\once \tieDashed a,4~ a16( c f a c c, f es)
+		\once \tieDashed d4~ d16( es f g a b c d)
+		d4.( c16 b a g f e)
+		g( f b a g f e d c h b a) %10
+		\once \tieDashed g4~ g16( a b h c cis d b)
+		a8.. d32 c8.. d32 c8.. \once \slurDashed d32 \noBreak
+		c2.\fermata \bar "||"
+		\time 2/4 \tempoPleni \once \slurDashed c'8( f) f-! f-!
+		f4 r8 a, %15
+		b a r a
+		b a r a
+		b a b a
+		b a f'4~
+		f16 b, d b es b f' b, %20
+		g' b, d h c g es' c
+		d f b d, c8 a'
+		b,16 d f es d f b g
+		\slurDashed e( f g es) cis( d es c) \slurSolid
+		b d c es d f es g %25
+		f8 b,4\trill a8
+		b8\p d,-! d( f)
+		r b-! b( c)
+		r d-! d( f)
+		r b,-! b( d) %30
+		f16(\f es) es-! es-! es( d) d-! d-!
+		d( c) c-! c-! c( b) b-! b-!
+		a8 f16 g a b c d
+		es c a b c a f es
+		d8-!\p b-! b( a) %35
+		r b-! b( c)
+		r d-! d( f)
+		r b,-! b( d)
+		b16(\f es) es-! es-! es( d) d-! d-!
+		d c c d d es es g %40
+		f b b d f, a a c
+		b f f b b d d f
+		f, g a b c d es c
+		d f, f b b d d f
+		a, b c d es f g a %45
+		<b b,>4 r\fermata \bar "|." %46 finis
+	}
+}

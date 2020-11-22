@@ -670,6 +670,8 @@ tempoGloria = \tempoMarkup "Allegro vivace"
 tempoCredo = \tempoMarkup "Allegro"
 	tempoEtIncarnatus = \tempoMarkup "Adagio"
 	tempoEtResurrexit = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Andante"
+	tempoPleni = \tempoMarkup "Allegro"
 
 vlne =    \markup \remark  "vlne"
 vlneE =   \markup \remarkE "vlne"

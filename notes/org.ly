@@ -1453,6 +1453,108 @@ EtResurrexitBassFigures = \figuremode {
 	r1 %289 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key b \major \time 3/4 \tempoSanctus
+		\mvTr b'4-!\p-\solo f-! d-!
+		\mvTr b-!\f-\tutti f-! r
+		\mvTr f'-!\p-\solo c-! a-!
+		\mvTr f-!\f-\tutti b-! r
+		d,8 d' d d d d %5
+		es, es' es es es es
+		f, f' f f f f
+		b, b' b b a a
+		g g g g c, c
+		f4 r r %10
+		c8 c c c c c
+		f,4 f f \noBreak
+		f2.\fermata \bar "||"
+		\time 2/4 \tempoPleni R2 \noBreak
+		r4 r8 f' %15
+		b f r f
+		b f r f
+		b f b f
+		b f r4
+		as, as'8 as %20
+		g f es c
+		f4 f,
+		b r8 b'-\solo
+		a g f es
+		d a b c %25
+		d g es f
+		b4\p r
+		b r
+		b r
+		b r %30
+		\mvTr g,8\f-\tutti g' f f,
+		es es' e e,
+		f es'' c a
+		f f, g a
+		\mvTr b4\p-\solo r %35
+		b r
+		b r
+		b r
+		\mvTr g8\f-\tutti g' f f,
+		es es' c c, %40
+		f f' f f,
+		b d f b
+		a c a f
+		b f d b
+		f' c a f %45
+		b4 r\fermata \bar "|." %46 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r2.
+	r
+	r
+	r
+	<6> %5
+	r
+	r
+	r2 <6>4
+	<6! [5]>2 <[7 _!]>4
+	r2. %10
+	<7 [_!]>
+	r
+	r
+	r2
+	r %15
+	r
+	r
+	r
+	r
+	<4> %20
+	<6>8 <4! _-> <6>4
+	<6 4> <[5] 3>
+	r4. \bo <[6 \l]>8
+	<6> q q q
+	q <6 5> r <6> %25
+	q q \bc <[6 5]>4
+	r2
+	r
+	r
+	r %30
+	<7>8 <6> <7> <6>
+	<7> <6> <\t> <5>
+	\bo <[7]>2 \bassFigureExtendersOn
+	<7>4. \bc <[7]>8 \bassFigureExtendersOff
+	r2 %35
+	r
+	r
+	r
+	<6>4 <7 4>8 <6 \t>
+	<6>2 %40
+	\bo <[6] 4>4 \bc <[7] 3>
+	r2
+	<[6]>
+	r
+	r4. <[7]>8 %45
+	r2 %46 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
