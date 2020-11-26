@@ -744,7 +744,120 @@ SanctusViola = {
 		d f d b
 		c f c a
 		b d f b
+		c a f es %45
+		d4 r\fermata \bar "|." %46 finis
+	}
+}
+
+BenedictusViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 2/2 \tempoBenedictus
+		r4 b\p b b
+		r as as as
+		r f f f
+		r g g r
+		r b2 b4~ %5
+		b b2 b4~
+		b g es c'
+		b2. r4
+		r b b b
+		r c c c %10
+		r as as as
+		r g g r
+		r g( f) r
+		r \once \slurDashed b( c) b
+		r8 as as as r b b b %15
+		r c r b r b r b
+		as4 es' c as
+		g( f) d8 d es es
+		f4 f f f
+		r a a c %20
+		d c b g-\critnote
+		r a a r
+		r b d r
+		r b es r
+		r a, f r %25
+		f8 f f' f es es g g
+		f f f f f f f f
+		d(\mf f b, f) a( c es c)
+		b( d b f) a( c es c)
+		b( d b f) a( c es c) %30
+		d d\p d d f f f f
+		b, b b b g' g g g
+		f f f f f f f f
+		f, f f f f f f f
+		b b b b b b b b %35
+		g g g g g g g g
+		a a a a f f f f
+		r f f f f4 r
+		r8 f f f f f f f
+		g g g g g g a a %40
+		b b f f g g es es
+		d4 f2 f'4~
+		f b,2 f4
+		f1
+		r4 d' d d %45
+		r es es es
+		r c c f
+		r f f r
+		r b, b r
+		r b b r %50
+		r f2 f4
+		d <b' f'>2\fE q4
+		q1
+		<b es>4 es\pE es es
+		r es es es %55
+		r as, as as
+		r b-\critnote b as
+		b b2 as4(
+		b) b2 b4
+		as r r c %60
+		b2 b8 b as as
+		g4 b b b
+		r c c c
+		r b b b
+		r b b r %65
+		r as as r
+		r c c r
+		r b b b
+		b r c r
+		r8 b b b b b b b %70
+		g(\mf b es b) d( f as f)
+		es( g es b) d( f as f)
+		es( g es b) d( f as f)
+		g b,\p b b b b b b
+		as as as as c c c c %75
+		b b b b b b b b
+		b b b b b b b b
+		b b b b b b h h
+		c c c c c c a a
+		b b b b b b a a %80
+		b b b b b b b b
+		b b b b b b b b
+		b b b b b b b b
+		g4 r r g \noBreak
+		f2\fermata f4\fermata r \bar "||" %85
+		\twofourtime \key b \major \time 2/4 \tempoOsanna
+			b4 r \noBreak
+		b r
+		b r
+		b r8 b
+		b'8\fE b, a a' %90
+		g g, g' g
+		f f,16 g a b c d
+		es c a b c a f es
+		d8-!\p d-! d( f)
+		b4 r %95
+		R2
+		r4 r8 f'
+		es8\f b b b'
+		g g, g es'
+		d b es c %100
+		d f d b
+		c f c a
+		b d f b
 		c a f es
-		d4 r\fermata \bar "|."
+		d4 r\fermata \bar "|." %105 finis
 	}
 }

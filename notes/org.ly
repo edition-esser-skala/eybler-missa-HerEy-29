@@ -1489,7 +1489,7 @@ SanctusOrgano = {
 		b r %30
 		\mvTr g,8\f-\tutti g' f f,
 		es es' e e,
-		f es'' c a
+		f es''! c a
 		f f, g a
 		\mvTr b4\p-\solo r %35
 		b r
@@ -1553,6 +1553,340 @@ SanctusBassFigures = \figuremode {
 	r
 	r4. <[7]>8 %45
 	r2 %46 finis
+}
+
+BenedictusCello = {
+	\relative c {
+		\clef "treble_8"
+		\key es \major \time 2/2 \tempoBenedictus
+		b'2~^\solo b8 c16( d es[ f g es)]
+		d( c h c) c4~ c8 as'16( g f[ es d c)]
+		b\trill a b c d[\trill c d es] f\trill e f g as?[ c b as]
+		\appoggiatura fis4 g2 r4 g,16( b es g)
+		b4 b16( a c b) as[ g f es] d c b as %5
+		g8. b'16 a[ b c b] as[ g f es] d c b as
+		g8 g'16 as b[ c d es] d[ c h c] b as g f
+		\afterGrace es2 { f16[ es] } d4 r
+		\clef bass r es,\p es es
+		r as, as as %10
+		r b b b
+		r es es r
+		r \once \slurDashed es( d) r
+		r \once \slurDashed des( c) g
+		as8 as' as as r g g g %15
+		r f r f r es r g
+		as4 as, as' f
+		b r8 \clef "treble_8" f'-!^\solo g16( f) es-! d-! d([ c) b-! a-!]
+		b4 \clef bass d,\pE d d
+		r es es es %20
+		d a' b es,
+		r f f r
+		r d b r
+		r es c r
+		r f a, r %25
+		b8 b d d es es c c
+		f2 r
+		\clef "treble_8" r4 \once \slurDashed f'16(-\solo b d f es[ d c b] a g f es)
+		d( f b d f,[ b d f] es[ d c b] a g f es)
+		d( f b d f,[ b d f] es[ d c b] a g f es) %30
+		d4 r \clef bass d,8\pE d d d
+		es es es es c c c c
+		f f f f f f f f
+		f f f f f f f f
+		\clef "treble_8" b4-\solo f'~ f8 b16( a g[ f es d]) %35
+		d c h c \once \tieDashed c4~ c8 es16 d c[ b a g]
+		f a g b a[ c b d] c[ es d f] es g f es
+		d2 r4 d,16 f b d
+		f4 f16 e g f as! g f es d[ c b as]
+		g4 g'~ g8 a16 b c[ b a g] %40
+		f[ g a b] a b f d c2\trill
+		b4 d,16([ f) b-! d]-! f( d) b-! d-! es([ c) a-! es]-!
+		d( f) b-! d-! f([ b) d-! c]-! b( a g f e[ f g es])
+		\afterGrace es2 { f16[ es] } d2
+		\clef bass r4 b,\p b b %45
+		r es es es^\critnote
+		r a, a a
+		r b b r
+		r d d r
+		r es es r %50
+		f r f, r
+		b \clef "treble_8" b'16^\solo a b c d[\trill c d es] f\trill es f g
+		b( as!) as( g) g([ f) f( es)] es([ d) d( c)] c( b) b( as)
+		g4 \clef bass es\pE es es
+		r as, as as %55
+		r b b b
+		r es es r
+		\clef "treble_8" r8 b'16^\solo c d[ es f d] es4 r
+		r8 b16 c d[ es f d] es4 r
+		r as,~ as8 c'( b as) %60
+		g4( f8) b c16([ b as g)] g( f es d)
+		es4 \clef bass g,\pE g g
+		r f f f
+		r b, b b
+		r es es r %65
+		r as as r
+		r f f r
+		r d d d
+		es r as r
+		b r b, r %70
+		es \clef "treble_8" b'16(^\solo es) g-! b-! as( g f es) d([ c b as)]
+		g b es g b,[ es g b] as[ g f es] d c b as
+		g b es g b,[ es g b] as[ g f es] d c b as
+		g4 r \clef bass g,8\pE g g g
+		as as as as as' as as as %75
+		b b b b b b b b
+		b, b b b b b b b
+		es4 \clef "treble_8" g'~^\solo g8 f16 es es([ d c h)]
+		c8 r c,16( d es f) g([ a h c)] d es f g
+		f4 b16 a g f es[ d c b] a b c a %80
+		b8 c16 d es[ f g a] b[ c d c] b a g f
+		f8 es es4~ es16 d cis d cis[ d es f]
+		fis g a? g g4~ g16 f b a? g[ f es d]
+		c([ h d c] es d f es g[ fis a g] f es d c) \noBreak
+		\grace { a[ b c] } b2\trill\fermata \grace { a16[ b] } a4\trill\fermata r \bar "||" %85
+		\clef bass \twofourtime \key b \major \time 2/4 \tempoOsanna
+			\mvTr b4\p r \noBreak
+		b r
+		b r
+		b r
+		g,8\f g' f f, %90
+		es es' e e,
+		f es''! c a
+		f f, g a
+		b4\p r
+		b r %95
+		b r
+		b r
+		g8\f g' f f,
+		es es' c c,
+		f f' f f, %100
+		b d f b
+		a c a f
+		b f d b
+		f' c a f
+		b4 r\fermata \bar "|." %105 finis
+	}
+}
+
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/2 \tempoBenedictus
+		r4 \mvTr es\pE-\soloE es es
+		r as, as as
+		r b b b
+		r es es r
+		r g f b, %5
+		es g f b,
+		es g as f
+		b b, b' r
+		r es, es es
+		r as, as as %10
+		r b b b
+		r es es r
+		r es'( d) r
+		r des( c) g
+		as r g r %15
+		f b, es g,
+		as as'2 f4
+		b b, b'8 b c c
+		d4 d, d d
+		r es es es %20
+		d a' b es,
+		r f f, r
+		r d' b r
+		r es c r
+		r f a, r %25
+		b8 b d d es es c c
+		f f f f f, f f f
+		b4 d' c f,
+		b d c f,
+		b d c f, %30
+		b8 b b b d, d d d
+		es es es es c c c c
+		f f f f f f f f
+		f, f f f f f f f
+		b b b b d d d d %35
+		es es es es c c c c
+		f f f f a, a a a
+		r b b b b4 r
+		r8 d d d b b b b
+		es es es es es' es es es %40
+		d d d, d es es f f
+		b,4 r d f
+		b r d, f
+		b f b, r
+		r b b b %45
+		r es es es
+		r a, a a
+		r b b r
+		r d d r
+		r es es r %50
+		f r f, r
+		b2 b'4 b
+		b2 b,
+		es4 es es es
+		r as,! as as %55
+		r b b b
+		r es es as
+		g b, es as
+		g b, es g,
+		as c f as %60
+		b2 b,8 b as as
+		g4 g' g g
+		r f f f
+		r b, b b
+		r es es r %65
+		r as as r
+		r f f r
+		r d d d
+		es r as r
+		b r b, r %70
+		es g f b,
+		es g f b,
+		es g f b,
+		es8 es es es g, g g g
+		as as as as as' as as as %75
+		b b b b b b b b
+		b, b b b b b b b
+		es es es es es es f f
+		es es es es c c es es
+		d d d d d d es es %80
+		d d d d b b d d
+		g g g g f f f f
+		es es es es d d d d
+		es4 r r c \noBreak
+		f2\fermata f,4\fermata r4 \bar "||" %85
+		\twofourtime \key b \major \time 2/4 \tempoOsanna
+			\mvTr b'4 r \noBreak
+		b r
+		b r
+		b r
+		\mvTr g,8\f-\tutti g' f f, %90
+		es es' e e,
+		f es''! c a
+		f f, g a
+		\mvTr b4\p-\solo r
+		b r %95
+		b r
+		b r
+		\mvTr g8\f-\tutti g' f f,
+		es es' c c,
+		f f' f f, %100
+		b d f b
+		a c a f
+		b f d b
+		f' c a f
+		b4 r\fermata \bar "|." %105 finis
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	r1
+	r
+	r
+	r
+	r4 <6> q <7> %5
+	r <6> q <7>
+	r <6>2.
+	<6 4>2 <5 3>
+	r1
+	r %10
+	r4 <7>2.
+	r1
+	r2 <6>
+	r4 <2> <6> q
+	r2 q %15
+	<7 4 >4 <7> r <6>
+	r <5> <6>2
+	<6 4>4 <5 3>2 <6!>4
+	<6>1
+	r4 <4! 2>2. %20
+	<6>4 <6 5>2.
+	r4 <_!>2.
+	r4 <6>2.
+	r1
+	r4 <_!> <6>2 %25
+	r4 <6>2.
+	<6 4>2 <5 _!>
+	r4 <6> <6!> <7 _!>
+	r <6> <6!> <7 _!>
+	r <6> <6!> <7 _!> %30
+	r2 <6>
+	r1
+	<6 4>
+	<5 _!>
+	r2 <6> %35
+	q1
+	<7 _!>2 <6 5>
+	r1
+	r8 <6>4. <7->2
+	<5>4 <5!> <6> <4! 3> %40
+	<6>2 <6 5>4 <7 _!>
+	r2 <6>4 <7 _!>
+	r2 <6>4 <7 _!>
+	<7! 4> <\t \t> <8 3>2
+	r1 %45
+	r
+	r4 <6>2 <5>4
+	r1
+	r4 <6>2.
+	r1 %50
+	<6 4>2 <8 6>8 <7 5> <6 4> <5 _!>
+	r1
+	<7->
+	r1
+	r %55
+	r4 <7>2.
+	r1
+	<6>4 <8>8 <7> r2
+	<6>4 <8>8 <7> r4 <6>
+	r4 q2 q4 %60
+	<6 4>4 <5 3>2 <\t \t>4
+	<6>1
+	r4 <7>2.
+	r1
+	r %65
+	r
+	r
+	r4 <6 5>2.
+	r2 <6>
+	<6 4> <5 3> %70
+	r4 <6> q <7>
+	r <6> q <7>
+	r <6> q <7>
+	r2 <6>
+	<5> <6> %75
+	<6 4>1
+	<7 3>
+	r2 <6>4 <4! _->
+	<6>2. q4
+	<6->2. <4! 3>4 %80
+	<6>2. q4
+	<7>8 <6>4. <6 4>2
+	r <6>
+	q1
+	<6 4>2 <5 _!> %85
+	r2
+	r
+	r
+	r
+	<7>8 <6> <7> <6> %90
+	<7> <6> <\t> <5>
+	\bo <[7]>2 \bassFigureExtendersOn
+	<7>4. \bc <[7]>8 \bassFigureExtendersOff
+	r2
+	r %95
+	r
+	r
+	<6>4 <7 4>8 <6 \t>
+	<6>2
+	\bo <[6] 4>4 \bc <[7] 3> %100
+	r2
+	<[6]>
+	r
+	r4. <[7]>8
+	r2 %105 finis
 }
 
 % Organo = {

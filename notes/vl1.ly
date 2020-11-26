@@ -750,6 +750,119 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoBenedictus
+		r4 g'\p g g
+		r as as as
+		r d, d d
+		r es es r
+		r es d f %5
+		b, es d f
+		b, es2 f4
+		es2 d4 r
+		r g g g
+		r as as as %10
+		r d, d d
+		r es es r
+		r es( f) r
+		r \once \slurDashed g( as) b
+		r8 c c c r-\critnote b b b %15
+		r b r as r g r b
+		r c( b as g f as f)
+		\once \slurDashed es4( d8) f' g16( f es d) d([ c b a)]
+		b4 f f b
+		r f f a %20
+		b c d es
+		r c c r
+		r b b r
+		r g c r
+		r c f, r %25
+		d8 d b' b g g es' es
+		d d d d c c c c
+		b f4\mfE f f a8
+		b f4 f f a8
+		b f4 f f a8 %30
+		b b\pE b b f' f f f
+		g, g g g es' es es es
+		d16\f b' d, b' d,[ b' d, b'] d,[ b' d, b'] d, b' d, b'
+		c, a' c, a' c,[ a' c, a'] c,[ a' c, a'] c, a' c, a'
+		b,8 f\p f f f f f f %35
+		g g g g es es es es
+		es es es es es es es es
+		r d d d d4 r
+		r8 b b b d d d d
+		es es es es es es g g %40
+		f f d d c c c c
+		b4 f'2 a4
+		b f2 a,4
+		a2( b)
+		r4 b' b b %45
+		r g g g
+		r f f es'
+		r d d r
+		r b b r
+		r g g r %50
+		r f~ f8 es d c
+		b4 <b f'>2\f q4
+		<b as'!>1
+		<b g'>4 b'\p b b
+		r c c c %55
+		r f, f f
+		r g g c(
+		b) d,( es) c'(
+		b) d,( es) b'(
+		c) r r as %60
+		g( f) d8 d d f
+		es4 es es es
+		r as as as
+		r f f f
+		r g g r %65
+		r c c r
+		r as as r
+		r as as as
+		g r as r
+		r8 g g g f f f f %70
+		es4 r r <b f' d'>-\pizz
+		<b g' es'> r r <b f' d'>
+		<b g' es'> r r <b f' d'>
+		<b g' es'> r b'8^\arco b b b
+		c c c c as as as as %75
+		g16\f es' g, es' g,[ es' g, es'] g,[ es' g, es'] g, es' g, es'
+		f, d' f, d' f,[ d' f, d'] f,[ d' f, d'] f, d' f, d'
+		es,8 g\p g g g g as as
+		g g g g g g g g
+		f f f f f f f f %80
+		f f f f f f f f
+		r es es es r d d d
+		r g g g r f f f
+		es4 r r es \noBreak
+		d2\fermata c4\fermata r8 f \bar "||" %85
+		\twofourtime \key b \major \time 2/4 \tempoOsanna
+			b8 b-! b( c) \noBreak
+		r d-! d( es)
+		r f-! f( b)
+		r d,-! d( f)
+		f16\f( es) es-! es-! es( d) d-! d-! %90
+		d( c) c-! c-! c( b) b-! b-!
+		a8 f16 g a b c d
+		es c a b c a f es
+		d8\p b-! b( c)
+		r d-! d( es) %95
+		r f-! f( b)
+		r d,-! d( b')
+		b16(\f es) es-! es-! es( d) d-! d-!
+		d( c) c-! d-! d( es) es-! g-!
+		f d d b f a a c %100
+		b f f b b d d f
+		f, g a b c d es c
+		d f, f b b d d f
+		a, b c d es f g a
+		<b b, d,>4 r\fermata \bar "|." %105 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

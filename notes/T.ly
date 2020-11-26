@@ -1289,6 +1289,110 @@ SanctusTenoreLyrics = \lyricmode {
 	sis. %46 finis
 }
 
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 2/2 \autoBeamOff \tempoBenedictus
+		R1*27 %27
+		r4 \mvTr b8.\pE^\tuttiE b16 es8([ c)] a4
+		r b8([ d)] es([ c)] a4
+		r b8. b16 es8([ c)] a4 %30
+		r b d b
+		r g g g8 g
+		f2 f4 f
+		a2. a4
+		b2 r %35
+		R1*13 %48
+		r4 b2 b4
+		b b r2 %50
+		r4 b b8([ c)] d es
+		d4( f) d b
+		d2. d4
+		es2 r
+		R1*3 %57
+		r4 b8. b16 b4 es,
+		r b' b es,
+		R1*11 %70
+		r4 b'8. b16 b4 b
+		r b b b
+		r b8. b16 b4 b
+		r b b b
+		r as as as8 as %75
+		g2 g4 g
+		as2. as4
+		g2 r
+		R1*6 \noBreak %84
+		r2\fermata r4\fermata r \bar "||" %85
+		\twofourtime \key b \major \time 2/4 \tempoOsanna
+			R2*3 %88
+		r4 r8 d'\fE
+		b4 c8([ d)] %90
+		es4 g
+		c, f
+		r r8 f,
+		b4. c8
+		d4. es8 %95
+		f2
+		d4 r8 b
+		b4 b
+		g g
+		b( c) %100
+		b d8 b
+		f'2
+		b,4 r8 d
+		c4.( es8)
+		d4 r\fermata \bar "|." %105 finis
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, %28
+	qui ve -- nit,
+	be -- ne -- di -- ctus, %30
+	qui ve -- nit,
+	qui ve -- nit in
+	no -- mi -- ne
+	Do -- mi --
+	ni. %35
+
+	Be -- ne -- %49
+	di -- ctus, %50
+	qui ve -- nit in
+	no -- mi -- ne
+	Do -- mi --
+	ni.
+
+	Be -- ne -- di -- ctus, %58
+	qui ve -- nit,
+
+	be -- ne -- di -- ctus, %71
+	qui ve -- nit,
+	be -- ne -- di -- ctus,
+	qui ve -- nit,
+	qui ve -- nit in %75
+	no -- mi -- ne
+	Do -- mi --
+	ni.
+
+	O -- %89
+	san -- na %90
+	in ex --
+	cel -- sis,
+	o --
+	san -- na
+	in ex -- %95
+	cel --
+	sis, o --
+	san -- na
+	in ex --
+	cel -- %100
+	sis, in ex --
+	cel --
+	sis, ex --
+	cel --
+	sis. %105 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

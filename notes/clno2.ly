@@ -342,3 +342,24 @@ SanctusClarinoII = {
 		e4 r\fermata \bar "|." %46 finis
 	}
 }
+
+BenedictusClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoBenedictus
+		R1*84 \noBreak %84
+		r2\fermata r4\fermata r \bar "||" %85
+		\twofourtime \time 2/4 \tempoOsanna
+			R2*6 %91
+		g'2~\fE
+		g
+		e4 r
+		R2*5 %99
+		c'4\fE g %100
+		e8 g e c
+		g'2
+		c8 g e c
+		g'2
+		e4 r\fermata \bar "|." %105 finis
+	}
+}

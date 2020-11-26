@@ -749,3 +749,116 @@ SanctusViolinoII = {
 		<b b,>4 r\fermata \bar "|." %46 finis
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoBenedictus
+		r4 es\p es es
+		r c c c
+		r b b b
+		r b b r
+		r b2 d4 %5
+		es b2 d4
+		es b as as'
+		g2 f4 r
+		r es es es
+		r es es es %10
+		r b b b
+		r b b r
+		r b2 r4
+		r4 es2 es4
+		r8 es es es r es es es %15
+		r es-\critnote r d r es r es
+		es4 c2 c4
+		b8 b b b b b es es
+		d4 b b b
+		r c c f-\critnote %20
+		f f f g
+		r f f r
+		r f f r
+		r es g r
+		r f c r %25
+		b8 b b b b b c' c
+		b b b b a a a a
+		b4 r r <c f, a,>-\pizz
+		<b f b,> r r <c f, a,>
+		<b f b,> r r <c f, a,> %30
+		<b f b,> r b8^\arco b b b
+		es, es es es c' c c c
+		f,16\fE d' f, d' f,[ d' f, d'] f,[ d' f, d'] f, d' f, d'
+		f, c' f, c' f,[ c' f, c'] f,[ c' f, c'] f, c' f, c'
+		b8 d,\p d d d d d d %35
+		c c c c c c c c
+		c c c c c c c c
+		r-\critnote b b b b4 r
+		r8 b b b b b b b
+		b b h h c c c c %40
+		d d b b b b a a
+		b4 d2 c4
+		b d2 c4
+		c2( b)
+		r4 f' f f %45
+		r b, b b
+		r c c c'
+		r b b r
+		r f f r
+		r es es r %50
+		r d~ d8 c b a
+		b4 d2\fE d4
+		d1
+		es4 g\pE g g
+		r as as as %55
+		r <b, d> q q
+		r es es es~
+		es \once \slurDashed f( g) es~
+		es \once \slurDashed f( g) es~
+		es r r f %60
+		es( d) b8 b b b
+		b4 b b b
+		r es es es
+		r d d d
+		r es es r %65
+		r es es r
+		r f f r
+		r f f f
+		es r f r
+		r8 es es es d d d d %70
+		es8 b'4\mf b b d8
+		es b4 b b d8
+		es b4 b b d8
+		es g,\p g g g g g g
+		c, c c c f f f f %75
+		b,16\fE g' b, g' b,[ g' b, g'] b,[ g' b, g'] b, g' b, g'
+		b, f' b, f' b,[ f' b, f'] b,[ f' b, f'] b, f' b, f'
+		es8 es\pE es es es es d d
+		es es es es es es c c
+		d d d d d d c c %80
+		d d d d d d d d
+		b b b b b b b b
+		b b b b b b b b
+		c4 r r c \noBreak
+		b2\fermata a4\fermata r8 f' \bar "||" %85
+		\twofourtime \key b \major \time 2/4 \tempoOsanna
+			d8 d-! d( f) \noBreak
+		r b-! b( c)
+		r d-! d( f)
+		r b,-! b( d)
+		f16(\f es) es-! es-! es( d) d-! d-! %90
+		d( c) c-! c-! c( b) b-! b-!
+		a8 f16 g a b c d
+		es c a b c a f es
+		d8-!\p b-! b( a)
+		r b-! b( c) %95
+		r d-! d( f)
+		r b,-! b( d)
+		b16(\f es) es-! es-! es( d) d-! d-!
+		d( c) c-! d-! d( es) es-! g-!
+		f b b d f, a a c %100
+		b f f b b d d f
+		f, g a b c d es c
+		d f, f b b d d f
+		f, g a b c d es f
+		<d f, b,>4 r\fermata \bar "|." %105 finis
+	}
+}
