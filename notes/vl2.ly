@@ -862,3 +862,64 @@ BenedictusViolinoII = {
 		<d f, b,>4 r\fermata \bar "|." %105 finis
 	}
 }
+
+AgnusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \minor \time 3/4 \tempoAgnus
+		\mvTr b4(\p-\markup \remarkE "con sordino" c des)
+		es8. f16 ges8 r r des'
+		c4~\sfpE c8 f,4 g8
+		f4~ f8 r r4
+		b,16 b b b b b b b b b b b %5
+		c c c c c c c c c c c c
+		d d d d d d d d d d d d
+		es es es es c c c c des des des des
+		c'\fE c c c b b b b es,\pE es es es
+		des des des des d d d d es es es es %10
+		e e e e f f f f f f f f
+		f f f f f f f f f f f f
+		f f f f f f f f f f f f
+		es es es es b b b b des des des des
+		c c c c b b b b des des des des %15
+		des des des des des des b b c c des des
+		des4( c8) ges'( f c)
+		des16 b b b b b b b b b b b
+		b b b b c c c c c c c c
+		c c c c des des des des d d d d %20
+		es es es' es des! des c! c b b a a
+		b b, es ges f f f f es es es es
+		des des des des des des des des des des des des
+		des des des des des des des des des des des des
+		des des des des des des des des c c c c %25
+		g'\fE g g g f f f f e\pE e e e
+		as, as as as a a a a b b b b
+		h h h h c c c c c c c c
+		c c c c c c c c c c c c
+		c c c c c c c c c c c c %30
+		es-\critnote es des des c c c c c c c c
+		c c c c c c c c c c c c
+		des des des des des des des des c c e e
+		f4( e8) des( c g?)
+		as16 c c c c c c c c c c c %35
+		des des des des des des des des des des des des
+		es es es es es es es es ges! ges ges ges
+		f f es' es des des c c b b ces ces
+		b b ces as ges ges ges ges f f f f
+		ges ges ges ges ges ges ges ges ges ges ges ges %40
+		ges ges ges ges ges ges ges ges ges ges ges ges
+		ges ges ges ges ges ges ges ges f f f f
+		b\fE b b b b b b b as\pE as as as
+		ges ges ges ges g g g g as as as as
+		a a a a b b b b b b b b %45
+		f f f f f f f f f f f f
+		es es es es es es es es es es es es
+		es es es es es es es es es es es es
+		c! c c c c c c c des des es es
+		des des c c es es es es des des des des %50
+		c c c c c c a-! a-! b-! b-! des-! des-!
+		c c c c c c a-! a-! b-! b-! des-! des-!
+		c( des) des( c) c( des) des( c) c( des) des( c)
+		c2 r4\fermata \bar "||" %54 finis
+	}
+}

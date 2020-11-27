@@ -1350,6 +1350,61 @@ BenedictusAltoLyrics = \lyricmode {
 	sis. %105 finis
 }
 
+AgnusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \minor \time 3/4 \autoBeamOff \tempoAgnus
+		R2.*17 %17
+		r4 r \mvTr b8\p^\tutti b
+		b4 c c8 c
+		c4 des d8 d %20
+		es4 f8 es([ des)] c
+		b es des4( c)
+		des r r
+		R2.*3 %26
+		f2^\solo f4
+		as g? r8 g?
+		b4 g8 e c b
+		as8.([ b16)] c4 r8 f %30
+		\appoggiatura es8 des4 c r8 c
+		c'8.([ b16)] as4 r8 f
+		ges!4 f8 e f g
+		\appoggiatura b as4 g r
+		r r f8^\tutti f %35
+		f4 g g8 g
+		g4 as a8 a
+		b([ c)] b a([ b)] f
+		es as ges4( f)
+		ges r r %40
+		R2.*13 %53
+		R2.\fermataMarkup \bar "||" %54 finis
+	}
+}
+
+AgnusAltoLyrics = \lyricmode {
+	Mi -- se -- %18
+	re -- re, mi -- se --
+	re -- re, mi -- se -- %20
+	re -- re, mi -- se --
+	re -- re no --
+	bis.
+
+	A -- gnus %27
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di, qui %30
+	tol -- lis pec --
+	ca -- ta, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se -- %35
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %40 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

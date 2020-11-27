@@ -861,3 +861,64 @@ BenedictusViola = {
 		d4 r\fermata \bar "|." %105 finis
 	}
 }
+
+AgnusViola = {
+	\relative c' {
+		\clef alto
+		\key b \minor \time 3/4 \tempoAgnus
+		\mvTr b4(\p-\markup \remark "con sordino" c des)
+		es8. f16 ges8 r r b
+		a4~\sfp a8 r r des,
+		c8.([ b16)] a8-\critnote r r4
+		<des, f>16 q q q q q q q q q q q %5
+		<es ges> q q q q q q q q q q q
+		<f as> q q q q q q q q q q q
+		b b b b a a a a b b b b
+		f'\fE f f f f f f f c\pE c c c
+		b b b b b b b b b b b b %10
+		des des des des c c c c c c c c
+		c c c c c c c c c c c c
+		des des des des des des des des b b b b
+		b b b b b b b b b b b b
+		f f f f b b b b b b b b %15
+		b b b b b b des des c c b b
+		b4( a8) ges'( f c)
+		des16( f,) f f f f f f f f f f
+		ges ges ges ges ges ges ges ges ges ges ges ges
+		as as as as as as as as ces ces ces ces %20
+		b b' heses heses as as ges ges f f es es
+		des ges, b b as as as as as as ges ges
+		f as as as as as as as as as as as
+		b b b b b b b b b b b b
+		b b b b b b b b as as as as %25
+		c\fE c c c c c c c b\pE b b b
+		f f f f f f f f f f f f
+		as as as as g g g g g g g g
+		g g g g g g g g g g g g
+		as as as as as as as as f f f f %30
+		f f f f f f f f as as as as
+		g? g g g as as as as c c c c
+		b b b b b b g g as as b b
+		c4~ c8 \once \slurDashed des( c g?)
+		as16 f f f f f f f f f f f %35
+		f f f f g g g g g g g g
+		g g g g as as as as a a a a
+		b b c c des des es es des des f f
+		b, b es es des des des des des des ces ces
+		b des des des des des des des des des des des %40
+		es es es es es es es es es es es es
+		es es es es es es es es des des des des
+		f\fE f f f ges ges ges ges f\pE f f f
+		es es es es es es es es es es es es
+		ges ges ges ges f f f f f f f f %45
+		b, b b b b b b b b b b b
+		b b b b b b b b b b b b
+		ces ces ces ces ces ces ces ces b b b b
+		a a a a a a a a b b a a
+		b b c c c c c c b b b b %50
+		a a a a a a <f c'> q <f des'> q g g
+		a a a a a a <f c'> q <f des'> q g g
+		a( b) b( a) a( b) b( a) a( b) b( a)
+		<f a>2 r4\fermata \bar "||" %%4 finis
+	}
+}

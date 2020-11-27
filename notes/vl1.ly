@@ -863,6 +863,67 @@ BenedictusViolinoI = {
 	}
 }
 
+AgnusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \minor \time 3/4 \tempoAgnus
+		\mvTr b4(\p-\markup \remark "con sordino" c des)
+		es8. f16 ges8-\critnote r r ges'
+		ges4(\sfpE f8) c( des b)
+		\once \slurDashed a8.( b16) c8 r r4
+		b,8 des'~\sf des16 des32(\p c) c( b) b( as) as( ges) ges( f) f( es) es( des) %5
+		c8 es'~\sfE es16 es32(\pE des) des( c) c( b) b( a) a( ges!) ges( f) f( es)
+		d8 f'~\sfE f16 f32(\pE es) es( d) d( ces) ces( b) b( as) as( ges) ges( f)
+		es16 es es es ges ges ges ges f f f f
+		es'\f es es es des des des des a\p a a a
+		b b b b b b b b b b b b %10
+		b b b b a a a a a a a a
+		c c c c c c c c c c c c
+		b b b b b b b b b b b b
+		as!-\critnote as ges ges f f f f f f f f
+		f f es es des des des des f f f f %15
+		b b b b b b e, e e e e e
+		f4. \once \slurDashed ges8( f c)
+		des f'~ f16 f32( es) es( des) des( c) c( b) b( as) as( ges) ges( f)
+		es8 ges'~ ges16 ges32( f) f( es) es( des) des( c) c( b) b( as) as( ges)
+		f8 as'~ as16 as32( ges) ges( f) f( es) es( d) d( ces) ces( b) b( as) %20
+		ges16 ges ges' ges f f es es des des c c
+		c32( b a b as ges f es) des16 des des des c c c c
+		des f f f f f f f f f f f
+		f f f f f f f f f f f f
+		es es es es e e e e f f f f %25
+		b\fE b b b as as as as g?\pE g g g
+		f f f f f f f f f f f f
+		f f f f e e e e e e e e
+		g g g g g g g g g g g g
+		f f f f f f f f f f f f %30
+		f f f f f f f f f f f f
+		g? g g g f f f f f f f f
+		ges ges ges ges f f e e f f g g
+		\appoggiatura b8 as4-\critnote g8 \once \slurDashed des( c g)
+		as \once \tieDashed c'~ c16 c32( b) b( as) as( g) g( f) f( es) es( des) des( c) %35
+		b8 des'~ des16 des32( c) c( b) b( as) as( g) g( f) f( es) es( des)
+		c8 \once \tieDashed es'~ es16 es32( des) des( c) c( b) b( a) a( ges) ges( f) f( es)
+		des16 des ges ges f f a a b b as' as
+		as32( ges f ges f es des ces) b16 b b b as as as as
+		ges b b b b b b b b b b b %40
+		b b b b b b b b b b b b
+		as as as as a a a a b b b b
+		as'!\f as as as ges ges ges ges d\p d d d
+		es es es es es es es es es es es es
+		es es es es d d d d d d d d %45
+		f f f f f f d d b b as as
+		ges ges ges ges ges ges ges ges ges ges ges ges
+		ges ges ges ges ges ges ges ges ges ges ges ges
+		ges ges ges ges ges ges ges ges f f f f
+		f f f f f f f f g g g g %50
+		f f f f f f f f f f e e
+		f f f f f f f f f f e e
+		f4 f f
+		f2 r4\fermata \bar "||" %54 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

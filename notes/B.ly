@@ -1411,6 +1411,61 @@ BenedictusBassoLyrics = \lyricmode {
 	sis. %105 finis
 }
 
+AgnusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \minor \time 3/4 \autoBeamOff \tempoAgnus
+		R2.*9 %9
+		\mvTr b'2\pE^\solo b4 %10
+		des c r8 c
+		es4 c8 a f es
+		des8.([ es16)] f4 r8 b
+		\appoggiatura as!8 ges4 f r8 des'
+		\appoggiatura f, es4 des r8 f %15
+		b4 des8 des, c b
+		f'4 f, r
+		r r des'?8^\tutti des
+		es4 es es8 es
+		f4 f f8 f %20
+		ges([ c!)] des a([ b)] f
+		ges es as4( as,)
+		des r r
+		R2.*11 %34
+		r4 r as'8^\tutti as %35
+		b4 b, b'8 b
+		c4 c, c'8 c
+		des([ a?)] b f([ ges)] d
+		es ces des2
+		ges,4 r r %40
+		R2.*13 %53
+		R2.\fermataMarkup \bar "||" %54 finis
+	}
+}
+
+AgnusBassoLyrics = \lyricmode {
+	A -- gnus %10
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di, qui
+	tol -- lis pec --
+	ca -- ta, qui %15
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se -- %20
+	re -- re, mi -- se --
+	re -- re no --
+	bis.
+
+	Mi -- se -- %35
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %40 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -1436,6 +1436,45 @@ BenedictusSopranoLyrics = \lyricmode {
 	sis. %105 finis
 }
 
+AgnusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \minor \time 3/4 \autoBeamOff \tempoAgnus
+		R2.*17 %17
+		r4 r \mvTr f8\pE^\tutti f
+		ges8.([ es16)] es4 ges8 ges
+		as8.([ f16)] f4 as8 ces %20
+		b([ heses)] as ges([ f)] es
+		des ges f4( es)
+		des r r
+		R2.*11 %34
+		r4 r c'8^\tutti c %35
+		des8.([ b16)] b8 r des des
+		es8.([ c16)] c4 es8 ges!
+		f8([ es)] des c[( b)] as!
+		ges ces b4( as)
+		ges r r %40
+		R2.*13 %53
+		R2.\fermataMarkup \bar "||" %54 finis
+	}
+}
+
+AgnusSopranoLyrics = \lyricmode {
+	Mi -- se -- %18
+	re -- re, mi -- se --
+	re -- re, mi -- se -- %20
+	re -- re, mi -- se --
+	re -- re no --
+	bis.
+
+	Mi -- se -- %35
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %40 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

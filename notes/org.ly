@@ -1889,6 +1889,124 @@ BenedictusBassFigures = \figuremode {
 	r2 %105 finis
 }
 
+AgnusOrgano = {
+	\relative c {
+		\clef bass
+		\key b \minor \time 3/4 \tempoAgnus
+		\mvTr b4(\pE-\solo-\unisono c des)
+		es8. f16 ges8 r r4
+		r r8 \clef "treble_8" a b e,
+		f4 r r
+		\clef bass b,16 b b b b b b b b b b b %5
+		b b b b b b b b b b b b
+		b b b b b b b b b b b b
+		ges' ges ges ges es es es es des des des des
+		a a a a b b b b f' f f f
+		ges ges ges ges ges ges ges ges ges ges ges ges %10
+		f f f f f f f f f f f f
+		a, a a a a a a a a a a a
+		b b b b b b b b des-\critnote des des des
+		es es es es des des des des b b b b
+		a a a a b b b b as as as as %15
+		ges ges ges ges ges ges ges ges ges ges ges ges
+		f4. ges'8(-\unisono f c)
+		des16 des des des des des des des des-\tuttiE des des des
+		es es es es es es es es es es es es
+		f f f f f f f f f f f f %20
+		ges ges c! c des des a a b b f f
+		ges ges es es as as as as as, as as as
+		des8.-\solo es16 f8 es des c
+		b8. c16 des8 c b as
+		ges16 ges' ges ges g g g g as as as as %25
+		e e e e f f f f c c c c
+		des des des des des des des des des des des des
+		c c c c c c c c c c c c
+		e e e e e e e e e e e e
+		f f f f f f f f as as as as %30
+		b b b b as as as as f f f f
+		e e e e f f f f as as as as
+		b b b b b b b b as as g g
+		f4 c8 des(-\unisonoE c g)
+		as16 as as as as as as as as-\tuttiE as as as %35
+		b b b b b b b b b b b b
+		c c c c c c c c c c c c
+		des des a' a b b f f ges ges d? d
+		es es ces^\critnote ces des des des des des des des des
+		ges8.-\solo as16 b8 as ges f %40
+		es8. f16 ges8 f es des
+		ces16 ces ces ces c c c c des des des des
+		d d d d es es es es b b b b
+		ces ces ces ces ces ces ces ces ces ces ces ces
+		b b b b b b b b b b b b %45
+		d d d d d d d d d d d d
+		es es es es es es es es es es es es
+		es es es es es es es es es es es es
+		es es es es es es es es des! des c! c
+		b b a a b b b b e, e e e %50
+		f8. a16 c8 es des b
+		f8. a16-\tasto c8 es des b
+		f4-\markup \remark "Pedale" f f
+		f2 r4\fermata \bar "||" %54 finis
+	}
+}
+
+AgnusBassFigures = \figuremode {
+	r2.
+	r
+	r4. <6>8 r <7 [_!]>
+	<_!>2.
+	r %5
+	<4 2>
+	<7- _!>
+	<6>4 <6 4! _-> <6>
+	<6 5>2 <7 _!>4
+	\bo <[10] 5> \bassFigureExtendersOn <10 5!> \bc <[10] 6> \bassFigureExtendersOff %10
+	<7! 6 4> <5 _!>2
+	<[6 5]>2.
+	r2 <6>4
+	\bo <[4]>8 \bc <[3]> <6>2
+	q8 <[5]> r4 <2> %15
+	<5>4. <6!>
+	<6 4>4 <[5] _!>2
+	<6>2.
+	<5 3>4 <6 \t>2
+	<5>4 <6> <6! 5-> %20
+	<6>8 <7--> <5> <7> <_-> <7 _!>
+	<5> <3> <6 4>4 <[5] 3>
+	\bo <[8 3]>2. \bassFigureExtendersOn
+	<8 3>2 q8. \bc <[8 3]>16 \bassFigureExtendersOff
+	<6 5>4 <6! \t> <6> %25
+	<6 5 [_!]> <_-> <7 _!>
+	<10 5>4 \bassFigureExtendersOn <10 5!> <10 6> \bassFigureExtendersOff
+	<7! 6 4> <5! _!>2
+	<[6 5 _!]>2.
+	r2 <[6]>4 %30
+	r <6>2
+	\bo <[6 _!]>2 \bc <[6 \l]>4
+	<6- _->4 \bassFigureExtendersOn <5 _->8 <4! _-> \bassFigureExtendersOff <6> <6!>
+	\bo <[4]>8 <3> \bc <[5!] _!>2
+	<6>2. %35
+	<5>4 <6!>2
+	<5!>4 <6> <6! 5->
+	<6>8 <7> r <7 _!> <5> <7->
+	r <6> <6 4>4 <5 [3]>
+	\bo <[8 3]>2. \bassFigureExtendersOn %40
+	<8 3>2 q8. \bc <[8 3]>16 \bassFigureExtendersOff
+	<6 5>4 <6! \t> <6>
+	<6 5-> <_-> <7 _!>
+	<10 5>4 \bassFigureExtendersOn <10 5!> <10 6> \bassFigureExtendersOff
+	<7! 6 4> <8 _!>2 %45
+	<6 [5-]>2.
+	<_>
+	<6->2 <5>4
+	<6! 4! 3>2 <6>8 <6!>
+	r <6 5> <9 4>4 <7 [_!]> %50
+	<_!>2.
+	r
+	r
+	r %54 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

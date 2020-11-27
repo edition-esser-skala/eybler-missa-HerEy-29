@@ -1393,6 +1393,63 @@ BenedictusTenoreLyrics = \lyricmode {
 	sis. %105 finis
 }
 
+AgnusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \minor \time 3/4 \autoBeamOff \tempoAgnus
+		R2.*17 %17
+		r4 r \mvTr f,8\p^\tutti f
+		es8.([ ges16)] ges4 ges8 ges
+		f8.([ as16)] as4 as8 as %20
+		ges([ ges')] f c!([ des)] a
+		b b as4.( ges8)
+		f4 r r
+		R2.*11 %34
+		r4 r c'8^\tutti c %35
+		b8.([ des16)] des4 des8 des
+		c8.([ es16)] es4 es8 es
+		des([ ges)] f es([ des)] ces
+		b es des4.( ces8)
+		b4 r r %40
+		R2.*3
+		es2^\solo es4
+		ges f r8 f %45
+		as!4 f8 d b as
+		ges8.([ as16)] b4 r
+		ces4. ces8 es ges
+		ges8.([ a,16)] a4 b8 c
+		des f es4( des)\trill %50
+		c r r
+		R2.*2
+		R2.\fermataMarkup \bar "||" %54 finis
+	}
+}
+
+AgnusTenoreLyrics = \lyricmode {
+	Mi -- se -- %18
+	re -- re, mi -- se --
+	re -- re, mi -- se -- %20
+	re -- re, mi -- se --
+	re -- re no --
+	bis.
+
+	Mi -- se -- %35
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %40
+
+	A -- gnus %44
+	De -- i, qui %45
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no -- %50
+	bis. %51 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
