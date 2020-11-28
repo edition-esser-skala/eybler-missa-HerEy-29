@@ -923,3 +923,130 @@ AgnusViolinoII = {
 		c2 r4\fermata \bar "||" %54 finis
 	}
 }
+
+DonaViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #41
+		r8 f-!\p f( es)
+		r d-! d( f)
+		r es-! es( d)
+		d c b4
+		d( f) %45
+		f( a)
+		c b\trill
+		a16 f(\f e f g a b c)
+		d b f b d es c d
+		b f d f b c a b %50
+		g es b es g-\critnote a f g
+		f es c' es, d f b d
+		f es d c h c d h
+		c g c d es d es c
+		a b! c b a g f es %55
+		d b c d es f g a
+		b8\p d,-! d( c)
+		b b d d
+		c c c c
+		b b b b %60
+		c c b b
+		a a c c
+		b b b b
+		a a a a
+		a( f') e( g) %65
+		f( a) c( c,)
+		g'( c,) f( c)
+		e( g,) c( e)
+		r g-! g( e)
+		r c-! c( e) %70
+		r g-! g( e)
+		r c-! c( e)
+		r g-! g( b)
+		a f d b
+		a c e g %75
+		e gis? f a
+		\once \slurDashed d( d,) \parOn d-\parenthesize-! \parOff d-\parenthesize-!
+		c( a b d)
+		a c b c
+		a16 f' g\f a b c d e %80
+		\slurDashed f( b, a b) a( b c b)
+		a( f' e? f) g( f e f)
+		f( d cis d) cis( d e? d)
+		c( f e? f) g( f e? f) \slurSolid
+		r8 f,\p f f %85
+		r f f f
+		r f f f
+		r f f f
+		g16\f a g f e d c b!
+		a f' b, f' c f d f %90
+		a, c f a g8 e'
+		<f, a,>4 r
+		R2*3 %95
+		r8 a,-!\p a( c)
+		r f-! f( e)
+		r g-! g( f)
+		a g b a
+		a g f4 %100
+		f16\f g a b c d es! f
+		d f es d c b a b
+		c f, a c d f, b d
+		c f, g a b a b c
+		d b f b d es c d %105
+		b f d f b c a b
+		g es b es g a f g
+		f es c' es, d f b d
+		g, a b g a b c a
+		b b' b b b g es c %110
+		d f d b c es c a
+		b d f d d b b f
+		<f c'> q q q q q q q
+		<f d'> q q q q q q q
+		<f c'> q q q q q q q %115
+		<f d'> q q q q q q q
+		<f c'> q q q <f d'> q q q
+		<f c'> q q q <f d'> q q q
+		g g, f' g, es' f g es
+		d f b d c a f c %120
+		a8 c\p c c
+		r f f f
+		r a-\parenthesize-! \once \slurDashed a( b)
+		r c c c
+		r d, d d %125
+		r f f f
+		r b-! b( c)
+		r d d d,
+		c( f) d( f)
+		a,( f') b,( f') %130
+		c'( f,) b( f)
+		a( c, f a)
+		r c-! c( a)
+		r f-! f( a)
+		r c-! c( a) %135
+		r f-! f( a)
+		r c-! c( a)
+		b f es g
+		d f a c
+		\slurDashed a( c b d) %140
+		es,( b' f b)
+		fis( g es g) \slurSolid
+		d f es f
+		d16\f c d es f g a b
+		b es, d es f es d es %145
+		d b' a b c b a b
+		b g fis g a-\critnote g fis g
+		f b a b c b a b
+		b8(\p as g f)
+		f( e) e4-! %150
+		b'8( as g f)
+		f( e) e4-!
+		\slurDashed c'16(\f d c b) a( g f es) \slurSolid
+		d b' es, b' f b g b
+		f b d f c8 a' %155
+		<b, d,>4 r
+		R2*4 %160
+		a2(\sfz
+		b4) r
+		es,2(\p
+		d4) r\fermata \bar "|." %164 FINIS
+	}
+}

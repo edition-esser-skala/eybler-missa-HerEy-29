@@ -675,6 +675,7 @@ tempoSanctus = \tempoMarkup "Andante"
 tempoBenedictus = \tempoMarkup "Laghetto"
 	tempoOsanna = \tempoMarkup "Allegro"
 tempoAgnus = \tempoMarkup "Adagio"
+	tempoDona = \tempoMarkup "Allegro assai"
 
 vlne =    \markup \remark  "vlne"
 vlneE =   \markup \remarkE "vlne"

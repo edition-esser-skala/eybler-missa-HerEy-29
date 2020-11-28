@@ -922,3 +922,130 @@ AgnusViola = {
 		<f a>2 r4\fermata \bar "||" %%4 finis
 	}
 }
+
+DonaViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key b \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #41
+		b4\p r
+		b4. d,8
+		es4. f8
+		g a b4
+		b( c) %45
+		f f~
+		f g
+		c,8. f,16(\fE g a b c)
+		b8 f'4 es8
+		d d4 f8 %50
+		es es4 d8
+		g, a b4
+		b8 d g g
+		g f es g
+		c, a4 c16 es %55
+		<d b f>4 r
+		b8\p b d d
+		d d g g
+		a, a a a
+		b b b b %60
+		a a c c
+		c c f f
+		g, g g g
+		a a a a
+		\slurDashed a( f) c'( g) %65
+		a( c) g( g') \slurSolid
+		c,( g') c,( f)
+		c( e) c( g)
+		r e-! e( g)
+		r b-! b( g) %70
+		r e-! e( g)
+		r b-! b( g)
+		f e g4
+		a8 c d, d'
+		c f a, b %75
+		\afterGrace b4 { c16[ b] } a4
+		\once \slurDashed f8( f') \parOn g-\parenthesize-! \parOff g-\parenthesize-!
+		g f4 d8
+		c a c e,
+		f4 r %80
+		f8\f f' f f
+		f a, a a
+		d f f f
+		f c c c
+		r c\p c c %85
+		r d d d
+		r c c c
+		r d d d
+		c,\f c' c c
+		c f4 f8~ %90
+		f c4 b8
+		a4 r
+		R2*3 %95
+		f4\p r
+		f r
+		f r
+		f r
+		f r %100
+		a8(\f c f c)
+		d( f b f)
+		a f b f
+		a f4 es8
+		d f4 es8 %105
+		d d4 f8
+		es es4 d8
+		g, a b4
+		b8 b es c
+		f d es g %110
+		b, d f es
+		d f b f
+		c' a f a
+		b d, f b
+		c a f a %115
+		b d, f b
+		c f,4 f8~
+		f f4 f8
+		es f g g,
+		f f' c a %120
+		f a\p a a
+		r c c c
+		r f f f
+		r f f f
+		r b, b b %125
+		r d d d
+		r f f f
+		r f f f8~
+		f f4 f8~
+		f f4 f8~ %130
+		f f4 f8~
+		f a f c
+		r a-! a( c)
+		r es-! es( c)
+		r a-! a( c) %135
+		r es-! es( c)
+		r a'-\parenthesize-! c( c,)
+		d f b, es
+		d b' d, es
+		es4 d %140
+		b8 b'4 b8~
+		b g4( es8)
+		f d f a,
+		b4 r
+		b8\f b' b b %145
+		b d, d d
+		g b b b
+		b f f f
+		r b,\p b b
+		r b b b %150
+		r b b b
+		r b b b
+		f\f f' f f
+		f b4 b8~
+		b f4 es8 %155
+		d4 r
+		R2*4 %160
+		c2(\sfz
+		d4) r
+		c2(\p
+		b4) r\fermata \bar "|." %164 FINIS
+	}
+}

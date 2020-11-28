@@ -924,9 +924,129 @@ AgnusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+DonaViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #41
+		r8 d'-!\p d( c)
+		r b-! b( a)
+	 	r g-! g( f)
+		f es d4
+		f( a) %45
+		b( c)
+		es d\trill
+		c16 f,(\f e f g a b c)
+		d b f b d es c d
+		b f d f b c a b %50
+		g es b es g a f g
+		f es c' es, d f b d
+		f es d c h c d h
+		c g c d es d es c
+		a b! c b a g f es %55
+		d8 es16 f g a b c
+		d8\pE d fis, fis
+		g g b b
+		d, d d d
+		d d d d %60
+		c' c e, e
+		f f a a
+		c, c c c
+		c c c c
+		f( a,) g'( e) %65
+		a( f) g( c)
+		b( c,) a'( c,)
+		g'( c,) e( g)
+		r b-! b( g)
+		r e-! e( g) %70
+		r b-! b( g)
+		r e-! e( g)
+		r b-! b( d)
+		c a b g
+		f a, c g' %75
+		gis? e? a c
+		f( h,) h-! h-!
+		\once \slurDashed c( d b g)
+		\afterGrace f4 { g16[ f e f] } \appoggiatura a8 g4
+		f8 g16\f a b c d e? %80
+		f( b, a b) a( b c b)
+		a( f' e f) g( f e f)
+		f( d cis d) cis( d e? d)
+		c( f e f) g( f e f)
+		r8 c\p c c %85
+		r h h h
+		r c c c
+		r h h h
+		g'16\f a g f e d c b
+		a f b f c' f, d' f, %90
+		c' f c a g8 e'
+		f,4 r
+		R2*3 %95
+		r8 f-!\p f( g)
+		r a-! a( g)
+		r b-! b( a)
+		c b d c
+		c b a4 %100
+		a16\f b c d es! f g a
+		b a g f es d c b
+		c f, a c d f, b d
+		c f, g a b a b c
+		d b f b d es c d %105
+		b f d f b c a b
+		g es b es g-\critnote a f g
+		f es c' es, d f b d
+		g, a b g a b c a
+		b b' b b b g es c %110
+		d f b d, c8 a'
+		b,16 b' b f f d d b
+		f es' es es f es es es
+		d f f f b f f f
+		f, es' es es f es es es %115
+		d f f f b f f f
+		f, es' es es d b' b b
+		f, es' es es d b' b b
+		c, h d c es d es c
+		b f d b a c f a %120
+		c8 f,\p f f
+		r a a a
+		r c-! c( d)
+		r es es es
+		r f, f f %125
+		r b b b
+		r d-! d( es)
+		r f f f
+		\slurDashed a,( f) b( f)
+		c'( f,) d'( f,) %130
+		es'( f,) d'( f,)
+		c'( f, a c) \slurSolid
+		r es-! es( c)
+		r a-! a( c)
+		r es-! es( c) %135
+		r a-! a( c)
+		r es-! es( g)
+		f d es c
+		b d, f c'
+		c( a b d) %140
+		es( b f' b,)
+		fis'( g es c)
+		\afterGrace b4 { c16[ b a b] } \appoggiatura d8 c4
+		b16\f c d es f g a b
+		b, es d es f es d es %145
+		d b a b c b a b
+		b g' fis g a g fis g
+		f b, a b c^\critnote b a b
+		r8 f\p f f
+		r g g g %150
+		r f f f
+		r g g g
+		c'16(\f d c b) a( g f es)
+		d b es b f' b, g' b,
+		f' b f d c8 a' %155
+		<b, d,>4 r
+		R2*4 %160
+		es2(\sfz
+		d4) r
+		a2(\p
+		b4) r\fermata \bar "|." %164 FINIS
+	}
+}

@@ -562,3 +562,68 @@ BenedictusOboeII = {
 		d4 r\fermata \bar "|." %105 finis
 	}
 }
+
+DonaOboeII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #41
+		R2*8 %48
+		f'4.\fE es8
+		d4. f8 %50
+		es4. d8
+		d c b4
+		d h
+		c es
+		es,2 %55
+		d4 r
+		R2*24 %80
+		b'2\fE
+		a
+		d
+		c
+		R2*4 %88
+		g'2\fE
+		f4 f~ %90
+		f e
+		f r
+		R2*8 %100
+		a,2\fE
+		b
+		a4 b
+		a r
+		f'4. es8 %105
+		d4. f8
+		es4. d8
+		d c b4
+		b c
+		d b~ %110
+		b a
+		b f~
+		f8 f f4~
+		f8 f f4~
+		f8 f f4~ %115
+		f8 f f4
+		c' b
+		c b
+		g8 h c g
+		f2 %120
+		R2*8 %128
+		f2\pE
+		f %130
+		c'4 b\trill
+		a r
+		R2*12 %144
+		es'2\f %145
+		d
+		g
+		f
+		R2*4 %152
+		c2\f
+		b4 b~
+		b a %155
+		b r
+		R2*7 %163
+		R2\fermataMarkup \bar "|." %164 FINIS
+	}
+}

@@ -1405,13 +1405,247 @@ AgnusAltoLyrics = \lyricmode {
 	bis. %40 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+DonaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \autoBeamOff \tempoDona
+			\set Score.currentBarNumber = #41
+		\mvTr f4.\pE^\solo es8
+		d4. f8
+		es4. d8
+		d([ c)] b4
+		d f %45
+		f f
+		f( g)
+		c, r
+		\mvTr f4.\fE^\tutti es8
+		d4. f8 %50
+		es4. d8
+		d([ c)] b4
+		f' g
+		g g
+		es2 %55
+		d4 r
+		R2*2
+		\mvTr d4.\pE^\solo d8
+		d8.([ es16)] d4 %60
+		R2*2
+		c4. c8
+		c8.([ d16)] c4
+		d^\critnote e %65
+		f g
+		g( f)
+		e r
+		c4. c8
+		c4 c %70
+		c4. c8
+		c4 c
+		b b'
+		a8([ f)] d4
+		c4.( e8) %75
+		e4( f)
+		f g
+		g8([ f)] f([ d)]
+		c4( e)
+		f r %80
+		\mvTr b4.\fE^\tutti b8
+		a4 a
+		d4. d8
+		c4 c
+		f,4.\p f8 %85
+		f4 f
+		f4. f8
+		f4 f
+		g4.\f g8
+		f4 f %90
+		f( e)
+		f r
+		c'2(\pE
+		a4) f
+		e2 %95
+		f4 r
+		\mvTr f4.\pE^\solo e8
+		g4. f8
+		a([ g)] b([ a)]
+		a([ g)] f4 %100
+		\mvTr f4.\fE^\tutti f8
+		f4 f
+		f2
+		f4 r
+		f4. es8 %105
+		d4. f8
+		es4. d8
+		d([ c)] b4
+		b f'
+		f es %110
+		f4.( es8)
+		d4 f~
+		f8 f f4~
+		f8 f f4~
+		f8 f f4~ %115
+		f8 f f f
+		f4 f
+		f f
+		g8 f es g
+		f4 f %120
+		R2*2
+		\mvTr a4.\pE^\solo b8
+		h([ c)] c4
+		R2*2 %126
+		b4. c8
+		cis([ d)] d4
+		f, f
+		f f %130
+		f2
+		f4 r
+		c4. es8
+		c4 c
+		c4. es8 %135
+		c4 c
+		c c
+		d8([ f)] es([ g)]
+		f2
+		f %140
+		b4 b
+		b8([ g)] g([ es)]
+		d4( \grace f8 es4)
+		d r
+		\mvTr b'4.\fE^\tutti b8 %145
+		b4 b
+		b2
+		b
+		f4.\p f8
+		g4 g %150
+		f4. f8
+		g4 g
+		f\f f
+		f8([ b)] b([ g)]
+		f4.( es8) %155
+		d4 r
+		f2(\pE
+		d4) b
+		f'2
+		d4 r %160
+		R2*3
+		R2\fermataMarkup \bar "|." %164 FINIS
+	}
+}
+
+DonaAltoLyrics = \lyricmode {
+	Do -- na, %41
+	do -- na
+	no -- bis
+	pa -- cem,
+	do -- na %45
+	no -- bis
+	pa --
+	cem,
+	do -- na,
+	do -- na %50
+	no -- bis
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa -- %55
+	cem,
+
+	do -- na %59
+	no -- bis, %60
+
+	do -- na %63
+	no -- bis,
+	do -- na %65
+	no -- bis
+	pa --
+	cem,
+	do -- na
+	no -- bis, %70
+	do -- na
+	no -- bis,
+	do -- na
+	no -- bis
+	pa -- %75
+	cem, __
+	do -- na
+	no -- bis
+	pa --
+	cem, %80
+	do -- na
+	no -- bis,
+	\xE no -- bis
+	pa -- cem, \x
+	do -- na %85
+	no -- bis,
+	\xE no -- bis
+	pa -- cem, \x
+	do -- na
+	no -- bis %90
+	pa --
+	cem,
+	no --
+	bis
+	pa -- %95
+	cem,
+	do -- na
+	no -- bis,
+	no -- bis
+	pa -- cem, %100
+	do -- na
+	no -- bis
+	pa --
+	cem.
+	Do -- na, %105
+	do -- na
+	no -- bis
+	pa -- cem,
+	do -- na
+	no -- bis %110
+	pa --
+	cem, do --
+	na, do --
+	na, do --
+	na, do -- %115
+	na no -- bis
+	pa -- cem,
+	do -- na,
+	do -- na no -- bis
+	pa -- cem, %120
+
+	do -- na %123
+	no -- bis,
+
+	\xE no -- bis %127
+	pa -- cem, \x
+	do -- na
+	no -- bis %130
+	pa --
+	cem,
+	do -- na
+	no -- bis,
+	do -- na %135
+	no -- bis,
+	do -- na
+	no -- bis
+	pa --
+	cem, %140
+	do -- na
+	no -- bis
+	pa --
+	cem,
+	do -- na %145
+	no -- bis
+	pa --
+	cem,
+	do -- na
+	no -- bis, %150
+	do -- na
+	no -- bis,
+	do -- na
+	no -- bis
+	pa -- %155
+	cem,
+	no --
+	bis
+	pa --
+	cem. %160 FINIS
+}

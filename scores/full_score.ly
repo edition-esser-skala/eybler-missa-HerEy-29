@@ -784,67 +784,154 @@
 	% 		\midi { \tempo 2 = 50 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "6"
+	% 		title = "A G N U S   D E I"
+	% 	}
+	% 	\tocSection "6" "Agnus Dei"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\AgnusViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\AgnusViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\AgnusViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \AgnusSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \AgnusAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \AgnusAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \AgnusTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \AgnusBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \AgnusBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\AgnusOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \AgnusBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 50 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "6"
-			title = "A G N U S   D E I"
+			subtitle = "D O N A   N O B I S   P A C E M"
 		}
-		\tocSection "6" "Agnus Dei"
+		% \tocSubsection "6.2" "Dona nobis pacem"
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "ob"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\DonaOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\DonaOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new Staff <<
+						\set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
+						% \transpose c b,
+						\partcombine \DonaClarinoI \DonaClarinoII
+					>>
+				>>
+				\new Staff {
+					\set Staff.instrumentName = "timp"
+					% \transpose c b,
+					\DonaTimpani
+				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\AgnusViolinoI
+							\DonaViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\AgnusViolinoII
+							\DonaViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\AgnusViola
+						\DonaViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \AgnusSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \DonaSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
+					\new Lyrics \lyricsto Soprano \DonaSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \AgnusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \DonaAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \AgnusAltoLyrics
+					\new Lyrics \lyricsto Alto \DonaAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \AgnusTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \DonaTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
+					\new Lyrics \lyricsto Tenore \DonaTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \AgnusBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DonaBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \AgnusBassoLyrics
+					\new Lyrics \lyricsto Basso \DonaBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\AgnusOrgano
+						\DonaOrgano
 					}
 				>>
-				\new FiguredBass { \AgnusBassFigures }
+				\new FiguredBass { \DonaBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 50 }
+			\midi { \tempo 4 = 105 }
 		}
 	}
 }
