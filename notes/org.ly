@@ -1557,9 +1557,9 @@ SanctusBassFigures = \figuremode {
 
 BenedictusCello = {
 	\relative c {
-		\clef "treble_8"
+		\clef treble
 		\key es \major \time 2/2 \tempoBenedictus
-		b'2~^\solo b8 c16( d es[ f g es)]
+		b'2~-\solo b8 c16( d es[ f g es)]
 		d( c h c) c4~ c8 as'16( g f[ es d c)]
 		b\trill a b c d[\trill c d es] f\trill e f g as?[ c b as]
 		\appoggiatura fis4 g2 r4 g,16( b es g)
@@ -1576,7 +1576,7 @@ BenedictusCello = {
 		as8 as' as as r g g g %15
 		r f r f r es r g
 		as4 as, as' f
-		b r8 \clef "treble_8" f'-!^\solo g16( f) es-! d-! d([ c) b-! a-!]
+		b r8 \clef treble f'-!-\solo g16( f) es-! d-! d([ c) b-! a-!]
 		b4 \clef bass d,\pE d d
 		r es es es %20
 		d a' b es,
@@ -1586,14 +1586,14 @@ BenedictusCello = {
 		r f a, r %25
 		b8 b d d es es c c
 		f2 r
-		\clef "treble_8" r4 \once \slurDashed f'16(-\solo b d f es[ d c b] a g f es)
+		\clef treble r4 \once \slurDashed f'16(-\solo b d f es[ d c b] a g f es)
 		d( f b d f,[ b d f] es[ d c b] a g f es)
 		d( f b d f,[ b d f] es[ d c b] a g f es) %30
 		d4 r \clef bass d,8\pE d d d
 		es es es es c c c c
 		f f f f f f f f
 		f f f f f f f f
-		\clef "treble_8" b4-\solo f'~ f8 b16( a g[ f es d]) %35
+		\clef treble b4-\solo f'~ f8 b16( a g[ f es d]) %35
 		d c h c \once \tieDashed c4~ c8 es16 d c[ b a g]
 		f a g b a[ c b d] c[ es d f] es g f es
 		d2 r4 d,16 f b d
@@ -1610,13 +1610,13 @@ BenedictusCello = {
 		r d d r
 		r es es r %50
 		f r f, r
-		b \clef "treble_8" b'16^\solo a b c d[\trill c d es] f\trill es f g
+		b \clef treble b'16-\solo a b c d[\trill c d es] f\trill es f g
 		b( as!) as( g) g([ f) f( es)] es([ d) d( c)] c( b) b( as)
 		g4 \clef bass es\pE es es
 		r as, as as %55
 		r b b b
 		r es es r
-		\clef "treble_8" r8 b'16^\solo c d[ es f d] es4 r
+		\clef treble r8 b'16-\solo c d[ es f d] es4 r
 		r8 b16 c d[ es f d] es4 r
 		r as,~ as8 c'( b as) %60
 		g4( f8) b c16([ b as g)] g( f es d)
@@ -1629,14 +1629,14 @@ BenedictusCello = {
 		r d d d
 		es r as r
 		b r b, r %70
-		es \clef "treble_8" b'16(^\solo es) g-! b-! as( g f es) d([ c b as)]
+		es \clef treble b'16(-\solo es) g-! b-! as( g f es) d([ c b as)]
 		g b es g b,[ es g b] as[ g f es] d c b as
 		g b es g b,[ es g b] as[ g f es] d c b as
 		g4 r \clef bass g,8\pE g g g
 		as as as as as' as as as %75
 		b b b b b b b b
 		b, b b b b b b b
-		es4 \clef "treble_8" g'~^\solo g8 f16 es es([ d c h)]
+		es4 \clef treble g'~-\solo g8 f16 es es([ d c h)]
 		c8 r c,16( d es f) g([ a h c)] d es f g
 		f4 b16 a g f es[ d c b] a b c a %80
 		b8 c16 d es[ f g a] b[ c d c] b a g f

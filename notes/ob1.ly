@@ -597,6 +597,15 @@ BenedictusOboeI = {
 	}
 }
 
+AgnusOboeI = {
+	\relative c' {
+		\clef treble
+		\key b \minor \time 3/4 \tempoAgnus
+		\override MultiMeasureRest.minimum-length = #40
+			R2.*40 \bar "||" %40 finis
+	}
+}
+
 DonaOboeI = {
 	\relative c' {
 		\clef treble

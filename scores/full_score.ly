@@ -187,7 +187,7 @@
 	}
 	\bookpart {
 		\header {
-			title = "Q U I   T O L L I S"
+			subtitle = "Q U I   T O L L I S"
 		}
 		\tocSubsection "2.2" "Qui tollis"
 		\score {

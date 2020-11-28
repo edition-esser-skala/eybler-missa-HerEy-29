@@ -174,6 +174,16 @@ GloriaOboeII = {
 	}
 }
 
+QuiTollisOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #138
+		\override MultiMeasureRest.minimum-length = #40
+		\partial 8 r8 R2.*47 \bar "||" %184 finis
+	}
+}
+
 QuoniamOboeII = {
 	\relative c' {
 		\clef treble
@@ -560,6 +570,15 @@ BenedictusOboeII = {
 		b4 r8 d,
 		c4. es8
 		d4 r\fermata \bar "|." %105 finis
+	}
+}
+
+AgnusOboeII = {
+	\relative c' {
+		\clef treble
+		\key b \minor \time 3/4 \tempoAgnus
+		\override MultiMeasureRest.minimum-length = #40
+			R2.*40 \bar "||" %40 finis
 	}
 }
 
