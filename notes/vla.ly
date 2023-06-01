@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieViola = {
   \relative c' {
@@ -862,7 +862,7 @@ AgnusViola = {
   \relative c' {
     \clef alto
     \key b \minor \time 3/4 \tempoAgnus
-    \mvTr b4(\p-\markup \remark "con sordino" c des)
+    \mvTr b4(\p-\conSord c des)
     es8. f16 ges8 r r b
     a4~\sfp a8 r r des,
     c8.([ b16)] a8-\critnote r r4

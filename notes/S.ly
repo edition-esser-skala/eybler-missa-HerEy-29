@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieSopranoNotes = {
   \relative c' {
@@ -1079,7 +1079,7 @@ EtResurrexitSopranoLyrics = \lyricmode {
   can --
   tem,
   qui ex
-  Pa -- tre
+  Pa -- tre __
   Fi -- li -- %215
   o --
   que pro --
@@ -1232,13 +1232,13 @@ SanctusSopranoLyrics = \lyricmode {
   in ex --
   cel --
   sis, o -- %30
-  san -- na
-  in ex --
+  san -- na __
+  in __ ex --
   cel -- sis,
 
   o -- %38
-  san -- na
-  in ex -- %40
+  san -- na __
+  in __ ex -- %40
   cel --
   sis, o --
   san -- na
@@ -1270,7 +1270,7 @@ BenedictusSopranoNotes = {
     g4.\trill fis16[ g] f'[ es d c] h[ c d c]
     a4.\trillE g16[ a] d[ c b a] g[ f g es] %25
     d4 \once \tieDashed f'~ f16[ es d c] c[ b a g]
-    f2 c'4. b16[ c]
+    f2 c'4.\trillE b16[ c]
     b4 r r es8. a,16
     b8([ f)] f4 r es'8([ a,)]
     b([ f)] f4 r es'8([ a,)] %30
@@ -1358,8 +1358,8 @@ BenedictusSopranoLyrics = \lyricmode {
   _ _ _
   _ _ _
   nit, be -- ne --
-  di -- ctus, qui
-  ve -- nit in %30
+  di -- ctus, qui __
+  ve -- nit in __ %30
   no -- mi -- ne
   Do -- _ _
   _
@@ -1380,7 +1380,7 @@ BenedictusSopranoLyrics = \lyricmode {
   be -- ne --
   di -- ctus, qui
   ve -- nit, qui
-  ve -- nit in
+  ve -- nit in __
   no -- mi -- ne Do -- mi -- %60
   ni, __
   be -- ne --
@@ -1406,13 +1406,13 @@ BenedictusSopranoLyrics = \lyricmode {
   in ex --
   cel --
   sis, o --
-  san -- na %90
-  in ex --
+  san -- na __ %90
+  in __ ex --
   cel -- sis,
 
   o -- %97
-  san -- na
-  in ex --
+  san -- na __
+  in __ ex --
   cel -- %100
   sis, o --
   san -- na

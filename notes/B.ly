@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieBassoNotes = {
   \relative c {
@@ -1141,7 +1141,7 @@ EtResurrexitBassoLyrics = \lyricmode {
   tem,
 
   qui ex
-  Pa -- tre %215
+  Pa -- tre __ %215
   Fi -- li --
   o -- que __
   pro --

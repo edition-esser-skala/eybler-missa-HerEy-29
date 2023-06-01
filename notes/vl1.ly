@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieViolinoI = {
   \relative c' {
@@ -308,7 +308,7 @@ QuoniamViolinoI = {
     g4 \once \slurDashed f'16( es d c) b8. c16 a16. f32 f8\trill\f
     es'16. c32 c8\trill a16. f32 f8\trill f'16. d32 d8\trill d,16. b'32 b8\trill
     g16 c es c b d c a b16. d,32-! es16.-! f32-! g16.-! a32-! b16.-! c32-!
-    d8\p b b d r c c c %195
+    d8 b\p b d r c c c %195
     r c c c b a16( f) b( f) c'( f,)
     d'4 c16 b a g fis g a fis g a b h
     c4 b16( a g f) e( f g e) f( a d c)
@@ -863,7 +863,7 @@ AgnusViolinoI = {
   \relative c' {
     \clef treble
     \key b \minor \time 3/4 \tempoAgnus
-    \mvTr b4(\p-\markup \remark "con sordino" c des)
+    \mvTr b4(\p-\conSord c des)
     es8. f16 ges8-\critnote r r ges'
     ges4(\sfpE f8) c( des b)
     \once \slurDashed a8.( b16) c8 r r4

@@ -1,7 +1,6 @@
-\version "2.22.0"
+\version "2.24.0"
 
 #(define option-movement-title-format "number-title")
-#(define option-init-toc #t)
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
@@ -24,7 +23,7 @@ tempoCredo = \tempoMarkup "Allegro"
   tempoEtResurrexit = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Andante"
   tempoPleni = \tempoMarkup "Allegro"
-tempoBenedictus = \tempoMarkup "Laghetto"
+tempoBenedictus = \tempoMarkup "Larghetto"
   tempoOsanna = \tempoMarkup "Allegro"
 tempoAgnus = \tempoMarkup "Adagio"
   tempoDona = \tempoMarkup "Allegro assai"

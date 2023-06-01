@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
@@ -8,7 +8,7 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -75,13 +75,13 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 72 }
     }
   }
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -100,7 +100,7 @@
           \new Staff <<
             \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "clno" "B" "flat" "1, 2" }
             % \transpose c b,
-            \partCombine \GloriaClarinoI \GloriaClarinoII
+            \partCombine #'(0 . 10) \GloriaClarinoI \GloriaClarinoII
           >>
         >>
         \new Staff {
@@ -166,7 +166,7 @@
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new Staff {
           \set Staff.instrumentName = \markup \center-column { "ob" "[solo]" }
@@ -230,7 +230,7 @@
   \bookpart {
     \subsection "Quoniam"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -249,7 +249,7 @@
           \new Staff <<
             \set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c b,
-            \partCombine \QuoniamClarinoI \QuoniamClarinoII
+            \partCombine #'(0 . 10) \QuoniamClarinoI \QuoniamClarinoII
           >>
         >>
         \new Staff {
@@ -308,14 +308,14 @@
         >>
         \new FiguredBass { \QuoniamBassFigures }
       >>
-      \layout { }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
       \midi { \tempo 4 = 90 }
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -334,7 +334,7 @@
           \new Staff <<
             \set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c b,
-            \partCombine \CredoClarinoI \CredoClarinoII
+            \partCombine #'(0 . 10) \CredoClarinoI \CredoClarinoII
           >>
         >>
         \new Staff {
@@ -400,7 +400,7 @@
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -419,7 +419,7 @@
           \new Staff <<
             \set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c b,
-            \partCombine \EtIncarnatusClarinoI \EtIncarnatusClarinoII
+            \partCombine #'(0 . 10) \EtIncarnatusClarinoI \EtIncarnatusClarinoII
           >>
         >>
         \new Staff {
@@ -489,7 +489,7 @@
   \bookpart {
     \subsection "Et resurrexit"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -508,7 +508,7 @@
           \new Staff <<
             \set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c b,
-            \partCombine \EtResurrexitClarinoI \EtResurrexitClarinoII
+            \partCombine #'(0 . 10) \EtResurrexitClarinoI \EtResurrexitClarinoII
           >>
         >>
         \new Staff {
@@ -574,7 +574,7 @@
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -593,7 +593,7 @@
           \new Staff <<
             \set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c b,
-            \partCombine \SanctusClarinoI \SanctusClarinoII
+            \partCombine #'(0 . 10) \SanctusClarinoI \SanctusClarinoII
           >>
         >>
         \new Staff {
@@ -653,13 +653,13 @@
         \new FiguredBass { \SanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 60 } % 120
     }
   }
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -678,7 +678,7 @@
           \new Staff <<
             \set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c b,
-            \partCombine \BenedictusClarinoI \BenedictusClarinoII
+            \partCombine #'(0 . 10) \BenedictusClarinoI \BenedictusClarinoII
           >>
         >>
         \new Staff {
@@ -759,7 +759,7 @@
       system-system-spacing.minimum-distance = #17
       systems-per-page = #2
     }
-    \score {
+    \score {%\articulate
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
           \new GrandStaff \with { \setGroupDistance #11 #11 } <<
@@ -819,7 +819,7 @@
   \bookpart {
     \subsection "Dona nobis pacem"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -838,7 +838,7 @@
           \new Staff <<
             \set StaffGroup.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c b,
-            \partCombine \DonaClarinoI \DonaClarinoII
+            \partCombine #'(0 . 10) \DonaClarinoI \DonaClarinoII
           >>
         >>
         \new Staff {
@@ -898,7 +898,7 @@
         \new FiguredBass { \DonaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 105 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

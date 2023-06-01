@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieAltoNotes = {
   \relative c' {
@@ -786,7 +786,7 @@ CredoAltoLyrics = \lyricmode {
   o -- mni -- a
   fa -- cta
   sunt,
-  per quem
+  per __ quem
   o -- mni -- a %55
   fa -- cta
   sunt.
@@ -1066,7 +1066,7 @@ EtResurrexitAltoLyrics = \lyricmode {
   vi -- vi -- fi --
   can -- tem,
 
-  qui ex
+  qui __ ex __
   Pa -- tre %215
   Fi -- li --
   o --
@@ -1351,7 +1351,7 @@ AgnusAltoNotes = {
     as g? r8 g?
     b4 g8 e c b
     as8.([ b16)] c4 r8 f %30
-    \appoggiatura es8 des4 c r8 c
+    \appoggiatura es!8 des4 c r8 c
     c'8.([ b16)] as4 r8 f
     ges!4 f8 e f g
     \appoggiatura b as4 g r

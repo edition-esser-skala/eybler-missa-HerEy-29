@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieTenoreNotes = {
   \relative c' {
@@ -430,7 +430,7 @@ QuiTollisTenoreNotes = {
     es4. d16([ c)] b([ a)] gis([ a)]
     a8.([ f'16)] f4 r
     f4.( as8 g16[ f)] es([ d)]
-    d([ c)] d([ es)] b4.( \grace d16 c8)
+    d([ c)] d([ es)] b!4.( \grace d16 c8)
     b4 r r %150
     R2.*2
     r4 r r8 f
@@ -828,7 +828,7 @@ CredoTenoreLyrics = \lyricmode {
   o -- mni -- a
   fa -- cta
   sunt,
-  per quem
+  per __ quem
   o -- mni -- a %55
   fa -- cta
   sunt.
@@ -1110,7 +1110,7 @@ EtResurrexitTenoreLyrics = \lyricmode {
   vi -- fi -- %210
   can --
   tem,
-  qui ex
+  qui __ ex __
   Pa -- tre
   Fi -- li -- %215
   o --
@@ -1256,7 +1256,7 @@ SanctusTenoreLyrics = \lyricmode {
   a.
 
   O -- %30
-  san -- na
+  san -- na __
   in ex --
   cel -- sis,
   o --
@@ -1332,7 +1332,7 @@ BenedictusTenoreNotes = {
 
 BenedictusTenoreLyrics = \lyricmode {
   Be -- ne -- di -- ctus, %28
-  qui ve -- nit,
+  qui __ ve -- nit,
   be -- ne -- di -- ctus, %30
   qui ve -- nit,
   qui ve -- nit in
@@ -1360,7 +1360,7 @@ BenedictusTenoreLyrics = \lyricmode {
   ni.
 
   O -- %89
-  san -- na %90
+  san -- na __ %90
   in ex --
   cel -- sis,
   o --
