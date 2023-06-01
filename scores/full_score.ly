@@ -759,7 +759,7 @@
       system-system-spacing.minimum-distance = #17
       systems-per-page = #2
     }
-    \score {%\articulate
+    \score { %\articulate
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
           \new GrandStaff \with { \setGroupDistance #11 #11 } <<

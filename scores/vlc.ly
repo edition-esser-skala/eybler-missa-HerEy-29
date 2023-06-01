@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name (markup #:center-column ("vlc" "solo")))
@@ -10,7 +10,7 @@
     \addTocEntry
     \paper {
       indent = 2.5\cm
-      systems-per-page = #7
+      page-count = #1
     }
     \score {
       <<

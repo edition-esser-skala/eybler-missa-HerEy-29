@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "ob 1")
@@ -8,7 +8,7 @@
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm page-count = #1 }
     \score {
       <<
         \new Staff {
@@ -90,21 +90,13 @@
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
         \new Staff { \BenedictusOboeI }
       >>
     }
-  }
-  \bookpart {
-    \section "6" "Agnus Dei"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \AgnusOboeI }
-      >>
-    }
+    \tacet "section" "Agnus Dei"
   }
   \bookpart {
     \subsection "Dona nobis pacem"

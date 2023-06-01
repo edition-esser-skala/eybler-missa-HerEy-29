@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "ob 2")
@@ -26,16 +26,7 @@
         \new Staff { \GloriaOboeII }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Qui tollis"
-    \addTocEntry
-    \paper { systems-per-page = #1 }
-    \score {
-      <<
-        \new Staff { \QuiTollisOboeII }
-      >>
-    }
+    \tacet "subsection" "Qui tollis"
   }
   \bookpart {
     \subsection "Quoniam"
@@ -93,15 +84,7 @@
         \new Staff { \BenedictusOboeII }
       >>
     }
-  }
-  \bookpart {
-    \section "6" "Agnus Dei"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \AgnusOboeII }
-      >>
-    }
+    \tacet "section" "Agnus Dei"
   }
   \bookpart {
     \subsection "Dona nobis pacem"

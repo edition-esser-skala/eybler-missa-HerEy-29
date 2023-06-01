@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name-upper "clno")
@@ -31,6 +31,7 @@
         }
       >>
     }
+    \tacet "subsection" "Qui tollis"
   }
   \bookpart {
     \subsection "Quoniam"
@@ -141,7 +142,7 @@
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
         \new StaffGroup <<
@@ -159,6 +160,7 @@
         \new Staff { \BenedictusTimpani }
       >>
     }
+    \tacet "section" "Agnus Dei"
   }
   \bookpart {
     \subsection "Dona nobis pacem"
